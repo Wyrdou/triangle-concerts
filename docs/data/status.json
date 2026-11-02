@@ -1,1 +1,209 @@
-{}
+{
+ "dernier_scan": "2026-11-02T15:21:00Z",
+ "ok": true,
+ "erreur": "Telegram a refusé le message (400) : vérifiez le jeton et l'identifiant.",
+ "avertissement": "",
+ "telegram": "erreur",
+ "compteurs": {
+  "recus": 530,
+  "dans_la_zone": 467,
+  "retenus": 68,
+  "sans_style": 4
+ },
+ "styles_vus": [
+  [
+   "Pop",
+   159
+  ],
+  [
+   "Chanson Francaise",
+   153
+  ],
+  [
+   "Rock",
+   136
+  ],
+  [
+   "Arts et culture",
+   66
+  ],
+  [
+   "Concert",
+   66
+  ],
+  [
+   "Hip-Hop/Rap",
+   53
+  ],
+  [
+   "Metal",
+   24
+  ],
+  [
+   "Dance/Electronic",
+   23
+  ],
+  [
+   "World",
+   16
+  ],
+  [
+   "Alternative Rock",
+   15
+  ],
+  [
+   "French Rap",
+   14
+  ],
+  [
+   "Reggae",
+   11
+  ],
+  [
+   "R&B",
+   9
+  ],
+  [
+   "French Pop",
+   9
+  ],
+  [
+   "Urban",
+   9
+  ],
+  [
+   "Children's Music",
+   9
+  ],
+  [
+   "Adult Contemporary",
+   8
+  ],
+  [
+   "Heavy Metal",
+   7
+  ],
+  [
+   "Jazz",
+   7
+  ],
+  [
+   "Club Dance",
+   7
+  ],
+  [
+   "Alternative",
+   6
+  ],
+  [
+   "Classical",
+   4
+  ],
+  [
+   "Classical/Vocal",
+   4
+  ],
+  [
+   "Comedy",
+   4
+  ],
+  [
+   "Religious",
+   3
+  ],
+  [
+   "Gospel",
+   3
+  ],
+  [
+   "Blues",
+   3
+  ],
+  [
+   "Country Blues",
+   3
+  ],
+  [
+   "Theatre",
+   2
+  ],
+  [
+   "Musical",
+   2
+  ],
+  [
+   "International Pop",
+   2
+  ],
+  [
+   "Miscellaneous",
+   2
+  ],
+  [
+   "Singer-Songwriter",
+   2
+  ],
+  [
+   "Folk",
+   2
+  ],
+  [
+   "Dream Pop",
+   2
+  ],
+  [
+   "Indie Rock",
+   2
+  ],
+  [
+   "Electronica Mainstream",
+   2
+  ],
+  [
+   "Pop Vocal",
+   1
+  ],
+  [
+   "Death Metal/Black Metal",
+   1
+  ],
+  [
+   "European Pop",
+   1
+  ]
+ ],
+ "pages": [
+  {
+   "nom": "La Coopérative de Mai",
+   "url": "https://www.lacoope.org/",
+   "ok": true,
+   "message": "0 artiste(s) repéré(s)"
+  },
+  {
+   "nom": "Le Fil",
+   "url": "https://www.le-fil.com/",
+   "ok": true,
+   "message": "0 artiste(s) repéré(s)"
+  },
+  {
+   "nom": "Le Transbordeur",
+   "url": "https://www.transbordeur.fr/",
+   "ok": true,
+   "message": "0 artiste(s) repéré(s)"
+  }
+ ],
+ "sources": [
+  {
+   "nom": "OpenAgenda",
+   "type": "openagenda",
+   "ok": false,
+   "message": "OpenAgenda a répondu 403."
+  },
+  {
+   "nom": "Agenda de Clermont-Ferrand",
+   "type": "clermont",
+   "ok": true,
+   "message": "88 concert(s) sur 509 événement(s)"
+  }
+ ]
+}

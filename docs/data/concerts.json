@@ -1,1 +1,2535 @@
-{"concerts": [], "reperes": []}
+{
+ "concerts": [
+  {
+   "id": "ZkyMmBwZ1A7Ck4E",
+   "ids": [
+    "ZkyMmBwZ1A7Ck4E"
+   ],
+   "titre": "MIKE D 5D",
+   "artistes": [
+    "Mike D"
+   ],
+   "date": "2026-11-04",
+   "heure": "20:00",
+   "salle": "LE TRANSBORDEUR",
+   "salle_id": "rZ6SnyZ6A6",
+   "ville": "Villeurbanne",
+   "lat": 45.778753,
+   "lon": 4.859536,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/mike-d-5d-billet/idmanif/668088/idtier/18864121",
+   "styles": [
+    "Hip-Hop/Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-07-24T08:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "rZ7SnyZ1A77xeK",
+   "ids": [
+    "rZ7SnyZ1A77xeK"
+   ],
+   "titre": "DJADJA & DINAZ",
+   "artistes": [
+    "Djadja & Dinaz"
+   ],
+   "date": "2026-11-05",
+   "heure": "20:00",
+   "salle": "HALLE TONY GARNIER",
+   "salle_id": "rZFSnyZeA1F",
+   "ville": "Lyon",
+   "lat": 45.73224,
+   "lon": 4.824296,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/djadja-dinaz-billet/idmanif/628299/idtier/18864121",
+   "styles": [
+    "Hip-Hop/Rap",
+    "Urban"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2025-07-10T09:59:45Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7a9Fp",
+   "ids": [
+    "ZkyMmBwZ1A7a9Fp"
+   ],
+   "titre": "ROSHI",
+   "artistes": [],
+   "date": "2026-11-05",
+   "heure": "20:00",
+   "salle": "LE TRANSBORDEUR",
+   "salle_id": "rZ6SnyZ6A6",
+   "ville": "Villeurbanne",
+   "lat": 45.778753,
+   "lon": 4.859536,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/roshi-billet/idmanif/647997/idtier/18864121",
+   "styles": [
+    "Hip-Hop/Rap"
+   ],
+   "statut": "cancelled",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-01-30T09:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7aOuV",
+   "ids": [
+    "ZkyMmBwZ1A7aOuV"
+   ],
+   "titre": "DJADJA & DINAZ",
+   "artistes": [
+    "Djadja & Dinaz"
+   ],
+   "date": "2026-11-06",
+   "heure": "20:00",
+   "salle": "HALLE TONY GARNIER",
+   "salle_id": "rZFSnyZeA1F",
+   "ville": "Lyon",
+   "lat": 45.73224,
+   "lon": 4.824296,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/djadja-dinaz-billet/idmanif/628299/idtier/18864121",
+   "styles": [
+    "Hip-Hop/Rap",
+    "Urban"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-01-26T11:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A716Fv",
+   "ids": [
+    "ZkyMmBwZ1A716Fv"
+   ],
+   "titre": "FERDI",
+   "artistes": [],
+   "date": "2026-11-07",
+   "heure": "20:00",
+   "salle": "LE MARCHE GARE",
+   "salle_id": "rZFSnyZadkd",
+   "ville": "Lyon",
+   "lat": 45.741721,
+   "lon": 4.82291,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/ferdi-billet/idmanif/651563/idtier/18864121",
+   "styles": [
+    "Hip-Hop/Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-02-25T16:05:23Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7aUut",
+   "ids": [
+    "ZkyMmBwZ1A7aUut"
+   ],
+   "titre": "JOSMAN",
+   "artistes": [
+    "Josman"
+   ],
+   "date": "2026-11-07",
+   "heure": "20:00",
+   "salle": "HALLE TONY GARNIER",
+   "salle_id": "rZFSnyZeA1F",
+   "ville": "Lyon",
+   "lat": 45.73224,
+   "lon": 4.824296,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/josman-billet/idmanif/649849/idseance/4276369",
+   "styles": [
+    "Hip-Hop/Rap",
+    "French Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-02-12T11:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7Gb0y",
+   "ids": [
+    "ZkyMmBwZ1A7Gb0y",
+    "cf-8047370"
+   ],
+   "titre": "WALLACE CLEAVER",
+   "artistes": [],
+   "date": "2026-11-07",
+   "heure": "20:00",
+   "salle": "LA COOPERATIVE DE MAI",
+   "salle_id": "rZFSnyZed7e",
+   "ville": "Clermont Ferrand",
+   "lat": 45.788558,
+   "lon": 3.100011,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/wallace-cleaver-billet/idmanif/656857/idtier/18864121",
+   "styles": [
+    "Hip-Hop/Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-04-20T08:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7uZ1p",
+   "ids": [
+    "ZkyMmBwZ1A7uZ1p"
+   ],
+   "titre": "AMISTAT",
+   "artistes": [],
+   "date": "2026-11-09",
+   "heure": "20:00",
+   "salle": "LE TRANSBORDEUR",
+   "salle_id": "rZ6SnyZ6A6",
+   "ville": "Villeurbanne",
+   "lat": 45.778753,
+   "lon": 4.859536,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/amistat-billet/idmanif/659741/idtier/18864121",
+   "styles": [
+    "Hip-Hop/Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-05-18T12:59:12Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A78JZI",
+   "ids": [
+    "ZkyMmBwZ1A78JZI"
+   ],
+   "titre": "PLAVACE 5 ANS w. 8RUKI - ZED - TH",
+   "artistes": [],
+   "date": "2026-11-10",
+   "heure": "18:30",
+   "salle": "LE TRANSBORDEUR",
+   "salle_id": "rZ6SnyZ6A6",
+   "ville": "Villeurbanne",
+   "lat": 45.778753,
+   "lon": 4.859536,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/plavace-5-ans-w-8ruki-zed-th-billet/idmanif/673246/idseance/4426028",
+   "styles": [
+    "Hip-Hop/Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-09-22T09:38:06Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "rZ7SnyZ1A77v-O",
+   "ids": [
+    "rZ7SnyZ1A77v-O"
+   ],
+   "titre": "SNIPER",
+   "artistes": [
+    "SNIPER"
+   ],
+   "date": "2026-11-12",
+   "heure": "20:00",
+   "salle": "LE TRANSBORDEUR",
+   "salle_id": "rZ6SnyZ6A6",
+   "ville": "Villeurbanne",
+   "lat": 45.778753,
+   "lon": 4.859536,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/sniper-billet/idmanif/624197/idseance/4101860",
+   "styles": [
+    "Hip-Hop/Rap"
+   ],
+   "statut": "rescheduled",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2025-05-23T09:17:15Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7ubZd",
+   "ids": [
+    "ZkyMmBwZ1A7ubZd"
+   ],
+   "titre": "AJNA",
+   "artistes": [],
+   "date": "2026-11-13",
+   "heure": "20:00",
+   "salle": "LE SUCRE",
+   "salle_id": "rZ7SnyZa7qh",
+   "ville": "Lyon",
+   "lat": 45.735987,
+   "lon": 4.815583,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/ajna-billet/idmanif/663131/idtier/18864121",
+   "styles": [
+    "Hip-Hop/Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-06-10T11:20:29Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7Fk-y",
+   "ids": [
+    "ZkyMmBwZ1A7Fk-y",
+    "cf-8047433"
+   ],
+   "titre": "SINCLAIR",
+   "artistes": [
+    "Sinclair"
+   ],
+   "date": "2026-11-13",
+   "heure": "20:00",
+   "salle": "LA COOPERATIVE DE MAI",
+   "salle_id": "rZFSnyZed7e",
+   "ville": "Clermont Ferrand",
+   "lat": 45.788558,
+   "lon": 3.100011,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/sinclair-billet/idmanif/642169/idtier/18864121",
+   "styles": [
+    "R&B",
+    "Rock",
+    "Pop"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2025-11-26T09:07:14Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "R&B, soul et funk"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "cf-7710475",
+   "ids": [
+    "cf-7710475"
+   ],
+   "titre": "[Annulé] So La Lune | La Coopérative de Mai",
+   "artistes": [],
+   "date": "2026-11-18",
+   "heure": "",
+   "salle": "La Coopérative de Mai - Grande Salle",
+   "salle_id": "",
+   "ville": "Clermont-Ferrand",
+   "lat": 45.778175,
+   "lon": 3.107988,
+   "url": "",
+   "styles": [
+    "Arts et culture",
+    "Concert"
+   ],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "clermont",
+    "nom": "Clermont Auvergne Métropole, Clermont Auvergne Volcans, Département du Puy-de-Dôme",
+    "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+    "maj": "2026-11-02"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7C8-M",
+   "ids": [
+    "ZkyMmBwZ1A7C8-M"
+   ],
+   "titre": "MYRA",
+   "artistes": [
+    "Myra"
+   ],
+   "date": "2026-11-19",
+   "heure": "20:00",
+   "salle": "LE MARCHE GARE",
+   "salle_id": "rZFSnyZadkd",
+   "ville": "Lyon",
+   "lat": 45.741721,
+   "lon": 4.82291,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/myra-billet/idmanif/669127/idtier/18864121",
+   "styles": [
+    "R&B",
+    "Hip-Hop/Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-07-27T14:23:02Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop",
+    "R&B, soul et funk"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7uebY",
+   "ids": [
+    "ZkyMmBwZ1A7uebY"
+   ],
+   "titre": "IBEYI",
+   "artistes": [
+    "Ibeyi"
+   ],
+   "date": "2026-11-20",
+   "heure": "20:00",
+   "salle": "LE TRANSBORDEUR",
+   "salle_id": "rZ6SnyZ6A6",
+   "ville": "Villeurbanne",
+   "lat": 45.778753,
+   "lon": 4.859536,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/ibeyi-billet/idmanif/660260/idtier/18864121",
+   "styles": [
+    "R&B"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-05-29T08:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "R&B, soul et funk"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7GI_3",
+   "ids": [
+    "ZkyMmBwZ1A7GI_3"
+   ],
+   "titre": "SPIDER ZED",
+   "artistes": [],
+   "date": "2026-11-20",
+   "heure": "20:00",
+   "salle": "LE SUCRE",
+   "salle_id": "rZ7SnyZa7qh",
+   "ville": "Lyon",
+   "lat": 45.735987,
+   "lon": 4.815583,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/spider-zed-billet/idmanif/658559/idtier/18864121",
+   "styles": [
+    "Hip-Hop/Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-05-04T15:24:09Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7u-39",
+   "ids": [
+    "ZkyMmBwZ1A7u-39"
+   ],
+   "titre": "BAMBY",
+   "artistes": [],
+   "date": "2026-11-21",
+   "heure": "20:00",
+   "salle": "LE SUCRE",
+   "salle_id": "rZ7SnyZa7qh",
+   "ville": "Lyon",
+   "lat": 45.735987,
+   "lon": 4.815583,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/bamby-billet/idmanif/663763/idtier/18864121",
+   "styles": [
+    "Hip-Hop/Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-06-12T13:54:12Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7C74O",
+   "ids": [
+    "ZkyMmBwZ1A7C74O"
+   ],
+   "titre": "ILLUSTRE - AMALIA - VAULX EN FRANCOPHONIE : ILLUSTRE - AMALIA",
+   "artistes": [],
+   "date": "2026-11-25",
+   "heure": "20:00",
+   "salle": "CENTRE CHARLIE CHAPLIN",
+   "salle_id": "rZFSnyZe6va",
+   "ville": "Vaulx En Velin",
+   "lat": 45.781021,
+   "lon": 4.9188,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/illustre-amalia-billet/idmanif/667711/idtier/18864121",
+   "styles": [],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-07-13T12:35:06Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7uoaN",
+   "ids": [
+    "ZkyMmBwZ1A7uoaN"
+   ],
+   "titre": "BEN PLG",
+   "artistes": [
+    "BEN plg"
+   ],
+   "date": "2026-11-26",
+   "heure": "20:00",
+   "salle": "LE TRANSBORDEUR",
+   "salle_id": "rZ6SnyZ6A6",
+   "ville": "Villeurbanne",
+   "lat": 45.778753,
+   "lon": 4.859536,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/ben-plg-billet/idmanif/661504/idtier/18864121",
+   "styles": [
+    "Hip-Hop/Rap",
+    "French Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-06-01T10:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7GMot",
+   "ids": [
+    "ZkyMmBwZ1A7GMot",
+    "cf-8047558"
+   ],
+   "titre": "THOMAS KAHN",
+   "artistes": [
+    "Thomas Kahn"
+   ],
+   "date": "2026-11-26",
+   "heure": "20:00",
+   "salle": "LA COOPERATIVE DE MAI",
+   "salle_id": "rZFSnyZed7e",
+   "ville": "Clermont Ferrand",
+   "lat": 45.788558,
+   "lon": 3.100011,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/thomas-kahn-billet/idmanif/659137/idtier/18864121",
+   "styles": [
+    "Blues",
+    "Country Blues",
+    "R&B",
+    "Neo-Soul"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-05-12T12:07:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "R&B, soul et funk"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7ueOE",
+   "ids": [
+    "ZkyMmBwZ1A7ueOE"
+   ],
+   "titre": "IMANY",
+   "artistes": [
+    "Imany"
+   ],
+   "date": "2026-12-03",
+   "heure": "20:00",
+   "salle": "RADIANT - BELLEVUE",
+   "salle_id": "rZ6SnyZ6dv",
+   "ville": "Caluire Et Cuire",
+   "lat": 45.797363,
+   "lon": 4.842895,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/imany-billet/idmanif/660315/idtier/18864121",
+   "styles": [
+    "Rock",
+    "Pop",
+    "R&B",
+    "Pop-Soul"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-06-15T08:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "R&B, soul et funk"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7F-Pd",
+   "ids": [
+    "ZkyMmBwZ1A7F-Pd"
+   ],
+   "titre": "DISIZ",
+   "artistes": [
+    "Disiz"
+   ],
+   "date": "2026-12-04",
+   "heure": "20:00",
+   "salle": "HALLE TONY GARNIER",
+   "salle_id": "rZFSnyZeA1F",
+   "ville": "Lyon",
+   "lat": 45.73224,
+   "lon": 4.824296,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/disiz-billet/idmanif/643508/idtier/18864121",
+   "styles": [
+    "Rock",
+    "Pop",
+    "Hip-Hop/Rap",
+    "Urban"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2025-12-05T17:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A78e0J",
+   "ids": [
+    "ZkyMmBwZ1A78e0J"
+   ],
+   "titre": "55ASKY",
+   "artistes": [],
+   "date": "2026-12-05",
+   "heure": "20:00",
+   "salle": "LE SUCRE",
+   "salle_id": "rZ7SnyZa7qh",
+   "ville": "Lyon",
+   "lat": 45.735987,
+   "lon": 4.815583,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/55asky-billet/idmanif/671226/idseance/4402926",
+   "styles": [
+    "Hip-Hop/Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-09-01T15:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7G0G-",
+   "ids": [
+    "ZkyMmBwZ1A7G0G-"
+   ],
+   "titre": "YANNS",
+   "artistes": [
+    "Yanns"
+   ],
+   "date": "2026-12-06",
+   "heure": "17:00",
+   "salle": "LA COOPERATIVE DE MAI",
+   "salle_id": "rZFSnyZed7e",
+   "ville": "Clermont Ferrand",
+   "lat": 45.788558,
+   "lon": 3.100011,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/yanns-billet/idmanif/657862/idseance/4324321",
+   "styles": [
+    "Chanson Francaise",
+    "Hip-Hop/Rap",
+    "French Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-04-29T07:50:30Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7G3bI",
+   "ids": [
+    "ZkyMmBwZ1A7G3bI"
+   ],
+   "titre": "PICHE",
+   "artistes": [
+    "Piche"
+   ],
+   "date": "2026-12-10",
+   "heure": "20:00",
+   "salle": "LA COOPERATIVE DE MAI",
+   "salle_id": "rZFSnyZed7e",
+   "ville": "Clermont Ferrand",
+   "lat": 45.788558,
+   "lon": 3.100011,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/piche-billet/idmanif/655717/idtier/18864121",
+   "styles": [
+    "Hip-Hop/Rap",
+    "French Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-04-29T15:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A71Fx8",
+   "ids": [
+    "ZkyMmBwZ1A71Fx8"
+   ],
+   "titre": "THE AMY WINEHOUSE BAND",
+   "artistes": [
+    "The Amy Winehouse Band"
+   ],
+   "date": "2026-12-11",
+   "heure": "20:00",
+   "salle": "LA COOPERATIVE DE MAI",
+   "salle_id": "rZFSnyZed7e",
+   "ville": "Clermont Ferrand",
+   "lat": 45.788558,
+   "lon": 3.100011,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/the-amy-winehouse-band-billet/idmanif/651625/idtier/18864121",
+   "styles": [
+    "R&B",
+    "Pop",
+    "Pop Vocal"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-03-04T09:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "R&B, soul et funk"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7FUGt",
+   "ids": [
+    "ZkyMmBwZ1A7FUGt"
+   ],
+   "titre": "FFF",
+   "artistes": [
+    "FFF"
+   ],
+   "date": "2026-12-17",
+   "heure": "20:00",
+   "salle": "LE TRANSBORDEUR",
+   "salle_id": "rZ6SnyZ6A6",
+   "ville": "Villeurbanne",
+   "lat": 45.778753,
+   "lon": 4.859536,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/fff-billet/idmanif/645333/idtier/18864121",
+   "styles": [
+    "Rock",
+    "Pop",
+    "Funk-Rock"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2025-12-18T11:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "R&B, soul et funk"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7FPx9",
+   "ids": [
+    "ZkyMmBwZ1A7FPx9"
+   ],
+   "titre": "ZAMDANE",
+   "artistes": [
+    "Zamdane"
+   ],
+   "date": "2027-01-21",
+   "heure": "20:00",
+   "salle": "LA COOPERATIVE DE MAI",
+   "salle_id": "rZFSnyZed7e",
+   "ville": "Clermont Ferrand",
+   "lat": 45.788558,
+   "lon": 3.100011,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/zamdane-billet/idmanif/644046/idtier/18864121",
+   "styles": [
+    "Hip-Hop/Rap",
+    "French Rap"
+   ],
+   "statut": "rescheduled",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2025-12-10T13:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "cf-7796516",
+   "ids": [
+    "cf-7796516"
+   ],
+   "titre": "Zamdane | La Coopérative de mai",
+   "artistes": [],
+   "date": "2027-01-27",
+   "heure": "",
+   "salle": "La Coopérative de mai - Grande salle",
+   "salle_id": "",
+   "ville": "Clermont-Ferrand",
+   "lat": 45.788095,
+   "lon": 3.100285,
+   "url": "https://www.arachnee-concerts.com/",
+   "styles": [
+    "Arts et culture",
+    "Concert"
+   ],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "clermont",
+    "nom": "Clermont Auvergne Métropole, Clermont Auvergne Volcans, Département du Puy-de-Dôme",
+    "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+    "maj": "2026-11-02"
+   },
+   "raisons": [
+    "Rap et hip-hop",
+    "R&B, soul et funk"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7C3bb",
+   "ids": [
+    "ZkyMmBwZ1A7C3bb"
+   ],
+   "titre": "BIGFLO & OLI",
+   "artistes": [
+    "Bigflo et Oli"
+   ],
+   "date": "2027-01-28",
+   "heure": "20:30",
+   "salle": "ZENITH - SAINT ETIENNE",
+   "salle_id": "rZ7SnyZaei6",
+   "ville": "St Etienne",
+   "lat": 45.454126,
+   "lon": 4.395109,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/bigflo-oli-billet/idmanif/669683/idseance/4392618",
+   "styles": [
+    "Hip-Hop/Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-08-06T08:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A78Iux",
+   "ids": [
+    "ZkyMmBwZ1A78Iux"
+   ],
+   "titre": "ALOÏSE SAUVAGE",
+   "artistes": [
+    "Aloïse Sauvage"
+   ],
+   "date": "2027-01-29",
+   "heure": "20:00",
+   "salle": "LE TRANSBORDEUR",
+   "salle_id": "rZ6SnyZ6A6",
+   "ville": "Villeurbanne",
+   "lat": 45.778753,
+   "lon": 4.859536,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/aloise-sauvage-billet/idmanif/673578/idseance/4428362",
+   "styles": [
+    "Hip-Hop/Rap",
+    "Chanson Francaise"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-09-24T12:58:54Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7CZbd",
+   "ids": [
+    "ZkyMmBwZ1A7CZbd"
+   ],
+   "titre": "BIGFLO & OLI",
+   "artistes": [
+    "Bigflo et Oli"
+   ],
+   "date": "2027-01-29",
+   "heure": "20:00",
+   "salle": "ZENITH D'AUVERGNE",
+   "salle_id": "rZFSnyZAa1a",
+   "ville": "Cournon D Auvergne",
+   "lat": 45.742359,
+   "lon": 3.196579,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/bigflo-oli-billet/idmanif/667104/idtier/18864121",
+   "styles": [
+    "Hip-Hop/Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-07-13T08:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A780Z4",
+   "ids": [
+    "ZkyMmBwZ1A780Z4"
+   ],
+   "titre": "FELHUR X ANDRO",
+   "artistes": [
+    "Felhur x Andro"
+   ],
+   "date": "2027-01-29",
+   "heure": "20:30",
+   "salle": "LE CLAPIER",
+   "salle_id": "rZFSnyZkdFF",
+   "ville": "St Etienne",
+   "lat": 45.439643,
+   "lon": 4.387829,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/felhur-x-andro-billet/idmanif/672831/idseance/4424015",
+   "styles": [
+    "Hip-Hop/Rap",
+    "French Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-09-18T08:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A78ZJF",
+   "ids": [
+    "ZkyMmBwZ1A78ZJF"
+   ],
+   "titre": "LEE FIELDS",
+   "artistes": [
+    "Lee Fields"
+   ],
+   "date": "2027-02-09",
+   "heure": "20:00",
+   "salle": "LE TRANSBORDEUR",
+   "salle_id": "rZ6SnyZ6A6",
+   "ville": "Villeurbanne",
+   "lat": 45.778753,
+   "lon": 4.859536,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/lee-fields-billet/idmanif/670733/idseance/4400988",
+   "styles": [
+    "R&B"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-09-11T08:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "R&B, soul et funk"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A78y4z",
+   "ids": [
+    "ZkyMmBwZ1A78y4z"
+   ],
+   "titre": "ZED YUN PAVAROTTI",
+   "artistes": [
+    "Zed Yun Pavarotti"
+   ],
+   "date": "2027-02-10",
+   "heure": "20:00",
+   "salle": "LA COOPERATIVE DE MAI",
+   "salle_id": "rZFSnyZed7e",
+   "ville": "Clermont Ferrand",
+   "lat": 45.788558,
+   "lon": 3.100011,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/zed-yun-pavarotti-billet/idmanif/675565/idseance/4439578",
+   "styles": [
+    "Hip-Hop/Rap",
+    "French Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-10-19T10:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7uZGo",
+   "ids": [
+    "ZkyMmBwZ1A7uZGo"
+   ],
+   "titre": "JEANJASS",
+   "artistes": [
+    "Jean Jass"
+   ],
+   "date": "2027-02-17",
+   "heure": "20:00",
+   "salle": "LE TRANSBORDEUR",
+   "salle_id": "rZ6SnyZ6A6",
+   "ville": "Villeurbanne",
+   "lat": 45.778753,
+   "lon": 4.859536,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/jeanjass-billet/idmanif/659748/idtier/18864121",
+   "styles": [
+    "Hip-Hop/Rap",
+    "Urban"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-05-18T12:58:48Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7GgC9",
+   "ids": [
+    "ZkyMmBwZ1A7GgC9"
+   ],
+   "titre": "JEANJASS",
+   "artistes": [
+    "Jean Jass"
+   ],
+   "date": "2027-02-18",
+   "heure": "20:00",
+   "salle": "LA COOPERATIVE DE MAI",
+   "salle_id": "rZFSnyZed7e",
+   "ville": "Clermont Ferrand",
+   "lat": 45.788558,
+   "lon": 3.100011,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/jeanjass-billet/idmanif/658757/idtier/18864121",
+   "styles": [
+    "Hip-Hop/Rap",
+    "Urban"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-05-13T10:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A788fs",
+   "ids": [
+    "ZkyMmBwZ1A788fs"
+   ],
+   "titre": "AUPINARD",
+   "artistes": [
+    "Aupinard"
+   ],
+   "date": "2027-02-19",
+   "heure": "20:00",
+   "salle": "LE TRANSBORDEUR",
+   "salle_id": "rZ6SnyZ6A6",
+   "ville": "Villeurbanne",
+   "lat": 45.778753,
+   "lon": 4.859536,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/aupinard-billet/idmanif/671724/idseance/4410531",
+   "styles": [
+    "Hip-Hop/Rap",
+    "World",
+    "Brazil"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-09-10T08:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7okZk",
+   "ids": [
+    "ZkyMmBwZ1A7okZk"
+   ],
+   "titre": "INO CASABLANCA",
+   "artistes": [
+    "Ino Casablanca"
+   ],
+   "date": "2027-02-25",
+   "heure": "20:00",
+   "salle": "LE TRANSBORDEUR",
+   "salle_id": "rZ6SnyZ6A6",
+   "ville": "Villeurbanne",
+   "lat": 45.778753,
+   "lon": 4.859536,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/ino-casablanca-billet/idmanif/677017/idseance/4446006",
+   "styles": [
+    "Hip-Hop/Rap",
+    "French Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-10-28T11:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7ZgOP",
+   "ids": [
+    "ZkyMmBwZ1A7ZgOP"
+   ],
+   "titre": "HATIK",
+   "artistes": [
+    "Hatik"
+   ],
+   "date": "2027-02-27",
+   "heure": "20:00",
+   "salle": "RADIANT - BELLEVUE",
+   "salle_id": "rZ6SnyZ6dv",
+   "ville": "Caluire Et Cuire",
+   "lat": 45.797363,
+   "lon": 4.842895,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/hatik-billet/idmanif/614392/idtier/18864121",
+   "styles": [
+    "Hip-Hop/Rap",
+    "French Rap"
+   ],
+   "statut": "rescheduled",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2025-02-14T16:34:12Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A780GS",
+   "ids": [
+    "ZkyMmBwZ1A780GS"
+   ],
+   "titre": "TEDDYBEAR",
+   "artistes": [
+    "TeddyBear"
+   ],
+   "date": "2027-03-06",
+   "heure": "20:00",
+   "salle": "LA COOPERATIVE DE MAI",
+   "salle_id": "rZFSnyZed7e",
+   "ville": "Clermont Ferrand",
+   "lat": 45.788558,
+   "lon": 3.100011,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/teddybear-billet/idmanif/672872/idseance/4424333",
+   "styles": [
+    "Hip-Hop/Rap",
+    "Pop",
+    "European Pop"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-09-22T10:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A780qp",
+   "ids": [
+    "ZkyMmBwZ1A780qp"
+   ],
+   "titre": "TYPHEE",
+   "artistes": [],
+   "date": "2027-03-06",
+   "heure": "20:00",
+   "salle": "LE SUCRE",
+   "salle_id": "rZ7SnyZa7qh",
+   "ville": "Lyon",
+   "lat": 45.735987,
+   "lon": 4.815583,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/typhee-billet/idmanif/672928/idseance/4424756",
+   "styles": [
+    "Hip-Hop/Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-09-17T15:30:45Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7ugfg",
+   "ids": [
+    "ZkyMmBwZ1A7ugfg"
+   ],
+   "titre": "KEMMLER",
+   "artistes": [
+    "Kemmler"
+   ],
+   "date": "2027-03-11",
+   "heure": "20:00",
+   "salle": "LE TRANSBORDEUR",
+   "salle_id": "rZ6SnyZ6A6",
+   "ville": "Villeurbanne",
+   "lat": 45.778753,
+   "lon": 4.859536,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/kemmler-billet/idmanif/666136/idtier/18864121",
+   "styles": [
+    "Hip-Hop/Rap",
+    "French Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-07-02T09:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7uI3F",
+   "ids": [
+    "ZkyMmBwZ1A7uI3F"
+   ],
+   "titre": "NINHO",
+   "artistes": [
+    "NINHO"
+   ],
+   "date": "2027-03-13",
+   "heure": "20:00",
+   "salle": "ZENITH D'AUVERGNE",
+   "salle_id": "rZFSnyZAa1a",
+   "ville": "Cournon D Auvergne",
+   "lat": 45.742359,
+   "lon": 3.196579,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/ninho-billet/idmanif/665192/idtier/18864121",
+   "styles": [
+    "Hip-Hop/Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-07-02T10:09:50Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7C7b7",
+   "ids": [
+    "ZkyMmBwZ1A7C7b7"
+   ],
+   "titre": "EMEL - EMEL / VOIX D'AUTRES CONTINENTS",
+   "artistes": [],
+   "date": "2027-03-17",
+   "heure": "20:00",
+   "salle": "CENTRE CHARLIE CHAPLIN",
+   "salle_id": "rZFSnyZe6va",
+   "ville": "Vaulx En Velin",
+   "lat": 45.781021,
+   "lon": 4.9188,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/emel-billet/idmanif/667733/idtier/18864121",
+   "styles": [],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-07-13T14:10:38Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7GJaS",
+   "ids": [
+    "ZkyMmBwZ1A7GJaS"
+   ],
+   "titre": "PICHE",
+   "artistes": [
+    "Piche"
+   ],
+   "date": "2027-03-17",
+   "heure": "20:00",
+   "salle": "LE TRANSBORDEUR",
+   "salle_id": "rZ6SnyZ6A6",
+   "ville": "Villeurbanne",
+   "lat": 45.778753,
+   "lon": 4.859536,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/piche-billet/idmanif/658143/idtier/18864121",
+   "styles": [
+    "Hip-Hop/Rap",
+    "French Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-04-29T15:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7C7bF",
+   "ids": [
+    "ZkyMmBwZ1A7C7bF"
+   ],
+   "titre": "MAJOR-MORAN - MAJOR-MORAN / VOIX D'AUTRES CONTINENTS",
+   "artistes": [],
+   "date": "2027-03-18",
+   "heure": "20:00",
+   "salle": "CENTRE CHARLIE CHAPLIN",
+   "salle_id": "rZFSnyZe6va",
+   "ville": "Vaulx En Velin",
+   "lat": 45.781021,
+   "lon": 4.9188,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/major-moran-billet/idmanif/667735/idtier/18864121",
+   "styles": [],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-07-13T14:13:20Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7C7b4",
+   "ids": [
+    "ZkyMmBwZ1A7C7b4"
+   ],
+   "titre": "ADAM EL MOUNA - BORDUAS - ADAM EL MOUNA ET BORDUAS",
+   "artistes": [],
+   "date": "2027-03-19",
+   "heure": "20:00",
+   "salle": "CENTRE CHARLIE CHAPLIN",
+   "salle_id": "rZFSnyZe6va",
+   "ville": "Vaulx En Velin",
+   "lat": 45.781021,
+   "lon": 4.9188,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/adam-el-mouna-borduas-billet/idmanif/667737/idtier/18864121",
+   "styles": [],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-07-13T14:16:29Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A78IAv",
+   "ids": [
+    "ZkyMmBwZ1A78IAv"
+   ],
+   "titre": "HIGH FADE",
+   "artistes": [
+    "High Fade"
+   ],
+   "date": "2027-03-19",
+   "heure": "20:00",
+   "salle": "LE MARCHE GARE",
+   "salle_id": "rZFSnyZadkd",
+   "ville": "Lyon",
+   "lat": 45.741721,
+   "lon": 4.82291,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/high-fade-billet/idmanif/673506/idseance/4428141",
+   "styles": [
+    "Hip-Hop/Rap",
+    "Alternative",
+    "Alternative Rock"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-09-23T14:13:04Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7u0-A",
+   "ids": [
+    "ZkyMmBwZ1A7u0-A"
+   ],
+   "titre": "NINHO",
+   "artistes": [
+    "NINHO"
+   ],
+   "date": "2027-03-21",
+   "heure": "18:00",
+   "salle": "ZENITH - SAINT ETIENNE",
+   "salle_id": "rZ7SnyZaei6",
+   "ville": "St Etienne",
+   "lat": 45.454126,
+   "lon": 4.395109,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/ninho-billet/idmanif/664222/idtier/18864121",
+   "styles": [
+    "Hip-Hop/Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-07-02T10:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7oA0f",
+   "ids": [
+    "ZkyMmBwZ1A7oA0f"
+   ],
+   "titre": "HIPPOCAMPE FOU",
+   "artistes": [
+    "Hippocampe Fou"
+   ],
+   "date": "2027-03-24",
+   "heure": "20:00",
+   "salle": "LA COOPERATIVE DE MAI",
+   "salle_id": "rZFSnyZed7e",
+   "ville": "Clermont Ferrand",
+   "lat": 45.788558,
+   "lon": 3.100011,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/hippocampe-fou-billet/idmanif/676973/idseance/4445914",
+   "styles": [
+    "Hip-Hop/Rap",
+    "Urban"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-10-28T09:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7oA0p",
+   "ids": [
+    "ZkyMmBwZ1A7oA0p"
+   ],
+   "titre": "HIPPOCAMPE FOU",
+   "artistes": [
+    "Hippocampe Fou"
+   ],
+   "date": "2027-03-25",
+   "heure": "20:30",
+   "salle": "LE CLAPIER",
+   "salle_id": "rZFSnyZkdFF",
+   "ville": "St Etienne",
+   "lat": 45.439643,
+   "lon": 4.387829,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/hippocampe-fou-billet/idmanif/676975/idseance/4445916",
+   "styles": [
+    "Hip-Hop/Rap",
+    "Urban"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-10-28T09:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7Gb-P",
+   "ids": [
+    "ZkyMmBwZ1A7Gb-P"
+   ],
+   "titre": "ENFANTS DU DESTIN - MEDINE",
+   "artistes": [
+    "Médine"
+   ],
+   "date": "2027-03-26",
+   "heure": "20:30",
+   "salle": "MAISON DE LA CULTURE",
+   "salle_id": "rZ6SnyZFAe",
+   "ville": "Clermont Ferrand",
+   "lat": 45.770745,
+   "lon": 3.086107,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/enfants-du-destin-billet/idmanif/656800/idtier/18864121",
+   "styles": [
+    "Hip-Hop/Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-04-20T10:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7CaAE",
+   "ids": [
+    "ZkyMmBwZ1A7CaAE",
+    "cf-8018131"
+   ],
+   "titre": "DANYL",
+   "artistes": [
+    "Danyl"
+   ],
+   "date": "2027-03-27",
+   "heure": "20:00",
+   "salle": "LA COOPERATIVE DE MAI",
+   "salle_id": "rZFSnyZed7e",
+   "ville": "Clermont Ferrand",
+   "lat": 45.788558,
+   "lon": 3.100011,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/danyl-billet/idmanif/668632/idtier/18864121",
+   "styles": [
+    "Hip-Hop/Rap",
+    "Chanson Francaise"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-07-24T10:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A78Y_z",
+   "ids": [
+    "ZkyMmBwZ1A78Y_z"
+   ],
+   "titre": "DANYL",
+   "artistes": [
+    "Danyl"
+   ],
+   "date": "2027-03-30",
+   "heure": "20:00",
+   "salle": "LE TRANSBORDEUR",
+   "salle_id": "rZ6SnyZ6A6",
+   "ville": "Villeurbanne",
+   "lat": 45.778753,
+   "lon": 4.859536,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/danyl-billet/idmanif/674099/idseance/4430678",
+   "styles": [
+    "Hip-Hop/Rap",
+    "Chanson Francaise"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-09-30T07:37:39Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7u8F9",
+   "ids": [
+    "ZkyMmBwZ1A7u8F9"
+   ],
+   "titre": "MPL",
+   "artistes": [
+    "MPL"
+   ],
+   "date": "2027-03-30",
+   "heure": "20:00",
+   "salle": "RADIANT - BELLEVUE",
+   "salle_id": "rZ6SnyZ6dv",
+   "ville": "Caluire Et Cuire",
+   "lat": 45.797363,
+   "lon": 4.842895,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/mpl-billet/idmanif/661286/idtier/18864121",
+   "styles": [
+    "Hip-Hop/Rap",
+    "Chanson Francaise"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-06-15T08:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7Gbuv",
+   "ids": [
+    "ZkyMmBwZ1A7Gbuv"
+   ],
+   "titre": "ASSASSIN",
+   "artistes": [
+    "Assassin"
+   ],
+   "date": "2027-04-02",
+   "heure": "20:00",
+   "salle": "LA COOPERATIVE DE MAI",
+   "salle_id": "rZFSnyZed7e",
+   "ville": "Clermont Ferrand",
+   "lat": 45.788558,
+   "lon": 3.100011,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/assassin-billet/idmanif/656680/idtier/18864121",
+   "styles": [
+    "Hip-Hop/Rap",
+    "Urban"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-04-28T09:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A78z-U",
+   "ids": [
+    "ZkyMmBwZ1A78z-U"
+   ],
+   "titre": "JUSTENIELS",
+   "artistes": [],
+   "date": "2027-04-03",
+   "heure": "20:00",
+   "salle": "LE MARCHE GARE",
+   "salle_id": "rZFSnyZadkd",
+   "ville": "Lyon",
+   "lat": 45.741721,
+   "lon": 4.82291,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/justeniels-billet/idmanif/675337/idseance/4438876",
+   "styles": [
+    "Hip-Hop/Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-10-12T10:44:50Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7Cax6",
+   "ids": [
+    "ZkyMmBwZ1A7Cax6"
+   ],
+   "titre": "DEMI PORTION",
+   "artistes": [
+    "Demi Portion"
+   ],
+   "date": "2027-04-09",
+   "heure": "20:30",
+   "salle": "L'ARLEQUIN",
+   "salle_id": "rZ7SnyZa7Sx",
+   "ville": "Mozac",
+   "lat": 45.891255,
+   "lon": 3.089417,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/demi-portion-billet/idmanif/668901/idtier/18864121",
+   "styles": [
+    "Hip-Hop/Rap",
+    "Alternative Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-07-27T10:29:16Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7u00M",
+   "ids": [
+    "ZkyMmBwZ1A7u00M"
+   ],
+   "titre": "TAYC",
+   "artistes": [
+    "Tayc"
+   ],
+   "date": "2027-04-22",
+   "heure": "20:00",
+   "salle": "ZENITH D'AUVERGNE",
+   "salle_id": "rZFSnyZAa1a",
+   "ville": "Cournon D Auvergne",
+   "lat": 45.742359,
+   "lon": 3.196579,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/tayc-billet/idmanif/664292/idtier/18864121",
+   "styles": [
+    "R&B"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-06-26T08:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "R&B, soul et funk"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7G_kA",
+   "ids": [
+    "ZkyMmBwZ1A7G_kA"
+   ],
+   "titre": "DELUXE",
+   "artistes": [
+    "Deluxe"
+   ],
+   "date": "2027-04-24",
+   "heure": "20:00",
+   "salle": "L'AMPHITHEATRE",
+   "salle_id": "rZFSnyZadF1",
+   "ville": "Lyon",
+   "lat": 45.785811,
+   "lon": 4.854658,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/deluxe-billet/idmanif/656993/idtier/18864121",
+   "styles": [
+    "R&B",
+    "Rock",
+    "Alternative Rock"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-04-22T16:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "R&B, soul et funk"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A787-6",
+   "ids": [
+    "ZkyMmBwZ1A787-6"
+   ],
+   "titre": "SOPRANO",
+   "artistes": [
+    "Soprano"
+   ],
+   "date": "2027-07-10",
+   "heure": "20:00",
+   "salle": "GROUPAMA STADIUM",
+   "salle_id": "rZ7SnyZa7DO",
+   "ville": "Decines Charpieu",
+   "lat": 45.767272,
+   "lon": 4.983533,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/soprano-billet/idmanif/671319/idseance/4404847",
+   "styles": [
+    "Hip-Hop/Rap",
+    "Urban"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-09-11T08:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A78x_s",
+   "ids": [
+    "ZkyMmBwZ1A78x_s"
+   ],
+   "titre": "JOK'AIR",
+   "artistes": [
+    "Jok'Air"
+   ],
+   "date": "2027-10-08",
+   "heure": "20:00",
+   "salle": "ZENITH - SAINT ETIENNE",
+   "salle_id": "rZ7SnyZaei6",
+   "ville": "St Etienne",
+   "lat": 45.454126,
+   "lon": 4.395109,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/jok-air-billet/idmanif/672723/idseance/4422671",
+   "styles": [
+    "Hip-Hop/Rap",
+    "French Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-09-28T08:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A78wfy",
+   "ids": [
+    "ZkyMmBwZ1A78wfy"
+   ],
+   "titre": "NINHO",
+   "artistes": [
+    "NINHO"
+   ],
+   "date": "2027-10-23",
+   "heure": "20:00",
+   "salle": "ZENITH D'AUVERGNE",
+   "salle_id": "rZFSnyZAa1a",
+   "ville": "Cournon D Auvergne",
+   "lat": 45.742359,
+   "lon": 3.196579,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/ninho-billet/idmanif/674339/idseance/4432539",
+   "styles": [
+    "Hip-Hop/Rap"
+   ],
+   "statut": "offsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-03T11:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A78x_b",
+   "ids": [
+    "ZkyMmBwZ1A78x_b"
+   ],
+   "titre": "JOK'AIR",
+   "artistes": [
+    "Jok'Air"
+   ],
+   "date": "2027-11-03",
+   "heure": "20:00",
+   "salle": "ZENITH D'AUVERGNE",
+   "salle_id": "rZFSnyZAa1a",
+   "ville": "Cournon D Auvergne",
+   "lat": 45.742359,
+   "lon": 3.196579,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/jok-air-billet/idmanif/672709/idseance/4422658",
+   "styles": [
+    "Hip-Hop/Rap",
+    "French Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-09-28T08:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A78xOb",
+   "ids": [
+    "ZkyMmBwZ1A78xOb"
+   ],
+   "titre": "JOK'AIR",
+   "artistes": [
+    "Jok'Air"
+   ],
+   "date": "2027-11-04",
+   "heure": "20:00",
+   "salle": "HALLE TONY GARNIER",
+   "salle_id": "rZFSnyZeA1F",
+   "ville": "Lyon",
+   "lat": 45.73224,
+   "lon": 4.824296,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/jok-air-billet/idmanif/672761/idseance/4422818",
+   "styles": [
+    "Hip-Hop/Rap",
+    "French Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-09-28T08:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7uok3",
+   "ids": [
+    "ZkyMmBwZ1A7uok3"
+   ],
+   "titre": "GAEL FAYE",
+   "artistes": [
+    "GAEL FAYE"
+   ],
+   "date": "2027-11-12",
+   "heure": "20:00",
+   "salle": "ZENITH - SAINT ETIENNE",
+   "salle_id": "rZ7SnyZaei6",
+   "ville": "St Etienne",
+   "lat": 45.454126,
+   "lon": 4.395109,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/gael-faye-billet/idmanif/661480/idseance/4351192",
+   "styles": [
+    "Hip-Hop/Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-06-05T08:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7u8-8",
+   "ids": [
+    "ZkyMmBwZ1A7u8-8"
+   ],
+   "titre": "GAEL FAYE",
+   "artistes": [
+    "GAEL FAYE"
+   ],
+   "date": "2027-11-27",
+   "heure": "20:00",
+   "salle": "HALLE TONY GARNIER",
+   "salle_id": "rZFSnyZeA1F",
+   "ville": "Lyon",
+   "lat": 45.73224,
+   "lon": 4.824296,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/gael-faye-billet/idmanif/661442/idseance/4350850",
+   "styles": [
+    "Hip-Hop/Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-06-05T08:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T15:21:00Z"
+  }
+ ],
+ "reperes": []
+}
