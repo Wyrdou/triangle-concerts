@@ -1,5 +1,5 @@
 {
- "dernier_scan": "2026-11-02T20:46:07Z",
+ "dernier_scan": "2026-11-02T20:53:37Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
@@ -209,132 +209,12 @@
    "nom": "OpenAgenda",
    "type": "openagenda",
    "ok": true,
-   "message": "39 concert(s) dans 25 agenda(s) lisible(s)",
+   "message": "39 concert(s) dans 1 agenda(s) lisible(s)",
    "agendas": [
     {
-     "uid": 84768140,
-     "titre": "Lyon",
-     "concerts": 0
-    },
-    {
-     "uid": 61051932,
-     "titre": "French Tech Saint-Etienne Lyon",
-     "concerts": 0
-    },
-    {
-     "uid": 70293659,
-     "titre": "PEC - Lyon",
-     "concerts": 0
-    },
-    {
-     "uid": 2937737,
-     "titre": "HORS DE PORTEE EN CONCERT LE 21/06 CHEZ GEORGETTE (LYON 5)",
-     "concerts": 0
-    },
-    {
-     "uid": 66597287,
-     "titre": "GL EVENTS EXHIBITIONS - LYON",
-     "concerts": 0
-    },
-    {
-     "uid": 96744614,
-     "titre": "Résonances Concerts",
-     "concerts": 0
-    },
-    {
-     "uid": 57935619,
-     "titre": "Artie's - concerts",
-     "concerts": 0
-    },
-    {
-     "uid": 1784466,
-     "titre": "Les Concerts Classiques",
-     "concerts": 0
-    },
-    {
-     "uid": 71924133,
-     "titre": "Les Concerts de Poche",
-     "concerts": 0
-    },
-    {
-     "uid": 4845752,
-     "titre": "CONCERT QUATUOR",
-     "concerts": 0
-    },
-    {
-     "uid": 76938974,
-     "titre": "Neggyröth, concerts metal",
-     "concerts": 0
-    },
-    {
-     "uid": 97819023,
-     "titre": "concerts en Seine-Maritime",
-     "concerts": 0
-    },
-    {
-     "uid": 28331841,
-     "titre": "Les Concerts de la Cathédrale, Genève",
-     "concerts": 0
-    },
-    {
-     "uid": 73081336,
-     "titre": "Agenda BoxSons",
-     "concerts": 0
-    },
-    {
-     "uid": 56987520,
-     "titre": "CONCERTS Péniche Didascalie",
-     "concerts": 0
-    },
-    {
-     "uid": 25836275,
-     "titre": "Concert gratuit gospel",
-     "concerts": 0
-    },
-    {
-     "uid": 20272888,
-     "titre": "JASS CLUB PARIS",
-     "concerts": 0
-    },
-    {
-     "uid": 3991265,
-     "titre": "Agenda de  Chécy",
-     "concerts": 0
-    },
-    {
-     "uid": 77287074,
-     "titre": "Ferme d'en haut",
-     "concerts": 0
-    },
-    {
      "uid": 9969608,
-     "titre": "Shotgun",
+     "titre": "9969608",
      "concerts": 39
-    },
-    {
-     "uid": 99170184,
-     "titre": "Saint-Étienne-du-Rouvray",
-     "concerts": 0
-    },
-    {
-     "uid": 6123663,
-     "titre": "Saint-Étienne du Mont",
-     "concerts": 0
-    },
-    {
-     "uid": 54428033,
-     "titre": "École Supérieure d'Art et Design Saint-Étienne",
-     "concerts": 0
-    },
-    {
-     "uid": 60194284,
-     "titre": "UL CGT Saint-Etienne",
-     "concerts": 0
-    },
-    {
-     "uid": 2316986,
-     "titre": "Rencontres contées de Saint-Étienne",
-     "concerts": 0
     }
    ]
   },
