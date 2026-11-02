@@ -293,6 +293,42 @@
    "premier_scan": "2026-11-02T15:28:18Z"
   },
   {
+   "id": "ZkyMmBwZ1A78UuM",
+   "ids": [
+    "ZkyMmBwZ1A78UuM"
+   ],
+   "titre": "CHICAGO BLUES FESTIVAL",
+   "artistes": [],
+   "date": "2026-11-10",
+   "heure": "20:00",
+   "salle": "THEATRE COMEDIE ODEON",
+   "salle_id": "rZ7SnyZa7CY",
+   "ville": "Lyon",
+   "lat": 45.76275,
+   "lon": 4.836719,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/chicago-blues-festival-billet/idmanif/674981/idseance/4436377",
+   "styles": [
+    "Blues",
+    "Country Blues"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-10-13T11:33:37Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Jazz et blues"
+   ],
+   "premier_scan": "2026-11-02T15:45:39Z"
+  },
+  {
    "id": "ZkyMmBwZ1A78JZI",
    "ids": [
     "ZkyMmBwZ1A78JZI"
@@ -326,6 +362,40 @@
     "Rap et hip-hop"
    ],
    "premier_scan": "2026-11-02T15:28:18Z"
+  },
+  {
+   "id": "cf-8047403",
+   "ids": [
+    "cf-8047403"
+   ],
+   "titre": "Tyreek McDole | La Coopérative de Mai",
+   "artistes": [],
+   "date": "2026-11-10",
+   "heure": "",
+   "salle": "La Coopérative de Mai - Petite Coopé",
+   "salle_id": "",
+   "ville": "Clermont-Ferrand",
+   "lat": 45.789394,
+   "lon": 3.101705,
+   "url": "",
+   "styles": [
+    "Arts et culture",
+    "Concert"
+   ],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "clermont",
+    "nom": "Clermont Auvergne Métropole, Clermont Auvergne Volcans, Département du Puy-de-Dôme",
+    "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+    "maj": "2026-11-02"
+   },
+   "raisons": [
+    "Jazz et blues"
+   ],
+   "premier_scan": "2026-11-02T15:45:39Z"
   },
   {
    "id": "rZ7SnyZ1A77v-O",
@@ -474,6 +544,43 @@
    "premier_scan": "2026-11-02T15:28:18Z"
   },
   {
+   "id": "ZkyMmBwZ1A7GP8O",
+   "ids": [
+    "ZkyMmBwZ1A7GP8O"
+   ],
+   "titre": "GOGO PENGUIN",
+   "artistes": [
+    "GoGo Penguin"
+   ],
+   "date": "2026-11-19",
+   "heure": "20:00",
+   "salle": "LE TRANSBORDEUR",
+   "salle_id": "rZ6SnyZ6A6",
+   "ville": "Villeurbanne",
+   "lat": 45.778753,
+   "lon": 4.859536,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/gogo-penguin-billet/idmanif/658009/idtier/18864121",
+   "styles": [
+    "Jazz"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-04-30T08:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Jazz et blues"
+   ],
+   "premier_scan": "2026-11-02T15:45:39Z"
+  },
+  {
    "id": "ZkyMmBwZ1A7C8-M",
    "ids": [
     "ZkyMmBwZ1A7C8-M"
@@ -620,6 +727,40 @@
    "premier_scan": "2026-11-02T15:28:18Z"
   },
   {
+   "id": "cf-7977244",
+   "ids": [
+    "cf-7977244"
+   ],
+   "titre": "Clarinettes Rendez-vous 10e édition - Rendez-vous Contempojazz | Saison du conservatoire 26/27",
+   "artistes": [],
+   "date": "2026-11-21",
+   "heure": "",
+   "salle": "Conservatoire Emmanuel Chabrier (Auditorium)",
+   "salle_id": "",
+   "ville": "Clermont-Ferrand",
+   "lat": 45.775956,
+   "lon": 3.087552,
+   "url": "https://www.clermontmetropole.eu/fr/bouger-se-divertir/le-dynamisme-culturel/conservatoire-emmanuel-chabrier/",
+   "styles": [
+    "Arts et culture",
+    "Concert"
+   ],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "clermont",
+    "nom": "Clermont Auvergne Métropole, Clermont Auvergne Volcans, Département du Puy-de-Dôme",
+    "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+    "maj": "2026-11-02"
+   },
+   "raisons": [
+    "Jazz et blues"
+   ],
+   "premier_scan": "2026-11-02T15:45:39Z"
+  },
+  {
    "id": "ZkyMmBwZ1A7C74O",
    "ids": [
     "ZkyMmBwZ1A7C74O"
@@ -727,7 +868,8 @@
     "nom": "Ticketmaster"
    },
    "raisons": [
-    "R&B, soul et funk"
+    "R&B, soul et funk",
+    "Jazz et blues"
    ],
    "premier_scan": "2026-11-02T15:28:18Z"
   },
@@ -886,6 +1028,43 @@
    "premier_scan": "2026-11-02T15:28:18Z"
   },
   {
+   "id": "ZkyMmBwZ1A7awfU",
+   "ids": [
+    "ZkyMmBwZ1A7awfU",
+    "cf-7670650",
+    "cf-7673046"
+   ],
+   "titre": "HIBA TAWAJI INVITE IBRAHIM MAALOUF",
+   "artistes": [],
+   "date": "2026-12-08",
+   "heure": "20:30",
+   "salle": "MAISON DE LA CULTURE",
+   "salle_id": "rZ6SnyZFAe",
+   "ville": "Clermont Ferrand",
+   "lat": 45.770745,
+   "lon": 3.086107,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/hiba-tawaji-invite-ibrahim-maalouf-billet/idmanif/649366/idseance/4272536",
+   "styles": [
+    "Jazz"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-02-06T15:25:02Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Jazz et blues"
+   ],
+   "premier_scan": "2026-11-02T15:45:39Z"
+  },
+  {
    "id": "ZkyMmBwZ1A7G3bI",
    "ids": [
     "ZkyMmBwZ1A7G3bI"
@@ -922,6 +1101,44 @@
     "Rap et hip-hop"
    ],
    "premier_scan": "2026-11-02T15:28:18Z"
+  },
+  {
+   "id": "rZ7SnyZ1A7A40I",
+   "ids": [
+    "rZ7SnyZ1A7A40I"
+   ],
+   "titre": "GAËTAN ROUSSEL - GAETAN ROUSSEL",
+   "artistes": [
+    "Gaetan Roussel"
+   ],
+   "date": "2026-12-11",
+   "heure": "20:00",
+   "salle": "ZENITH D'AUVERGNE",
+   "salle_id": "rZFSnyZAa1a",
+   "ville": "Cournon D Auvergne",
+   "lat": 45.742359,
+   "lon": 3.196579,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/gaetan-roussel-billet/idmanif/634011/idtier/18864121",
+   "styles": [
+    "Chanson Francaise",
+    "Jazz"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2025-09-05T09:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Jazz et blues"
+   ],
+   "premier_scan": "2026-11-02T15:45:39Z"
   },
   {
    "id": "ZkyMmBwZ1A71Fx8",
@@ -1415,6 +1632,41 @@
    "premier_scan": "2026-11-02T15:28:18Z"
   },
   {
+   "id": "ZkyMmBwZ1A7Ck4f",
+   "ids": [
+    "ZkyMmBwZ1A7Ck4f"
+   ],
+   "titre": "EZRA COLLECTIVE",
+   "artistes": [],
+   "date": "2027-02-23",
+   "heure": "20:00",
+   "salle": "LE TRANSBORDEUR",
+   "salle_id": "rZ6SnyZ6A6",
+   "ville": "Villeurbanne",
+   "lat": 45.778753,
+   "lon": 4.859536,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/ezra-collective-billet/idmanif/668078/idtier/18864121",
+   "styles": [
+    "Jazz"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-07-16T14:17:08Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Jazz et blues"
+   ],
+   "premier_scan": "2026-11-02T15:45:39Z"
+  },
+  {
    "id": "ZkyMmBwZ1A7okZk",
    "ids": [
     "ZkyMmBwZ1A7okZk"
@@ -1489,6 +1741,45 @@
     "Rap et hip-hop"
    ],
    "premier_scan": "2026-11-02T15:28:18Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7uM-o",
+   "ids": [
+    "ZkyMmBwZ1A7uM-o"
+   ],
+   "titre": "ANDRE MANOUKIAN",
+   "artistes": [
+    "André Manoukian"
+   ],
+   "date": "2027-03-05",
+   "heure": "20:30",
+   "salle": "LE TOBOGGAN",
+   "salle_id": "rZ6SnyZ6AF",
+   "ville": "Decines Charpieu",
+   "lat": 45.768829,
+   "lon": 4.956181,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/andre-manoukian-billet/idmanif/666656/idtier/18864121",
+   "styles": [
+    "Rock",
+    "Adult Contemporary",
+    "Jazz"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-07-15T07:09:37Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Jazz et blues"
+   ],
+   "premier_scan": "2026-11-02T15:45:39Z"
   },
   {
    "id": "ZkyMmBwZ1A780GS",
@@ -1603,6 +1894,46 @@
    "premier_scan": "2026-11-02T15:28:18Z"
   },
   {
+   "id": "ZkyMmBwZ1A7ugoZ",
+   "ids": [
+    "ZkyMmBwZ1A7ugoZ"
+   ],
+   "titre": "BETH HART",
+   "artistes": [
+    "Beth Hart"
+   ],
+   "date": "2027-03-13",
+   "heure": "20:30",
+   "salle": "MAISON DE LA CULTURE",
+   "salle_id": "rZ6SnyZFAe",
+   "ville": "Clermont Ferrand",
+   "lat": 45.770745,
+   "lon": 3.086107,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/beth-hart-billet/idmanif/666096/idtier/18864121",
+   "styles": [
+    "Blues",
+    "Country Blues",
+    "Rock",
+    "Pop"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-07-02T07:59:45Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Jazz et blues"
+   ],
+   "premier_scan": "2026-11-02T15:45:39Z"
+  },
+  {
    "id": "ZkyMmBwZ1A7uI3F",
    "ids": [
     "ZkyMmBwZ1A7uI3F"
@@ -1638,6 +1969,45 @@
     "Rap et hip-hop"
    ],
    "premier_scan": "2026-11-02T15:28:18Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A78MZd",
+   "ids": [
+    "ZkyMmBwZ1A78MZd"
+   ],
+   "titre": "RAUL MIDON",
+   "artistes": [
+    "Raul Midon"
+   ],
+   "date": "2027-03-16",
+   "heure": "20:00",
+   "salle": "LA COOPERATIVE DE MAI",
+   "salle_id": "rZFSnyZed7e",
+   "ville": "Clermont Ferrand",
+   "lat": 45.788558,
+   "lon": 3.100011,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/raul-midon-billet/idmanif/675096/idseance/4437003",
+   "styles": [
+    "Jazz",
+    "Rock",
+    "Pop"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-10-08T12:26:24Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Jazz et blues"
+   ],
+   "premier_scan": "2026-11-02T15:45:39Z"
   },
   {
    "id": "ZkyMmBwZ1A7C7b7",
@@ -1814,6 +2184,43 @@
     "Rap et hip-hop"
    ],
    "premier_scan": "2026-11-02T15:28:18Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7C7b9",
+   "ids": [
+    "ZkyMmBwZ1A7C7b9"
+   ],
+   "titre": "PARIS COMBO - PARIS COMBO / VOIX D'AUTRES CONTINENTS",
+   "artistes": [
+    "Paris Combo"
+   ],
+   "date": "2027-03-20",
+   "heure": "20:00",
+   "salle": "CENTRE CHARLIE CHAPLIN",
+   "salle_id": "rZFSnyZe6va",
+   "ville": "Vaulx En Velin",
+   "lat": 45.781021,
+   "lon": 4.9188,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/paris-combo-billet/idmanif/667739/idtier/18864121",
+   "styles": [
+    "Jazz"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-07-13T14:19:17Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Jazz et blues"
+   ],
+   "premier_scan": "2026-11-02T15:45:39Z"
   },
   {
    "id": "ZkyMmBwZ1A7u0-A",
@@ -2531,5 +2938,12 @@
    "premier_scan": "2026-11-02T15:28:18Z"
   }
  ],
- "reperes": []
+ "reperes": [
+  {
+   "artiste": "Orelsan",
+   "salle": "Bercy",
+   "url": "https://www.accorarena.com/fr",
+   "nouveau": true
+  }
+ ]
 }

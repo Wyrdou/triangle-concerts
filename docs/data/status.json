@@ -1,27 +1,27 @@
 {
- "dernier_scan": "2026-11-02T15:33:00Z",
+ "dernier_scan": "2026-11-02T15:45:39Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 530,
-  "dans_la_zone": 467,
-  "retenus": 68,
+  "recus": 560,
+  "dans_la_zone": 484,
+  "retenus": 79,
   "sans_style": 4
  },
  "styles_vus": [
   [
-   "Pop",
-   159
+   "Chanson Francaise",
+   167
   ],
   [
-   "Chanson Francaise",
-   153
+   "Pop",
+   164
   ],
   [
    "Rock",
-   136
+   138
   ],
   [
    "Arts et culture",
@@ -60,11 +60,11 @@
    11
   ],
   [
-   "R&B",
-   9
+   "French Pop",
+   10
   ],
   [
-   "French Pop",
+   "R&B",
    9
   ],
   [
@@ -196,6 +196,12 @@
    "url": "https://www.stadefrance.com/fr",
    "ok": true,
    "message": "0 artiste(s) repéré(s)"
+  },
+  {
+   "nom": "Bercy",
+   "url": "https://www.accorarena.com/fr",
+   "ok": true,
+   "message": "1 artiste(s) repéré(s)"
   }
  ],
  "sources": [
