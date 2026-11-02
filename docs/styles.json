@@ -1,0 +1,15 @@
+[
+  {"id": "tout", "label": "Tous les concerts", "mots": []},
+  {"id": "rock", "label": "Rock", "mots": ["rock", "alternative", "punk", "indie", "garage", "grunge"]},
+  {"id": "metal", "label": "Metal", "mots": ["metal", "hard rock", "hardcore"]},
+  {"id": "pop", "label": "Pop", "mots": ["pop", "variete", "variete internationale"]},
+  {"id": "chanson", "label": "Chanson française", "mots": ["chanson", "chanson francaise", "french music", "variete francaise", "musique francaise"]},
+  {"id": "rap", "label": "Rap et hip-hop", "mots": ["hip hop", "rap"]},
+  {"id": "rnb", "label": "R&B, soul et funk", "mots": ["r b", "rnb", "soul", "funk", "motown"]},
+  {"id": "electro", "label": "Électro", "mots": ["electronic", "dance electronic", "electro", "techno", "house", "trance", "drum and bass", "dubstep"]},
+  {"id": "jazz", "label": "Jazz et blues", "mots": ["jazz", "blues"]},
+  {"id": "reggae", "label": "Reggae, dub et ska", "mots": ["reggae", "dub", "ska"]},
+  {"id": "folk", "label": "Folk et country", "mots": ["folk", "country", "bluegrass"]},
+  {"id": "monde", "label": "Musiques du monde", "mots": ["world", "musiques du monde", "latin", "afro"]},
+  {"id": "classique", "label": "Classique et opéra", "mots": ["classical", "classique", "opera"]}
+]

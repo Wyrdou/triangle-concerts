@@ -1,0 +1,638 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Triangle : concerts entre Lyon, Saint-Étienne et Clermont-Ferrand</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔺</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&display=swap" rel="stylesheet">
+<style>
+:root {
+  color-scheme: light;
+  --paper: #eef0fb;
+  --ink: #1b1f8f;
+  --soft: #4c4fa6;
+  --line: #bfc3ea;
+  --pink: #e5007d;
+  --yellow: #ffd400;
+  --on-yellow: #1b1f8f;
+  --blend: multiply;
+  --on-pink: #ffffff;
+  --field: #ffffff;
+  --display: "Bricolage Grotesque", "Arial Narrow", Impact, sans-serif;
+  --body: "Atkinson Hyperlegible", Verdana, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --paper: #14154a;
+    --ink: #eef0ff;
+    --soft: #b6b9ee;
+    --line: #3a3d8c;
+    --pink: #ff4fa8;
+    --blend: normal;
+    --on-pink: #14154a;
+    --field: #1e2060;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: #14154a;
+  --ink: #eef0ff;
+  --soft: #b6b9ee;
+  --line: #3a3d8c;
+  --pink: #ff4fa8;
+  --blend: normal;
+    --on-pink: #14154a;
+  --field: #1e2060;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-padding-top: env(safe-area-inset-top, 0px); }
+body {
+  margin: 0;
+  padding: env(safe-area-inset-top, 0px) 0 env(safe-area-inset-bottom, 0px);
+  background: var(--paper);
+  color: var(--ink);
+  font: 400 1.0625rem/1.5 var(--body);
+}
+a { color: inherit; }
+button, input, textarea { font: inherit; color: inherit; }
+:focus-visible { outline: 3px solid var(--pink); outline-offset: 2px; }
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(320px, 5fr) minmax(0, 7fr);
+  gap: clamp(2rem, 5vw, 5rem);
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: clamp(1.25rem, 4vw, 3.5rem);
+}
+.poster { position: sticky; top: 2rem; align-self: start; }
+h1 {
+  margin: 0;
+  font: 800 clamp(3.4rem, 8.4vw, 7rem)/.88 var(--display);
+  letter-spacing: -.035em;
+}
+.summary { margin: 1rem 0 0; font-size: 1.2rem; line-height: 1.35; max-width: 30ch; }
+.scan-date { margin: .6rem 0 0; color: var(--soft); font-size: .95rem; }
+.alert-box { margin: 1rem 0 0; padding: .7rem .9rem; border-left: 5px solid var(--pink); background: var(--field); }
+
+#map { display: block; width: 100%; height: auto; margin-top: 1.5rem; overflow: visible; }
+#map .halo { fill: var(--yellow); stroke: var(--yellow); stroke-linejoin: round; }
+#map .core { fill: var(--pink); mix-blend-mode: var(--blend); }
+#map .venue { fill: #1b1f8f; stroke: #fff; stroke-width: 1.2; transition: r .12s ease; }
+#map .venue.on { fill: #fff; stroke: #1b1f8f; stroke-width: 3; }
+#map text { fill: #1b1f8f; font: 700 13.5px var(--body); }
+
+nav { display: flex; flex-wrap: wrap; gap: 1.5rem; border-bottom: 3px solid var(--ink); }
+nav a {
+  padding: .25rem 0 .55rem;
+  margin-bottom: -3px;
+  border-bottom: 7px solid transparent;
+  font: 500 1.35rem/1.2 var(--display);
+  text-decoration: none;
+}
+nav a[aria-current="page"] { font-weight: 800; border-bottom-color: var(--pink); }
+
+.filters { display: flex; flex-wrap: wrap; gap: .6rem 1rem; align-items: center; margin: 1.25rem 0 .5rem; }
+.sides { display: flex; flex-wrap: wrap; gap: .4rem; }
+.sides button, .style-choice span {
+  display: inline-block;
+  padding: .3rem .7rem;
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  background: none;
+  cursor: pointer;
+}
+.sides button[aria-pressed="true"], .style-choice input:checked + span { background: var(--ink); color: var(--paper); }
+input[type="search"], input[type="text"], input[type="password"], textarea {
+  width: 100%;
+  padding: .55rem .7rem;
+  border: 2px solid var(--line);
+  border-radius: 4px;
+  background: var(--field);
+}
+input[type="search"] { flex: 1 1 12rem; width: auto; }
+input:focus, textarea:focus { border-color: var(--ink); }
+
+.rows { list-style: none; margin: 0; padding: 0; }
+.row {
+  display: grid;
+  grid-template-columns: 5.2rem minmax(0, 1fr);
+  gap: 1.1rem;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.date-block { font-family: var(--display); line-height: 1; }
+.date-block strong { display: block; font-size: 3rem; font-weight: 800; letter-spacing: -.03em; font-variant-numeric: tabular-nums; }
+.date-block span { display: block; margin-top: .2rem; font-size: 1rem; font-weight: 500; }
+.row h3 { margin: 0; font: 800 1.45rem/1.12 var(--display); letter-spacing: -.01em; overflow-wrap: anywhere; }
+.row h3 a { text-decoration: none; }
+.row h3 a:hover { text-decoration: underline; text-decoration-thickness: 3px; }
+.row p { margin: .25rem 0 0; }
+.place { color: var(--soft); }
+.sale { display: inline-block; margin-top: .45rem; padding: .12rem .5rem; background: var(--yellow); color: var(--on-yellow); font-weight: 700; }
+.warn { display: inline-block; margin-top: .45rem; padding: .12rem .5rem; background: var(--pink); color: var(--on-pink); font-weight: 700; }
+.reason { margin-top: .35rem; color: var(--soft); font-size: .92rem; }
+.empty { padding: 2rem 0; max-width: 46ch; font-size: 1.15rem; }
+h2 { margin: 2.25rem 0 .4rem; font: 800 1.6rem/1.15 var(--display); }
+
+.settings { max-width: 42rem; padding-top: .5rem; }
+.field { margin: 1.5rem 0 0; border: 0; padding: 0; }
+.field > label, .field > legend { display: block; padding: 0; font-weight: 700; }
+.hint { margin: .15rem 0 .5rem; color: var(--soft); font-size: .95rem; }
+.styles-grid { display: flex; flex-wrap: wrap; gap: .45rem; margin-top: .55rem; }
+.style-choice input { position: absolute; opacity: 0; }
+.style-choice input:focus-visible + span { outline: 3px solid var(--pink); outline-offset: 2px; }
+.check { display: flex; gap: .6rem; align-items: flex-start; font-weight: 400 !important; }
+.check input { margin-top: .3rem; accent-color: var(--pink); }
+input[type="range"] { width: 100%; accent-color: var(--pink); }
+.save {
+  margin-top: 1.75rem;
+  padding: .7rem 1.2rem;
+  border: 0;
+  border-radius: 4px;
+  background: var(--pink);
+  color: var(--on-pink);
+  font: 800 1.15rem var(--display);
+  cursor: pointer;
+}
+.save:disabled { opacity: .55; cursor: wait; }
+.save-result { min-height: 1.5em; margin: .75rem 0 0; font-weight: 700; }
+.report { margin: .3rem 0 0; padding: 0; list-style: none; }
+.report li { padding: .15rem 0; }
+details { margin-top: 1rem; }
+summary { cursor: pointer; font-weight: 700; }
+
+@media (max-width: 860px) {
+  .layout { grid-template-columns: minmax(0, 1fr); }
+  .poster { position: static; }
+  h1 { font-size: clamp(3.6rem, 19vw, 6rem); }
+  #map { max-width: 460px; }
+}
+@media (max-width: 420px) {
+  .row { grid-template-columns: 3.9rem minmax(0, 1fr); gap: .8rem; }
+  .date-block strong { font-size: 2.3rem; }
+  .date-block span { font-size: .88rem; }
+  nav { gap: 1.1rem; }
+  nav a { font-size: 1.15rem; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+<div class="layout">
+  <header class="poster">
+    <h1>Triangle</h1>
+    <p class="summary" id="summary">Chargement des concerts…</p>
+    <p class="scan-date" id="scan-date"></p>
+    <div id="scan-alert"></div>
+    <svg id="map" role="img" aria-label="Carte de la zone surveillée entre Lyon, Saint-Étienne et Clermont-Ferrand"></svg>
+  </header>
+  <main>
+    <nav aria-label="Sections">
+      <a href="#ventes" data-view="ventes">Mises en vente</a>
+      <a href="#concerts" data-view="concerts">Concerts</a>
+      <a href="#reglages" data-view="reglages">Réglages</a>
+    </nav>
+    <div id="view"></div>
+  </main>
+</div>
+
+<script>
+"use strict";
+const TOKEN_KEY = "triangle.jeton-github";
+const CONFIG_PATH = "docs/config.json";
+const WORKFLOW = "scan.yml";
+const LAT_KM = 110.57;
+const DEFAULT_CORNERS = [
+  { nom: "Lyon", lat: 45.764, lon: 4.8357 },
+  { nom: "Saint-Étienne", lat: 45.4397, lon: 4.3872 },
+  { nom: "Clermont-Ferrand", lat: 45.7772, lon: 3.087 },
+];
+const app = { config: null, styles: [], concerts: [], reperes: [], status: {}, view: "ventes", side: "tous", query: "", margin: 25 };
+
+function el(tag, props = {}, ...children) {
+  const node = document.createElement(tag);
+  for (const [name, value] of Object.entries(props)) {
+    if (name.startsWith("on")) node.addEventListener(name.slice(2), value);
+    else if (name in node && name !== "list") node[name] = value;
+    else node.setAttribute(name, value);
+  }
+  node.append(...children.flat().filter((child) => child !== null && child !== undefined));
+  return node;
+}
+function svg(tag, attrs = {}, text = "") {
+  const node = document.createElementNS("http://www.w3.org/2000/svg", tag);
+  for (const [name, value] of Object.entries(attrs)) node.setAttribute(name, value);
+  node.textContent = text;
+  return node;
+}
+const normalize = (text) => (text || "").normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+const plural = (count, one, many) => `${count} ${count > 1 ? many : one}`;
+const parisFormat = (options) => new Intl.DateTimeFormat("fr-FR", { timeZone: "Europe/Paris", ...options });
+const longDate = (value) => parisFormat({ weekday: "short", day: "numeric", month: "long", year: "numeric" }).format(new Date(value));
+function saleTime(value) {
+  const date = new Date(value);
+  const day = parisFormat({ weekday: "long", day: "numeric", month: "long" }).format(date);
+  const [hour, minute] = parisFormat({ hour: "2-digit", minute: "2-digit", hour12: false }).format(date).split(":");
+  return `${day} à ${Number(hour)} h ${minute}`;
+}
+const concertDay = (date) => new Date(`${date}T12:00:00Z`);
+
+function countdown(value) {
+  const hours = (new Date(value) - Date.now()) / 3600000;
+  if (hours < 1) return "dans moins d’une heure";
+  if (hours < 36) return `dans ${plural(Math.round(hours), "heure", "heures")}`;
+  return `dans ${Math.ceil(hours / 24)} jours`;
+}
+function nextSale(concert) {
+  return (concert.ventes || []).find((sale) => new Date(sale.debut) > Date.now());
+}
+function isCancelled(concert) {
+  return ["canceled", "postponed", "rescheduled"].includes(concert.statut);
+}
+function nearestCorner(concert) {
+  if (concert.lat === null || concert.lat === undefined) return "";
+  const corners = app.config?.zone?.coins || DEFAULT_CORNERS;
+  const scale = Math.cos(concert.lat * Math.PI / 180);
+  return corners.reduce((best, corner) => {
+    const distance = Math.hypot(corner.lat - concert.lat, (corner.lon - concert.lon) * scale);
+    return distance < best.distance ? { nom: corner.nom, distance } : best;
+  }, { nom: "", distance: Infinity }).nom;
+}
+function visibleConcerts() {
+  const query = normalize(app.query);
+  return app.concerts.filter((concert) => {
+    if (app.side !== "tous" && nearestCorner(concert) !== app.side) return false;
+    if (!query) return true;
+    return normalize([concert.titre, concert.salle, concert.ville, ...(concert.artistes || []), ...(concert.styles || [])].join(" ")).includes(query);
+  });
+}
+function upcomingSales(concerts) {
+  const sales = [];
+  for (const concert of concerts) {
+    if (isCancelled(concert)) continue;
+    for (const sale of concert.ventes || []) {
+      if (new Date(sale.debut) > Date.now()) sales.push({ concert, sale });
+    }
+  }
+  return sales.sort((a, b) => a.sale.debut.localeCompare(b.sale.debut));
+}
+
+/* Carte : la marge est dessinée à l’échelle, avec le contour du triangle. */
+function drawMap() {
+  const map = document.getElementById("map");
+  map.replaceChildren();
+  const corners = app.config?.zone?.coins || DEFAULT_CORNERS;
+  const scaleX = Math.cos(45.6 * Math.PI / 180);
+  const width = 420;
+  const lons = corners.map((c) => c.lon);
+  const lats = corners.map((c) => c.lat);
+  const spanKm = (Math.max(...lons) - Math.min(...lons)) * scaleX * LAT_KM;
+  const pxPerKm = width / (spanKm + (app.margin + 14) * 2);
+  const pad = (app.margin + 14) * pxPerKm;
+  const pxPerLat = pxPerKm * LAT_KM;
+  const project = (lat, lon) => [
+    pad + (lon - Math.min(...lons)) * scaleX * pxPerLat,
+    pad + (Math.max(...lats) - lat) * pxPerLat,
+  ];
+  const points = corners.map((c) => project(c.lat, c.lon));
+  const height = (Math.max(...lats) - Math.min(...lats)) * pxPerLat + pad * 2;
+  map.setAttribute("viewBox", `0 0 ${width} ${Math.round(height)}`);
+  const polygon = points.map((p) => p.map((v) => v.toFixed(1)).join(",")).join(" ");
+  map.append(svg("polygon", { class: "halo", points: polygon, "stroke-width": (app.margin * 2 * pxPerKm).toFixed(1) }));
+  map.append(svg("polygon", { class: "core", points: polygon }));
+
+  const venues = new Map();
+  for (const concert of app.concerts) {
+    if (concert.lat === null || concert.lat === undefined) continue;
+    const key = `${concert.lat},${concert.lon}`;
+    const venue = venues.get(key) || { lat: concert.lat, lon: concert.lon, name: concert.salle, count: 0 };
+    venue.count += 1;
+    venues.set(key, venue);
+  }
+  for (const [key, venue] of venues) {
+    const [cx, cy] = project(venue.lat, venue.lon);
+    const dot = svg("circle", { class: "venue", cx: cx.toFixed(1), cy: cy.toFixed(1), r: Math.min(9, 2.8 + Math.sqrt(venue.count)).toFixed(1), "data-venue": key });
+    dot.append(svg("title", {}, `${venue.name} : ${plural(venue.count, "concert", "concerts")}`));
+    map.append(dot);
+  }
+  corners.forEach((corner, index) => {
+    const [x, y] = points[index];
+    const lowest = y === Math.max(...points.map((p) => p[1]));
+    const anchor = x < width * .3 ? "start" : x > width * .7 ? "end" : "middle";
+    map.append(svg("text", { x: x.toFixed(1), y: (lowest ? y + 20 : y - 10).toFixed(1), "text-anchor": anchor }, corner.nom));
+  });
+}
+function highlight(concert, on) {
+  const dot = document.querySelector(`[data-venue="${CSS.escape(`${concert.lat},${concert.lon}`)}"]`);
+  if (dot) dot.classList.toggle("on", on);
+}
+
+function title(concert) {
+  const safeUrl = (concert.url || "").startsWith("https://");
+  return el("h3", {}, safeUrl ? el("a", { href: concert.url, target: "_blank", rel: "noopener" }, concert.titre) : concert.titre);
+}
+function placeLine(concert) {
+  const when = concert.date ? longDate(concertDay(concert.date)) : "Date à confirmer";
+  const time = concert.heure ? ` à ${concert.heure.replace(":", " h ")}` : "";
+  const where = [concert.salle, concert.ville].filter(Boolean).join(", ");
+  return el("p", { className: "place" }, `${when}${time}, ${where}`);
+}
+function dateBlock(value) {
+  if (!value) return el("div", { className: "date-block" }, el("span", {}, "à venir"));
+  return el("div", { className: "date-block" },
+    el("strong", {}, parisFormat({ day: "2-digit" }).format(value)),
+    el("span", {}, parisFormat({ month: "short", year: "2-digit" }).format(value)));
+}
+function statusBadge(concert) {
+  const labels = { canceled: "Annulé", postponed: "Reporté", rescheduled: "Reprogrammé" };
+  return labels[concert.statut] ? el("span", { className: "warn" }, labels[concert.statut]) : null;
+}
+function reasons(concert) {
+  return (concert.raisons || []).length ? el("p", { className: "reason" }, `Trouvé pour : ${concert.raisons.join(", ")}`) : null;
+}
+function attribution(concert) {
+  const source = concert.source;
+  if (!source || source.type === "ticketmaster" || !source.nom) return null;
+  const safe = (url) => (url || "").startsWith("https://");
+  const parts = ["Source : ", safe(source.url) ? el("a", { href: source.url, target: "_blank", rel: "noopener" }, source.nom) : source.nom];
+  if (source.licence) parts.push(", ", safe(source.licence_url) ? el("a", { href: source.licence_url, target: "_blank", rel: "noopener" }, source.licence) : source.licence);
+  if (source.maj) parts.push(`, mise à jour du ${new Intl.DateTimeFormat("fr-FR", { dateStyle: "long", timeZone: "UTC" }).format(new Date(source.maj))}`);
+  return el("p", { className: "reason" }, ...parts);
+}
+function row(concert, dateValue, ...content) {
+  const item = el("li", { className: "row", onmouseenter: () => highlight(concert, true), onmouseleave: () => highlight(concert, false) },
+    dateBlock(dateValue), el("div", {}, ...content));
+  item.addEventListener("focusin", () => highlight(concert, true));
+  item.addEventListener("focusout", () => highlight(concert, false));
+  return item;
+}
+
+function filters() {
+  const corners = app.config?.zone?.coins || DEFAULT_CORNERS;
+  const options = [{ id: "tous", label: "Partout" }, ...corners.map((c) => ({ id: c.nom, label: `Côté ${c.nom}` }))];
+  return el("div", { className: "filters" },
+    el("div", { className: "sides", role: "group", "aria-label": "Filtrer par secteur" },
+      options.map((option) => el("button", {
+        type: "button", ariaPressed: String(app.side === option.id),
+        onclick: () => { app.side = option.id; render(); },
+      }, option.label))),
+    el("input", {
+      type: "search", placeholder: "Chercher un artiste ou une salle", ariaLabel: "Chercher un artiste ou une salle", value: app.query,
+      oninput: (event) => { app.query = event.target.value; renderList(); },
+    }));
+}
+function emptyMessage() {
+  if (app.status.ok === undefined) return "Aucun scan pour le moment. Choisissez vos artistes et vos styles dans les réglages, puis lancez le premier scan.";
+  const config = app.config || {};
+  if (!(config.artistes || []).length && !(config.styles || []).length && !(config.mots_cles || []).length) return "Rien n’est surveillé pour le moment. Ajoutez un artiste ou un style dans les réglages.";
+  return null;
+}
+function renderList() {
+  const target = document.getElementById("list");
+  if (!target) return;
+  const concerts = visibleConcerts();
+  const base = emptyMessage();
+  if (app.view === "ventes") {
+    const sales = upcomingSales(concerts);
+    target.replaceChildren(sales.length
+      ? el("ol", { className: "rows" }, sales.map(({ concert, sale }) => row(concert, new Date(sale.debut),
+          title(concert), placeLine(concert),
+          el("span", { className: "sale" }, `${sale.nom} : ${saleTime(sale.debut)}, ${countdown(sale.debut)}`),
+          reasons(concert))))
+      : el("p", { className: "empty" }, base || "Aucune mise en vente datée pour cette recherche. Les concerts déjà en vente sont dans l’onglet Concerts."));
+    return;
+  }
+  const nodes = [];
+  if (concerts.length) {
+    nodes.push(el("ol", { className: "rows" }, concerts.map((concert) => {
+      const sale = isCancelled(concert) ? null : nextSale(concert);
+      return row(concert, concert.date ? concertDay(concert.date) : null,
+        title(concert), placeLine(concert), statusBadge(concert),
+        sale ? el("span", { className: "sale" }, `${sale.nom} : ${saleTime(sale.debut)}`) : null,
+        reasons(concert), attribution(concert));
+    })));
+  } else {
+    nodes.push(el("p", { className: "empty" }, base || "Aucun concert pour cette recherche."));
+  }
+  if ((app.reperes || []).length && app.side === "tous" && !app.query) {
+    nodes.push(el("h2", {}, "Repérés sur le site des salles"));
+    nodes.push(el("ul", { className: "report" }, app.reperes.map((hit) => el("li", {},
+      `${hit.artiste} sur `, el("a", { href: hit.url, target: "_blank", rel: "noopener" }, hit.salle)))));
+  }
+  target.replaceChildren(...nodes);
+}
+
+/* Réglages : enregistrés dans le dépôt GitHub avec le jeton gardé sur cet appareil. */
+function repository() {
+  const hostMatch = location.hostname.match(/^([^.]+)\.github\.io$/i);
+  const name = location.pathname.split("/").filter(Boolean)[0];
+  return hostMatch && name ? { owner: hostMatch[1], name } : null;
+}
+function readToken() {
+  try { return localStorage.getItem(TOKEN_KEY) || ""; } catch { return ""; }
+}
+function writeToken(value) {
+  try {
+    if (value) localStorage.setItem(TOKEN_KEY, value);
+    else localStorage.removeItem(TOKEN_KEY);
+  } catch { /* Sans stockage, le jeton reste valable pour cette page ouverte. */ }
+}
+async function github(path, token, options = {}) {
+  const repo = repository();
+  const response = await fetch(`https://api.github.com/repos/${repo.owner}/${repo.name}/${path}`, {
+    ...options,
+    headers: { Accept: "application/vnd.github+json", Authorization: `Bearer ${token}`, "X-GitHub-Api-Version": "2022-11-28", ...(options.headers || {}) },
+  });
+  if (response.status === 401) throw new Error("GitHub refuse ce jeton : il est incorrect ou expiré.");
+  if (response.status === 403 || response.status === 404) throw new Error("Ce jeton n’a pas accès au dépôt. Donnez-lui les droits Contents et Actions en lecture et écriture.");
+  if (!response.ok) throw new Error(`GitHub a répondu ${response.status}.`);
+  return response.status === 204 ? null : response.json();
+}
+function toBase64(text) {
+  const bytes = new TextEncoder().encode(text);
+  let binary = "";
+  bytes.forEach((byte) => { binary += String.fromCharCode(byte); });
+  return btoa(binary);
+}
+const splitList = (text) => [...new Set(text.split(/[\n,;]+/).map((item) => item.trim()).filter(Boolean))];
+
+function parsePages(text) {
+  const pages = [];
+  for (const line of text.split("\n").map((value) => value.trim()).filter(Boolean)) {
+    const [left, right] = line.includes("|") ? line.split("|").map((value) => value.trim()) : ["", line];
+    if (!/^https?:\/\//i.test(right)) throw new Error(`Adresse à corriger dans les pages de salles : ${line}`);
+    pages.push({ nom: left || new URL(right).hostname, url: right });
+  }
+  return pages;
+}
+function statusBlock() {
+  const status = app.status;
+  if (status.ok === undefined) return el("p", {}, "Le premier scan n’a pas encore eu lieu.");
+  const counts = status.compteurs || {};
+  return el("div", {},
+    el("p", {}, `${counts.dans_la_zone ?? 0} concerts dans la zone, ${counts.retenus ?? 0} retenus, ${counts.sans_style ?? 0} sans style renseigné. Alertes Telegram : ${status.telegram || "inconnu"}.`),
+    (status.sources || []).length ? el("details", {}, el("summary", {}, "État des sources"),
+      el("ul", { className: "report" }, status.sources.map((source) => el("li", {}, `${source.nom} : ${source.message}`))),
+      ...status.sources.flatMap((source) => (source.agendas || []).length ? [el("p", { className: "hint" },
+        source.agendas.map((agenda) => `${agenda.titre} (n° ${agenda.uid}) : ${agenda.concerts}`).join(", "))] : []),
+      ...status.sources.flatMap((source) => (source.champs || []).length ? [el("p", { className: "hint" },
+        `Format inattendu pour ${source.nom}. Champs lus : ${source.champs.join(", ")}`)] : [])) : null,
+    (status.styles_vus || []).length ? el("details", {}, el("summary", {}, "Styles trouvés dans les sources"),
+      el("p", { className: "hint" }, status.styles_vus.map(([name, count]) => `${name} (${count})`).join(", "))) : null,
+    (status.pages || []).length ? el("details", {}, el("summary", {}, "État des pages de salles"),
+      el("ul", { className: "report" }, status.pages.map((page) => el("li", {}, `${page.nom} : ${page.ok ? page.message : "lecture impossible, vérifiez l’adresse"}`)))) : null);
+}
+function renderSettings(target) {
+  const config = app.config;
+  const artists = el("textarea", { id: "artists", rows: 5, value: (config.artistes || []).join("\n") });
+  const words = el("input", { id: "words", type: "text", value: (config.mots_cles || []).join(", ") });
+  const unclassified = el("input", { type: "checkbox", checked: config.inclure_sans_style !== false });
+  const reminders = el("input", { id: "reminders", type: "text", inputMode: "numeric", value: (config.rappels_jours || [7, 1]).join(", ") });
+  const agendas = el("input", { id: "agendas", type: "text", inputMode: "numeric", value: (config.sources?.openagenda?.agendas || []).join(", ") });
+  const pages = el("textarea", { id: "pages", rows: 4, value: (config.pages || []).map((page) => `${page.nom} | ${page.url}`).join("\n") });
+  const token = el("input", { id: "token", type: "password", autocomplete: "off", value: readToken(), placeholder: "github_pat_…" });
+  const marginOutput = el("output", {}, `${app.margin} km`);
+  const margin = el("input", {
+    id: "margin", type: "range", min: 0, max: 60, step: 5, value: app.margin,
+    oninput: (event) => { app.margin = Number(event.target.value); marginOutput.textContent = `${app.margin} km`; drawMap(); },
+  });
+  const styleBoxes = app.styles.map((style) => {
+    const input = el("input", { type: "checkbox", value: style.id, checked: (config.styles || []).includes(style.id) });
+    return { input, node: el("label", { className: "style-choice" }, input, el("span", {}, style.label)) };
+  });
+  const result = el("p", { className: "save-result", role: "status" });
+  const repo = repository();
+  const save = el("button", { className: "save", type: "submit" }, "Enregistrer et lancer le scan");
+
+  async function submit(event) {
+    event.preventDefault();
+    result.textContent = "";
+    if (!repo) { result.textContent = "L’enregistrement fonctionne depuis l’adresse github.io de cette page."; return; }
+    const secret = token.value.trim();
+    if (!secret) { token.focus(); result.textContent = "Ajoutez votre jeton GitHub pour enregistrer."; return; }
+    const days = splitList(reminders.value).map(Number);
+    if (!days.length || days.some((day) => !Number.isInteger(day) || day < 1 || day > 60)) {
+      reminders.focus(); result.textContent = "Indiquez des rappels en jours, entre 1 et 60, par exemple 7, 1."; return;
+    }
+    const agendaIds = splitList(agendas.value).map(Number);
+    if (agendaIds.some((id) => !Number.isInteger(id) || id < 1)) {
+      agendas.focus(); result.textContent = "Indiquez les agendas OpenAgenda par leur numéro, séparés par des virgules."; return;
+    }
+    save.disabled = true;
+    save.textContent = "Enregistrement…";
+    try {
+      const next = {
+        ...config,
+        zone: { ...config.zone, marge_km: app.margin },
+        artistes: splitList(artists.value),
+        styles: styleBoxes.filter((box) => box.input.checked).map((box) => box.input.value),
+        mots_cles: splitList(words.value),
+        inclure_sans_style: unclassified.checked,
+        rappels_jours: [...new Set(days)].sort((a, b) => b - a),
+        pages: parsePages(pages.value),
+        sources: { ...config.sources, openagenda: { actif: true, ...config.sources?.openagenda, agendas: agendaIds } },
+      };
+      const current = await github(`contents/${CONFIG_PATH}`, secret);
+      await github(`contents/${CONFIG_PATH}`, secret, {
+        method: "PUT",
+        body: JSON.stringify({ message: "Réglages mis à jour", content: toBase64(`${JSON.stringify(next, null, 2)}\n`), sha: current.sha }),
+      });
+      app.config = next;
+      writeToken(secret);
+      await github(`actions/workflows/${WORKFLOW}/dispatches`, secret, { method: "POST", body: JSON.stringify({ ref: "main" }) });
+      result.textContent = "Réglages enregistrés. Scan lancé : la page sera à jour dans quelques minutes.";
+    } catch (error) {
+      result.textContent = error.message;
+    } finally {
+      save.disabled = false;
+      save.textContent = "Enregistrer et lancer le scan";
+    }
+  }
+
+  target.replaceChildren(el("form", { className: "settings", onsubmit: submit, noValidate: true },
+    el("div", { className: "field" }, el("label", { htmlFor: "artists" }, "Artistes et groupes"),
+      el("p", { className: "hint" }, "Un nom par ligne. Vous êtes prévenu pour eux, quel que soit leur style."), artists),
+    el("fieldset", { className: "field" }, el("legend", {}, "Styles"),
+      el("p", { className: "hint" }, "Vous pouvez en choisir plusieurs."),
+      el("div", { className: "styles-grid" }, styleBoxes.map((box) => box.node))),
+    el("div", { className: "field" }, el("label", { htmlFor: "words" }, "Autres mots-clés"),
+      el("p", { className: "hint" }, "Séparés par des virgules, par exemple stoner, tribute, gospel."), words),
+    el("div", { className: "field" }, el("label", { className: "check" }, unclassified, "Garder les concerts dont le style n’est pas renseigné")),
+    el("div", { className: "field" }, el("label", { htmlFor: "margin" }, "Marge autour du triangle : ", marginOutput),
+      el("p", { className: "hint" }, "Elle inclut par exemple Décines et Vienne à 25 km. La carte suit votre réglage."), margin),
+    el("div", { className: "field" }, el("label", { htmlFor: "reminders" }, "Rappels avant une mise en vente"),
+      el("p", { className: "hint" }, "Nombre de jours avant l’ouverture, séparés par des virgules."), reminders),
+    el("div", { className: "field" }, el("label", { htmlFor: "agendas" }, "Agendas OpenAgenda"),
+      el("p", { className: "hint" }, "Laissez vide pour une recherche automatique autour de vos trois villes, ou indiquez les numéros à garder. Ils sont listés dans État des sources."), agendas),
+    el("div", { className: "field" }, el("label", { htmlFor: "pages" }, "Pages de salles à surveiller"),
+      el("p", { className: "hint" }, "Une par ligne : Nom | adresse. Le scanner y cherche vos artistes, pas les styles."), pages),
+    el("div", { className: "field" }, el("label", { htmlFor: "token" }, "Jeton GitHub"),
+      el("p", { className: "hint" }, "Il reste sur cet appareil. Le fichier README explique comment le créer."), token),
+    save, result,
+    el("h2", {}, "Dernier scan"), statusBlock()));
+}
+
+function renderPoster() {
+  const sales = upcomingSales(app.concerts).length;
+  const summary = document.getElementById("summary");
+  summary.textContent = app.status.ok === undefined
+    ? "Vos concerts entre Lyon, Saint-Étienne et Clermont-Ferrand."
+    : `${plural(sales, "mise en vente à surveiller", "mises en vente à surveiller")} et ${plural(app.concerts.length, "concert", "concerts")} entre Lyon, Saint-Étienne et Clermont-Ferrand.`;
+  document.getElementById("scan-date").textContent = app.status.dernier_scan
+    ? `Dernier scan : ${parisFormat({ dateStyle: "long", timeStyle: "short" }).format(new Date(app.status.dernier_scan))}` : "";
+  const message = app.status.erreur || app.status.avertissement;
+  document.getElementById("scan-alert").replaceChildren(...(message ? [el("p", { className: "alert-box" }, message)] : []));
+}
+function render() {
+  document.querySelectorAll("nav a").forEach((link) => {
+    if (link.dataset.view === app.view) link.setAttribute("aria-current", "page");
+    else link.removeAttribute("aria-current");
+  });
+  const target = document.getElementById("view");
+  if (app.view === "reglages") {
+    if (app.config) renderSettings(target);
+    else target.replaceChildren(el("p", { className: "empty" }, "Les réglages n’ont pas pu être chargés. Rechargez la page."));
+  } else {
+    target.replaceChildren(filters(), el("div", { id: "list" }));
+    renderList();
+  }
+  renderPoster();
+  drawMap();
+}
+async function loadJson(path) {
+  const response = await fetch(`${path}?t=${Date.now()}`);
+  if (!response.ok) throw new Error(path);
+  return response.json();
+}
+function readHash() {
+  const view = location.hash.slice(1);
+  app.view = ["ventes", "concerts", "reglages"].includes(view) ? view : "ventes";
+}
+window.addEventListener("hashchange", () => { readHash(); render(); });
+
+(async function start() {
+  readHash();
+  render();
+  const [config, styles, data, status] = await Promise.allSettled([
+    loadJson("config.json"), loadJson("styles.json"), loadJson("data/concerts.json"), loadJson("data/status.json"),
+  ]);
+  if (config.status === "fulfilled") {
+    app.config = config.value;
+    app.margin = config.value.zone?.marge_km ?? 25;
+  }
+  if (styles.status === "fulfilled") app.styles = styles.value;
+  if (data.status === "fulfilled") {
+    app.concerts = data.value.concerts || [];
+    app.reperes = data.value.reperes || [];
+  }
+  if (status.status === "fulfilled") app.status = status.value;
+  render();
+})();
+</script>
+</body>
+</html>
