@@ -185,7 +185,8 @@
   "ZkyMmBwZ1A7uoaN": {
    "premier_scan": "2026-11-02T15:28:18Z",
    "ids": [
-    "ZkyMmBwZ1A7uoaN"
+    "ZkyMmBwZ1A7uoaN",
+    "oa-19470613"
    ],
    "date": "2026-11-26",
    "statut": "onsale",
@@ -376,7 +377,8 @@
   "ZkyMmBwZ1A788fs": {
    "premier_scan": "2026-11-02T15:28:18Z",
    "ids": [
-    "ZkyMmBwZ1A788fs"
+    "ZkyMmBwZ1A788fs",
+    "oa-45822973"
    ],
    "date": "2027-02-19",
    "statut": "onsale",
@@ -396,7 +398,8 @@
   "ZkyMmBwZ1A7ZgOP": {
    "premier_scan": "2026-11-02T15:28:18Z",
    "ids": [
-    "ZkyMmBwZ1A7ZgOP"
+    "ZkyMmBwZ1A7ZgOP",
+    "oa-68515386"
    ],
    "date": "2027-02-27",
    "statut": "rescheduled",
@@ -547,7 +550,8 @@
   "ZkyMmBwZ1A78Y_z": {
    "premier_scan": "2026-11-02T15:28:18Z",
    "ids": [
-    "ZkyMmBwZ1A78Y_z"
+    "ZkyMmBwZ1A78Y_z",
+    "oa-28147894"
    ],
    "date": "2027-03-30",
    "statut": "onsale",
@@ -829,10 +833,222 @@
    "statut": "onsale",
    "ventes": {},
    "rappels": []
+  },
+  "oa-81207164": {
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "ids": [
+    "oa-81207164"
+   ],
+   "date": "2026-11-06",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-12675043": {
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "ids": [
+    "oa-12675043"
+   ],
+   "date": "2026-11-06",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-96140135": {
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "ids": [
+    "oa-96140135"
+   ],
+   "date": "2026-11-07",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-45150420": {
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "ids": [
+    "oa-45150420"
+   ],
+   "date": "2026-11-07",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-92595387": {
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "ids": [
+    "oa-92595387"
+   ],
+   "date": "2026-11-10",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-59681344": {
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "ids": [
+    "oa-59681344"
+   ],
+   "date": "2026-11-14",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-30357394": {
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "ids": [
+    "oa-30357394"
+   ],
+   "date": "2026-11-18",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-59006423": {
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "ids": [
+    "oa-59006423"
+   ],
+   "date": "2026-11-20",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-35279360": {
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "ids": [
+    "oa-35279360"
+   ],
+   "date": "2026-11-26",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-92239922": {
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "ids": [
+    "oa-47770720",
+    "oa-92239922"
+   ],
+   "date": "2026-12-04",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-3583628": {
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "ids": [
+    "oa-3583628"
+   ],
+   "date": "2026-12-05",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-64424655": {
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "ids": [
+    "oa-64424655"
+   ],
+   "date": "2026-12-09",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-41993764": {
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "ids": [
+    "oa-41993764"
+   ],
+   "date": "2026-12-16",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-10802483": {
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "ids": [
+    "oa-10802483"
+   ],
+   "date": "2026-12-18",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-65028691": {
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "ids": [
+    "oa-65028691"
+   ],
+   "date": "2027-01-20",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-72456004": {
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "ids": [
+    "oa-72456004"
+   ],
+   "date": "2027-01-22",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-88196637": {
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "ids": [
+    "oa-88196637"
+   ],
+   "date": "2027-02-17",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-33479126": {
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "ids": [
+    "oa-33479126"
+   ],
+   "date": "2027-03-17",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-14459941": {
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "ids": [
+    "oa-14459941"
+   ],
+   "date": "2027-04-21",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-42159614": {
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "ids": [
+    "oa-42159614"
+   ],
+   "date": "2027-05-19",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-18487102": {
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "ids": [
+    "oa-18487102"
+   ],
+   "date": "2027-06-16",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
   }
  },
  "sources_vues": [
   "clermont",
+  "openagenda",
   "ticketmaster"
  ],
  "initialise": true,
@@ -845,6 +1061,111 @@
   "https://www.stadefrance.com/fr": [],
   "https://www.accorarena.com/fr": [
    "Orelsan"
+  ]
+ },
+ "openagenda": {
+  "date": "2026-11-02T20:46:07Z",
+  "agendas": [
+   {
+    "uid": 84768140,
+    "titre": "Lyon"
+   },
+   {
+    "uid": 61051932,
+    "titre": "French Tech Saint-Etienne Lyon"
+   },
+   {
+    "uid": 70293659,
+    "titre": "PEC - Lyon"
+   },
+   {
+    "uid": 2937737,
+    "titre": "HORS DE PORTEE EN CONCERT LE 21/06 CHEZ GEORGETTE (LYON 5)"
+   },
+   {
+    "uid": 66597287,
+    "titre": "GL EVENTS EXHIBITIONS - LYON"
+   },
+   {
+    "uid": 96744614,
+    "titre": "Résonances Concerts"
+   },
+   {
+    "uid": 57935619,
+    "titre": "Artie's - concerts"
+   },
+   {
+    "uid": 1784466,
+    "titre": "Les Concerts Classiques"
+   },
+   {
+    "uid": 71924133,
+    "titre": "Les Concerts de Poche"
+   },
+   {
+    "uid": 4845752,
+    "titre": "CONCERT QUATUOR"
+   },
+   {
+    "uid": 76938974,
+    "titre": "Neggyröth, concerts metal"
+   },
+   {
+    "uid": 97819023,
+    "titre": "concerts en Seine-Maritime"
+   },
+   {
+    "uid": 28331841,
+    "titre": "Les Concerts de la Cathédrale, Genève"
+   },
+   {
+    "uid": 73081336,
+    "titre": "Agenda BoxSons"
+   },
+   {
+    "uid": 56987520,
+    "titre": "CONCERTS Péniche Didascalie"
+   },
+   {
+    "uid": 25836275,
+    "titre": "Concert gratuit gospel"
+   },
+   {
+    "uid": 20272888,
+    "titre": "JASS CLUB PARIS"
+   },
+   {
+    "uid": 3991265,
+    "titre": "Agenda de  Chécy"
+   },
+   {
+    "uid": 77287074,
+    "titre": "Ferme d'en haut"
+   },
+   {
+    "uid": 9969608,
+    "titre": "Shotgun"
+   },
+   {
+    "uid": 99170184,
+    "titre": "Saint-Étienne-du-Rouvray"
+   },
+   {
+    "uid": 6123663,
+    "titre": "Saint-Étienne du Mont"
+   },
+   {
+    "uid": 54428033,
+    "titre": "École Supérieure d'Art et Design Saint-Étienne"
+   },
+   {
+    "uid": 60194284,
+    "titre": "UL CGT Saint-Etienne"
+   },
+   {
+    "uid": 2316986,
+    "titre": "Rencontres contées de Saint-Étienne"
+   }
   ]
  }
 }

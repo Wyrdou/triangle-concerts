@@ -111,6 +111,37 @@
    "premier_scan": "2026-11-02T15:28:18Z"
   },
   {
+   "id": "oa-81207164",
+   "ids": [
+    "oa-81207164"
+   ],
+   "titre": "After Plavace 5 ans w. Piravates",
+   "artistes": [],
+   "date": "2026-11-06",
+   "heure": "22:00",
+   "salle": "Ninkasi Cordeliers",
+   "salle_id": "oa-74062526",
+   "ville": "Lyon",
+   "lat": 45.76297,
+   "lon": 4.837951,
+   "url": "https://openagenda.com/shotgun/events/81207164_after-plavace-5-ans-w-piravates",
+   "styles": [],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Shotgun",
+    "url": "https://shotgun.live/fr",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-10-05"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-02T20:46:07Z"
+  },
+  {
    "id": "ZkyMmBwZ1A7aOuV",
    "ids": [
     "ZkyMmBwZ1A7aOuV"
@@ -147,6 +178,74 @@
     "Rap et hip-hop"
    ],
    "premier_scan": "2026-11-02T15:28:18Z"
+  },
+  {
+   "id": "oa-12675043",
+   "ids": [
+    "oa-12675043"
+   ],
+   "titre": "Showcase Wantché",
+   "artistes": [],
+   "date": "2026-11-06",
+   "heure": "23:00",
+   "salle": "Villeurbanne",
+   "salle_id": "oa-10186810",
+   "ville": "Villeurbanne",
+   "lat": 45.771178,
+   "lon": 4.873474,
+   "url": "https://openagenda.com/shotgun/events/12675043_showcase-wantche",
+   "styles": [
+    "afro",
+    "rap",
+    "trap",
+    "r&b"
+   ],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Shotgun",
+    "url": "https://shotgun.live/fr",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-10-05"
+   },
+   "raisons": [
+    "Rap et hip-hop",
+    "R&B, soul et funk"
+   ],
+   "premier_scan": "2026-11-02T20:46:07Z"
+  },
+  {
+   "id": "oa-96140135",
+   "ids": [
+    "oa-96140135"
+   ],
+   "titre": "After Plavace 5 ans w. BU$HI",
+   "artistes": [],
+   "date": "2026-11-07",
+   "heure": "23:00",
+   "salle": "Le Sucre",
+   "salle_id": "oa-50314000",
+   "ville": "Lyon",
+   "lat": 45.736564,
+   "lon": 4.815116,
+   "url": "https://openagenda.com/shotgun/events/96140135_after-plavace-5-ans-w-budollarhi",
+   "styles": [],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Shotgun",
+    "url": "https://shotgun.live/fr",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-10-05"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-02T20:46:07Z"
   },
   {
    "id": "ZkyMmBwZ1A716Fv",
@@ -222,6 +321,41 @@
    "premier_scan": "2026-11-02T15:28:18Z"
   },
   {
+   "id": "oa-45150420",
+   "ids": [
+    "oa-45150420"
+   ],
+   "titre": "Plavace 5 ans w. 63OG - YJICK",
+   "artistes": [],
+   "date": "2026-11-07",
+   "heure": "18:30",
+   "salle": "Le Sucre",
+   "salle_id": "oa-59135229",
+   "ville": "Lyon",
+   "lat": 45.736572,
+   "lon": 4.815134,
+   "url": "https://openagenda.com/shotgun/events/45150420_plavace-5-ans-w-63og-yjick",
+   "styles": [
+    "rap",
+    "trap",
+    "afro"
+   ],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Shotgun",
+    "url": "https://shotgun.live/fr",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-10-05"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T20:46:07Z"
+  },
+  {
    "id": "ZkyMmBwZ1A7Gb0y",
    "ids": [
     "ZkyMmBwZ1A7Gb0y",
@@ -291,6 +425,40 @@
     "Rap et hip-hop"
    ],
    "premier_scan": "2026-11-02T15:28:18Z"
+  },
+  {
+   "id": "oa-92595387",
+   "ids": [
+    "oa-92595387"
+   ],
+   "titre": "After Plavace 5 ans w. AL-WALID",
+   "artistes": [],
+   "date": "2026-11-10",
+   "heure": "23:30",
+   "salle": "Transbordeur",
+   "salle_id": "oa-39675630",
+   "ville": "Villeurbanne",
+   "lat": 45.783899,
+   "lon": 4.860448,
+   "url": "https://openagenda.com/shotgun/events/92595387_after-plavace-5-ans-w-al-walid",
+   "styles": [
+    "rap",
+    "trap"
+   ],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Shotgun",
+    "url": "https://shotgun.live/fr",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-10-05"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T20:46:07Z"
   },
   {
    "id": "ZkyMmBwZ1A78UuM",
@@ -510,6 +678,37 @@
    "premier_scan": "2026-11-02T15:28:18Z"
   },
   {
+   "id": "oa-59681344",
+   "ids": [
+    "oa-59681344"
+   ],
+   "titre": "EXAEQUA - Nuit 2 : Flore & Honeydrip, Rroxymore and more",
+   "artistes": [],
+   "date": "2026-11-14",
+   "heure": "23:00",
+   "salle": "Le Sucre",
+   "salle_id": "oa-50314000",
+   "ville": "Lyon",
+   "lat": 45.736564,
+   "lon": 4.815116,
+   "url": "https://openagenda.com/shotgun/events/59681344_exaequa-nuit-2-flore-and-honeydrip-rroxymore-and-more",
+   "styles": [],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Shotgun",
+    "url": "https://shotgun.live/fr",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-10-05"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-02T20:46:07Z"
+  },
+  {
    "id": "cf-7710475",
    "ids": [
     "cf-7710475"
@@ -542,6 +741,37 @@
     "Rap et hip-hop"
    ],
    "premier_scan": "2026-11-02T15:28:18Z"
+  },
+  {
+   "id": "oa-30357394",
+   "ids": [
+    "oa-30357394"
+   ],
+   "titre": "KICK IN THE JAM | MER. 18.11",
+   "artistes": [],
+   "date": "2026-11-18",
+   "heure": "20:00",
+   "salle": "Kraspek Myzik",
+   "salle_id": "oa-93085059",
+   "ville": "Lyon",
+   "lat": 45.771287,
+   "lon": 4.835777,
+   "url": "https://openagenda.com/shotgun/events/30357394_kick-in-the-jam-or-mer-1811",
+   "styles": [],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Shotgun",
+    "url": "https://shotgun.live/fr",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-10-05"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-02T20:46:07Z"
   },
   {
    "id": "ZkyMmBwZ1A7GP8O",
@@ -692,6 +922,37 @@
    "premier_scan": "2026-11-02T15:28:18Z"
   },
   {
+   "id": "oa-59006423",
+   "ids": [
+    "oa-59006423"
+   ],
+   "titre": "Unsupported File Format : Aya (live), Blood of Aza & more",
+   "artistes": [],
+   "date": "2026-11-20",
+   "heure": "23:00",
+   "salle": "Le Sucre",
+   "salle_id": "oa-50314000",
+   "ville": "Lyon",
+   "lat": 45.736564,
+   "lon": 4.815116,
+   "url": "https://openagenda.com/shotgun/events/59006423_unsupported-file-format-aya-live-blood-of-aza-and-more",
+   "styles": [],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Shotgun",
+    "url": "https://shotgun.live/fr",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-10-05"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-02T20:46:07Z"
+  },
+  {
    "id": "ZkyMmBwZ1A7u-39",
    "ids": [
     "ZkyMmBwZ1A7u-39"
@@ -796,7 +1057,8 @@
   {
    "id": "ZkyMmBwZ1A7uoaN",
    "ids": [
-    "ZkyMmBwZ1A7uoaN"
+    "ZkyMmBwZ1A7uoaN",
+    "oa-19470613"
    ],
    "titre": "BEN PLG",
    "artistes": [
@@ -830,6 +1092,37 @@
     "Rap et hip-hop"
    ],
    "premier_scan": "2026-11-02T15:28:18Z"
+  },
+  {
+   "id": "oa-35279360",
+   "ids": [
+    "oa-35279360"
+   ],
+   "titre": "SUPERPOZE Live",
+   "artistes": [],
+   "date": "2026-11-26",
+   "heure": "18:30",
+   "salle": "Le Sucre",
+   "salle_id": "oa-50314000",
+   "ville": "Lyon",
+   "lat": 45.736564,
+   "lon": 4.815116,
+   "url": "https://openagenda.com/shotgun/events/35279360_superpoze-live",
+   "styles": [],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Shotgun",
+    "url": "https://shotgun.live/fr",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-10-05"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-02T20:46:07Z"
   },
   {
    "id": "ZkyMmBwZ1A7GMot",
@@ -954,6 +1247,40 @@
    "premier_scan": "2026-11-02T15:28:18Z"
   },
   {
+   "id": "oa-92239922",
+   "ids": [
+    "oa-47770720",
+    "oa-92239922"
+   ],
+   "titre": "PACK DUO : Luther + Rounhaa - Lyon - Transbordeur",
+   "artistes": [],
+   "date": "2026-12-04",
+   "heure": "20:00",
+   "salle": "Transbordeur",
+   "salle_id": "oa-39675630",
+   "ville": "Villeurbanne",
+   "lat": 45.783899,
+   "lon": 4.860448,
+   "url": "https://openagenda.com/shotgun/events/92239922_pack-duo-luther-rounhaa-lyon-transbordeur",
+   "styles": [
+    "rap"
+   ],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Shotgun",
+    "url": "https://shotgun.live/fr",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-10-05"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T20:46:07Z"
+  },
+  {
    "id": "ZkyMmBwZ1A78e0J",
    "ids": [
     "ZkyMmBwZ1A78e0J"
@@ -987,6 +1314,39 @@
     "Rap et hip-hop"
    ],
    "premier_scan": "2026-11-02T15:28:18Z"
+  },
+  {
+   "id": "oa-3583628",
+   "ids": [
+    "oa-3583628"
+   ],
+   "titre": "ROUNHAA - Lyon - Transbordeur",
+   "artistes": [],
+   "date": "2026-12-05",
+   "heure": "20:00",
+   "salle": "Transbordeur",
+   "salle_id": "oa-39675630",
+   "ville": "Villeurbanne",
+   "lat": 45.783899,
+   "lon": 4.860448,
+   "url": "https://openagenda.com/shotgun/events/3583628_rounhaa-lyon-transbordeur",
+   "styles": [
+    "rap"
+   ],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Shotgun",
+    "url": "https://shotgun.live/fr",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-10-05"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T20:46:07Z"
   },
   {
    "id": "ZkyMmBwZ1A7G0G-",
@@ -1063,6 +1423,37 @@
     "Jazz et blues"
    ],
    "premier_scan": "2026-11-02T15:45:39Z"
+  },
+  {
+   "id": "oa-64424655",
+   "ids": [
+    "oa-64424655"
+   ],
+   "titre": "S FESTIVAL 2026",
+   "artistes": [],
+   "date": "2026-12-09",
+   "heure": "18:00",
+   "salle": "Lieu",
+   "salle_id": "oa-87309325",
+   "ville": "Lyon",
+   "lat": 45.746274,
+   "lon": 4.8222,
+   "url": "https://openagenda.com/shotgun/events/64424655_s-festival-2026",
+   "styles": [],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Shotgun",
+    "url": "https://shotgun.live/fr",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-10-05"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-02T20:46:07Z"
   },
   {
    "id": "ZkyMmBwZ1A7G3bI",
@@ -1180,6 +1571,37 @@
    "premier_scan": "2026-11-02T15:28:18Z"
   },
   {
+   "id": "oa-41993764",
+   "ids": [
+    "oa-41993764"
+   ],
+   "titre": "KICK IN THE JAM | MER. 16.12",
+   "artistes": [],
+   "date": "2026-12-16",
+   "heure": "20:00",
+   "salle": "Kraspek Myzik",
+   "salle_id": "oa-93085059",
+   "ville": "Lyon",
+   "lat": 45.771287,
+   "lon": 4.835777,
+   "url": "https://openagenda.com/shotgun/events/41993764_kick-in-the-jam-or-mer-1612",
+   "styles": [],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Shotgun",
+    "url": "https://shotgun.live/fr",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-10-05"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-02T20:46:07Z"
+  },
+  {
    "id": "ZkyMmBwZ1A7FUGt",
    "ids": [
     "ZkyMmBwZ1A7FUGt"
@@ -1219,6 +1641,71 @@
    "premier_scan": "2026-11-02T15:28:18Z"
   },
   {
+   "id": "oa-10802483",
+   "ids": [
+    "oa-10802483"
+   ],
+   "titre": "DJ PONE — 30 ANS DE PLATINES",
+   "artistes": [],
+   "date": "2026-12-18",
+   "heure": "19:00",
+   "salle": "La Rayonne",
+   "salle_id": "oa-5360539",
+   "ville": "Villeurbanne",
+   "lat": 45.756734,
+   "lon": 4.917001,
+   "url": "https://openagenda.com/shotgun/events/10802483_dj-pone-30-ans-de-platines-3391937",
+   "styles": [
+    "hip hop",
+    "electro"
+   ],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Shotgun",
+    "url": "https://shotgun.live/fr",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-10-05"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T20:46:07Z"
+  },
+  {
+   "id": "oa-65028691",
+   "ids": [
+    "oa-65028691"
+   ],
+   "titre": "KICK IN THE JAM | MER. 20.01",
+   "artistes": [],
+   "date": "2027-01-20",
+   "heure": "20:00",
+   "salle": "Kraspek Myzik",
+   "salle_id": "oa-93085059",
+   "ville": "Lyon",
+   "lat": 45.771287,
+   "lon": 4.835777,
+   "url": "https://openagenda.com/shotgun/events/65028691_kick-in-the-jam-or-mer-2001",
+   "styles": [],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Shotgun",
+    "url": "https://shotgun.live/fr",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-10-05"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-02T20:46:07Z"
+  },
+  {
    "id": "ZkyMmBwZ1A7FPx9",
    "ids": [
     "ZkyMmBwZ1A7FPx9"
@@ -1255,6 +1742,41 @@
     "Rap et hip-hop"
    ],
    "premier_scan": "2026-11-02T15:28:18Z"
+  },
+  {
+   "id": "oa-72456004",
+   "ids": [
+    "oa-72456004"
+   ],
+   "titre": "POÉSIE ZÉRO + VULVES ASSASSINES + CITRON SUCRÉ",
+   "artistes": [],
+   "date": "2027-01-22",
+   "heure": "20:00",
+   "salle": "La Rayonne",
+   "salle_id": "oa-5360539",
+   "ville": "Villeurbanne",
+   "lat": 45.756734,
+   "lon": 4.917001,
+   "url": "https://openagenda.com/shotgun/events/72456004_poesie-zero-vulves-assassines-citron-sucre",
+   "styles": [
+    "punk",
+    "rap",
+    "electro"
+   ],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Shotgun",
+    "url": "https://shotgun.live/fr",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-10-05"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-02T20:46:07Z"
   },
   {
    "id": "cf-7796516",
@@ -1555,6 +2077,37 @@
    "premier_scan": "2026-11-02T15:28:18Z"
   },
   {
+   "id": "oa-88196637",
+   "ids": [
+    "oa-88196637"
+   ],
+   "titre": "KICK IN THE JAM | MER. 17.02",
+   "artistes": [],
+   "date": "2027-02-17",
+   "heure": "20:00",
+   "salle": "Kraspek Myzik",
+   "salle_id": "oa-93085059",
+   "ville": "Lyon",
+   "lat": 45.771287,
+   "lon": 4.835777,
+   "url": "https://openagenda.com/shotgun/events/88196637_kick-in-the-jam-or-mer-1702",
+   "styles": [],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Shotgun",
+    "url": "https://shotgun.live/fr",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-10-05"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-02T20:46:07Z"
+  },
+  {
    "id": "ZkyMmBwZ1A7GgC9",
    "ids": [
     "ZkyMmBwZ1A7GgC9"
@@ -1595,7 +2148,8 @@
   {
    "id": "ZkyMmBwZ1A788fs",
    "ids": [
-    "ZkyMmBwZ1A788fs"
+    "ZkyMmBwZ1A788fs",
+    "oa-45822973"
    ],
    "titre": "AUPINARD",
    "artistes": [
@@ -1707,7 +2261,8 @@
   {
    "id": "ZkyMmBwZ1A7ZgOP",
    "ids": [
-    "ZkyMmBwZ1A7ZgOP"
+    "ZkyMmBwZ1A7ZgOP",
+    "oa-68515386"
    ],
    "titre": "HATIK",
    "artistes": [
@@ -2041,6 +2596,37 @@
     "Style non renseigné"
    ],
    "premier_scan": "2026-11-02T15:28:18Z"
+  },
+  {
+   "id": "oa-33479126",
+   "ids": [
+    "oa-33479126"
+   ],
+   "titre": "KICK IN THE JAM | MER. 17.03",
+   "artistes": [],
+   "date": "2027-03-17",
+   "heure": "20:00",
+   "salle": "Kraspek Myzik",
+   "salle_id": "oa-93085059",
+   "ville": "Lyon",
+   "lat": 45.771287,
+   "lon": 4.835777,
+   "url": "https://openagenda.com/shotgun/events/33479126_kick-in-the-jam-or-mer-1703",
+   "styles": [],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Shotgun",
+    "url": "https://shotgun.live/fr",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-10-05"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-02T20:46:07Z"
   },
   {
    "id": "ZkyMmBwZ1A7GJaS",
@@ -2414,7 +3000,8 @@
   {
    "id": "ZkyMmBwZ1A78Y_z",
    "ids": [
-    "ZkyMmBwZ1A78Y_z"
+    "ZkyMmBwZ1A78Y_z",
+    "oa-28147894"
    ],
    "titre": "DANYL",
    "artistes": [
@@ -2599,6 +3186,37 @@
    "premier_scan": "2026-11-02T15:28:18Z"
   },
   {
+   "id": "oa-14459941",
+   "ids": [
+    "oa-14459941"
+   ],
+   "titre": "KICK IN THE JAM | MER. 21.04",
+   "artistes": [],
+   "date": "2027-04-21",
+   "heure": "20:00",
+   "salle": "Kraspek Myzik",
+   "salle_id": "oa-93085059",
+   "ville": "Lyon",
+   "lat": 45.771287,
+   "lon": 4.835777,
+   "url": "https://openagenda.com/shotgun/events/14459941_kick-in-the-jam-or-mer-2104",
+   "styles": [],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Shotgun",
+    "url": "https://shotgun.live/fr",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-10-05"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-02T20:46:07Z"
+  },
+  {
    "id": "ZkyMmBwZ1A7u00M",
    "ids": [
     "ZkyMmBwZ1A7u00M"
@@ -2673,6 +3291,68 @@
     "R&B, soul et funk"
    ],
    "premier_scan": "2026-11-02T15:28:18Z"
+  },
+  {
+   "id": "oa-42159614",
+   "ids": [
+    "oa-42159614"
+   ],
+   "titre": "KICK IN THE JAM | MER. 19.05",
+   "artistes": [],
+   "date": "2027-05-19",
+   "heure": "20:00",
+   "salle": "Kraspek Myzik",
+   "salle_id": "oa-93085059",
+   "ville": "Lyon",
+   "lat": 45.771287,
+   "lon": 4.835777,
+   "url": "https://openagenda.com/shotgun/events/42159614_kick-in-the-jam-or-mer-1905",
+   "styles": [],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Shotgun",
+    "url": "https://shotgun.live/fr",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-10-05"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-02T20:46:07Z"
+  },
+  {
+   "id": "oa-18487102",
+   "ids": [
+    "oa-18487102"
+   ],
+   "titre": "KICK IN THE JAM | MER. 16.06",
+   "artistes": [],
+   "date": "2027-06-16",
+   "heure": "20:00",
+   "salle": "Kraspek Myzik",
+   "salle_id": "oa-93085059",
+   "ville": "Lyon",
+   "lat": 45.771287,
+   "lon": 4.835777,
+   "url": "https://openagenda.com/shotgun/events/18487102_kick-in-the-jam-or-mer-1606",
+   "styles": [],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Shotgun",
+    "url": "https://shotgun.live/fr",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-10-05"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-02T20:46:07Z"
   },
   {
    "id": "ZkyMmBwZ1A7o8ZO",
