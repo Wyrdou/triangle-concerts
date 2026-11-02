@@ -1,9 +1,9 @@
 {
- "dernier_scan": "2026-11-02T15:24:03Z",
+ "dernier_scan": "2026-11-02T15:28:18Z",
  "ok": true,
- "erreur": "Telegram a refusé le message (400) : vérifiez le jeton et l'identifiant.",
+ "erreur": "",
  "avertissement": "",
- "telegram": "erreur",
+ "telegram": "actif",
  "compteurs": {
   "recus": 530,
   "dans_la_zone": 467,
