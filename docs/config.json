@@ -8,7 +8,7 @@
     "marge_km": 25
   },
   "artistes": [],
-  "styles": [],
+  "styles": ["rap", "rnb"],
   "mots_cles": [],
   "inclure_sans_style": true,
   "rappels_jours": [7, 1],
