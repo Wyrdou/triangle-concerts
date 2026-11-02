@@ -1,26 +1,78 @@
 {
   "zone": {
     "coins": [
-      {"nom": "Lyon", "lat": 45.764, "lon": 4.8357},
-      {"nom": "Saint-Étienne", "lat": 45.4397, "lon": 4.3872},
-      {"nom": "Clermont-Ferrand", "lat": 45.7772, "lon": 3.087}
+      {
+        "nom": "Lyon",
+        "lat": 45.764,
+        "lon": 4.8357
+      },
+      {
+        "nom": "Saint-Étienne",
+        "lat": 45.4397,
+        "lon": 4.3872
+      },
+      {
+        "nom": "Clermont-Ferrand",
+        "lat": 45.7772,
+        "lon": 3.087
+      }
     ],
     "marge_km": 30
   },
-  "artistes": ["Orelsan", "PLK", "Vald", "Yamê", "Eminem", "Tom Misch", "Imagine Dragons", "Tori Kelly", "Yebba", "Emma Nissen", "Jungle", "Vulfpeck"],
-  "styles": ["rap", "rnb", "jazz"],
+  "artistes": [
+    "Orelsan",
+    "PLK",
+    "Vald",
+    "Yamê",
+    "Eminem",
+    "Tom Misch",
+    "Imagine Dragons",
+    "Tori Kelly",
+    "Yebba",
+    "Emma Nissen",
+    "Jungle",
+    "Vulfpeck"
+  ],
+  "styles": [
+    "rap",
+    "rnb",
+    "jazz"
+  ],
   "mots_cles": [],
   "inclure_sans_style": true,
-  "rappels_jours": [7, 1],
+  "rappels_jours": [
+    7,
+    1
+  ],
   "sources": {
-    "openagenda": {"actif": true, "agendas": []},
-    "clermont": {"actif": true}
+    "openagenda": {
+      "actif": true,
+      "agendas": []
+    },
+    "clermont": {
+      "actif": true
+    }
   },
   "pages": [
-    {"nom": "La Coopérative de Mai", "url": "https://www.lacoope.org/"},
-    {"nom": "Le Fil", "url": "https://www.le-fil.com/"},
-    {"nom": "Le Transbordeur", "url": "https://www.transbordeur.fr/"},
-    {"nom": "Stade de France", "url": "https://www.stadefrance.com/fr"},
-    {"nom": "Bercy", "url": "https://www.accorarena.com/fr"}    
+    {
+      "nom": "La Coopérative de Mai",
+      "url": "https://www.lacoope.org/"
+    },
+    {
+      "nom": "Le Fil",
+      "url": "https://www.le-fil.com/"
+    },
+    {
+      "nom": "Le Transbordeur",
+      "url": "https://www.transbordeur.fr/"
+    },
+    {
+      "nom": "Stade de France",
+      "url": "https://www.stadefrance.com/fr"
+    },
+    {
+      "nom": "Bercy",
+      "url": "https://www.accorarena.com/fr"
+    }
   ]
 }
