@@ -55,6 +55,7 @@ MAX_CONCERT_TIMINGS = 12  # Au-delà, c'est une exposition ou un cycle, pas un c
 SOURCE_ORDER = {"ticketmaster": 0, "openagenda": 1, "clermont": 2}
 OA_STATUS = {2: "rescheduled", 4: "postponed", 5: "complet", 6: "canceled"}
 MUSIC_SEGMENT_ID = "KZFzniwnSyZfZ7v7nJ"
+USER_AGENT = "TriangleConcerts/1.0 (scanner personnel de concerts)"
 PAGE_SIZE = 200
 MAX_RESULTS = 1000  # L'API ne pagine pas au-delà du 1000e résultat.
 REQUEST_PAUSE = 0.25  # L'API accepte 5 requêtes par seconde.
@@ -73,6 +74,10 @@ DAYS = ["lun.", "mar.", "mer.", "jeu.", "ven.", "sam.", "dim."]
 
 class ScanError(Exception):
     """Erreur affichable publiquement : ne contient jamais de clé."""
+
+    def __init__(self, message: str, code: int | None = None):
+        super().__init__(message)
+        self.code = code
 
 
 # --- Texte ------------------------------------------------------------------
@@ -233,7 +238,8 @@ def search(base: dict, key: str, start: datetime | None = None, end: datetime | 
 
 
 def fetch_json(url: str, headers: dict | None = None, label: str = "La source"):
-    request = urllib.request.Request(url, headers={"Accept": "application/json", **(headers or {})})
+    # Certains pare-feu refusent l'identité par défaut de Python avec un 403.
+    request = urllib.request.Request(url, headers={"Accept": "application/json", "User-Agent": USER_AGENT, **(headers or {})})
     for attempt in range(3):
         try:
             with urllib.request.urlopen(request, timeout=45) as response:
@@ -242,7 +248,7 @@ def fetch_json(url: str, headers: dict | None = None, label: str = "La source"):
             if exc.code in (429, 500, 502, 503, 504) and attempt < 2:
                 time.sleep(2 ** attempt + 1)
                 continue
-            raise ScanError(f"{label} a répondu {exc.code}.") from None
+            raise ScanError(f"{label} a répondu {exc.code}.", exc.code) from None
         except (urllib.error.URLError, TimeoutError, json.JSONDecodeError):
             if attempt < 2:
                 time.sleep(2 ** attempt + 1)
@@ -435,7 +441,13 @@ def choose_agendas(options: dict, key: str, state: dict, now: datetime) -> list[
     fresh = parse_datetime(cache.get("date"))
     if fresh and now - fresh < timedelta(days=OPENAGENDA_REFRESH_DAYS) and cache.get("agendas"):
         return cache["agendas"]
-    agendas = discover_agendas(key, options.get("recherches") or OPENAGENDA_SEARCHES)
+    try:
+        agendas = discover_agendas(key, options.get("recherches") or OPENAGENDA_SEARCHES)
+    except ScanError as exc:
+        if exc.code in (401, 403):
+            raise ScanError(f"OpenAgenda refuse la recherche d'agendas ({exc.code}) : vérifiez que la clé "
+                            "autorise la lecture.", exc.code) from None
+        raise
     state["openagenda"] = {"date": api_date(now), "agendas": agendas}
     return agendas
 
@@ -528,29 +540,45 @@ def fetch_openagenda(config: dict, key: str, state: dict, now: datetime) -> tupl
     refused = 0
     truncated = 0
     per_agenda = []
+    errors = []
     for agenda in agendas:
         params = [("relative[]", "current"), ("relative[]", "upcoming"), ("monolingual", "fr"), ("detailed", 1),
                   ("sort", "timings.asc"), ("size", OPENAGENDA_PAGE_SIZE), *box]
         after: list = []
         found = 0
-        for page in range(OPENAGENDA_MAX_PAGES):
-            data = oa_get(f"/agendas/{agenda['uid']}/events", params + [("after[]", value) for value in after], key)
-            for raw in data.get("events", []):
-                if not raw.get("uid") or not (concert := parse_openagenda_event(raw, now)):
-                    continue
-                if not license_is_open(raw.get("rights")):
-                    refused += 1
-                    continue
-                found += concert["id"] not in concerts
-                concerts[concert["id"]] = concert
-            after = data.get("after") or []
-            time.sleep(REQUEST_PAUSE)
-            if not after:
-                break
-        else:
-            truncated += 1
-        per_agenda.append({"uid": agenda["uid"], "titre": agenda["titre"], "concerts": found})
-    message = f"{len(concerts)} concert(s) dans {len(agendas)} agenda(s)"
+        failure = ""
+        try:
+            for page in range(OPENAGENDA_MAX_PAGES):
+                data = oa_get(f"/agendas/{agenda['uid']}/events", params + [("after[]", value) for value in after], key)
+                for raw in data.get("events", []):
+                    if not raw.get("uid") or not (concert := parse_openagenda_event(raw, now)):
+                        continue
+                    if not license_is_open(raw.get("rights")):
+                        refused += 1
+                        continue
+                    found += concert["id"] not in concerts
+                    concerts[concert["id"]] = concert
+                after = data.get("after") or []
+                time.sleep(REQUEST_PAUSE)
+                if not after:
+                    break
+            else:
+                truncated += 1
+        except ScanError as exc:  # Un agenda privé ne doit pas bloquer les autres.
+            errors.append(exc)
+            failure = str(exc.code or "réseau")
+        entry = {"uid": agenda["uid"], "titre": agenda["titre"], "concerts": found}
+        if failure:
+            entry["erreur"] = failure
+        per_agenda.append(entry)
+    if agendas and len(errors) == len(agendas):
+        state.pop("openagenda", None)
+        codes = sorted({str(e.code or "réseau") for e in errors})
+        raise ScanError(f"OpenAgenda a refusé la lecture de tous les agendas ({', '.join(codes)}) : "
+                        "vérifiez les droits de la clé.", errors[0].code)
+    message = f"{len(concerts)} concert(s) dans {len(agendas) - len(errors)} agenda(s) lisible(s)"
+    if errors:
+        message += f", {len(errors)} agenda(s) inaccessible(s)"
     if refused:
         message += f", {refused} écarté(s) car leur licence n'est pas ouverte"
     if truncated:
