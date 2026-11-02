@@ -2651,7 +2651,7 @@
    "ville": "Lyon",
    "lat": 45.785811,
    "lon": 4.854658,
-   "url": "https://www.ticketmaster.fr/fr/manifestation/deluxe-billet/idmanif/656993/idtier/18864121",
+   "url": "https://www.ticketmaster.fr/fr/manifestation/deluxe-billet/idmanif/656993/idseance/4319185",
    "styles": [
     "R&B",
     "Rock",
@@ -2673,6 +2673,105 @@
     "R&B, soul et funk"
    ],
    "premier_scan": "2026-11-02T15:28:18Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7o8ZO",
+   "ids": [
+    "ZkyMmBwZ1A7o8ZO"
+   ],
+   "titre": "LA KERMESSE FESTIVAL - PASS 1 JOUR - PASS 1 JOUR - SAMEDI",
+   "artistes": [],
+   "date": "2027-06-19",
+   "heure": "15:00",
+   "salle": "GRAND PARC DE MIRIBEL-JONAGE",
+   "salle_id": "rZFSnyZAad6",
+   "ville": "Vaulx En Velin",
+   "lat": 45.777642,
+   "lon": 4.918794,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/la-kermesse-festival-pass-1-jour-billet/idmanif/677272/idseance/4450020",
+   "styles": [],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-02T17:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-02T20:19:49Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7ookv",
+   "ids": [
+    "ZkyMmBwZ1A7ookv"
+   ],
+   "titre": "LA KERMESSE FESTIVAL - PASS 2 JOURS - PASS 2 JOURS",
+   "artistes": [],
+   "date": "2027-06-19",
+   "heure": "00:00",
+   "salle": "GRAND PARC DE MIRIBEL-JONAGE",
+   "salle_id": "rZFSnyZAad6",
+   "ville": "Vaulx En Velin",
+   "lat": 45.777642,
+   "lon": 4.918794,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/la-kermesse-festival-pass-2-jours-billet/idmanif/677297/idseance/4451181",
+   "styles": [],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-02T17:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-02T20:19:49Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7o8Z-",
+   "ids": [
+    "ZkyMmBwZ1A7o8Z-"
+   ],
+   "titre": "LA KERMESSE FESTIVAL - PASS 1 JOUR - PASS 1 JOUR - DIMANCHE",
+   "artistes": [],
+   "date": "2027-06-20",
+   "heure": "15:00",
+   "salle": "GRAND PARC DE MIRIBEL-JONAGE",
+   "salle_id": "rZFSnyZAad6",
+   "ville": "Vaulx En Velin",
+   "lat": 45.777642,
+   "lon": 4.918794,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/la-kermesse-festival-pass-1-jour-billet/idmanif/677272/idseance/4450021",
+   "styles": [],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-02T17:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-02T20:19:49Z"
   },
   {
    "id": "ZkyMmBwZ1A787-6",
@@ -2943,7 +3042,7 @@
    "artiste": "Orelsan",
    "salle": "Bercy",
    "url": "https://www.accorarena.com/fr",
-   "nouveau": true
+   "nouveau": false
   }
  ]
 }

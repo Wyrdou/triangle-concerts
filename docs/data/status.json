@@ -1,27 +1,27 @@
 {
- "dernier_scan": "2026-11-02T15:45:39Z",
+ "dernier_scan": "2026-11-02T20:19:49Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 560,
-  "dans_la_zone": 484,
-  "retenus": 79,
-  "sans_style": 4
+  "recus": 562,
+  "dans_la_zone": 486,
+  "retenus": 82,
+  "sans_style": 7
  },
  "styles_vus": [
   [
    "Chanson Francaise",
-   167
+   166
   ],
   [
    "Pop",
-   164
+   163
   ],
   [
    "Rock",
-   138
+   137
   ],
   [
    "Arts et culture",
