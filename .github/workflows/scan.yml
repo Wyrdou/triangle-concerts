@@ -1,0 +1,47 @@
+name: Scanner
+
+on:
+  schedule:
+    # Tous les jours vers 7 h et 17 h à Lyon (l'heure GitHub est en UTC).
+    # GitHub peut démarrer ces tâches avec du retard.
+    - cron: "17 6,16 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scanner
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Scanner les concerts
+        env:
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+          OPENAGENDA_API_KEY: ${{ secrets.OPENAGENDA_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python3 scanner/scan.py
+
+      # Le commit a lieu même si le scan échoue : la page affiche alors l'erreur.
+      # Il garde aussi le dépôt actif, sinon GitHub suspend les tâches planifiées
+      # après 60 jours sans activité.
+      - name: Enregistrer les résultats
+        if: always()
+        run: |
+          git config user.name "scanner-concerts"
+          git config user.email "scanner-concerts@users.noreply.github.com"
+          git add docs/data state
+          if git diff --cached --quiet; then
+            echo "Aucun changement"
+            exit 0
+          fi
+          git commit -m "Scan du $(date -u +%Y-%m-%d)"
+          git pull --rebase
+          git push
