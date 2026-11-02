@@ -4,7 +4,7 @@ on:
   schedule:
     # Tous les jours vers 7 h et 17 h à Lyon (l'heure GitHub est en UTC).
     # GitHub peut démarrer ces tâches avec du retard.
-    - cron: "24 * * * *"
+    - cron: "15 6,16 * * *"
   workflow_dispatch:
 
 permissions:
