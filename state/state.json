@@ -644,7 +644,9 @@
    "ventes": {
     "publique:Vente générale": "2026-11-03T11:00:00Z"
    },
-   "rappels": []
+   "rappels": [
+    "publique:Vente générale|1"
+   ]
   },
   "ZkyMmBwZ1A78x_b": {
    "premier_scan": "2026-11-02T15:28:18Z",
@@ -697,6 +699,7 @@
  "pages": {
   "https://www.lacoope.org/": [],
   "https://www.le-fil.com/": [],
-  "https://www.transbordeur.fr/": []
+  "https://www.transbordeur.fr/": [],
+  "https://www.stadefrance.com/fr": []
  }
 }

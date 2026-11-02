@@ -1,5 +1,5 @@
 {
- "dernier_scan": "2026-11-02T15:28:18Z",
+ "dernier_scan": "2026-11-02T15:33:00Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
@@ -188,6 +188,12 @@
   {
    "nom": "Le Transbordeur",
    "url": "https://www.transbordeur.fr/",
+   "ok": true,
+   "message": "0 artiste(s) repéré(s)"
+  },
+  {
+   "nom": "Satde de France",
+   "url": "https://www.stadefrance.com/fr",
    "ok": true,
    "message": "0 artiste(s) repéré(s)"
   }
