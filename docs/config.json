@@ -7,7 +7,7 @@
     ],
     "marge_km": 25
   },
-  "artistes": [],
+  "artistes": ["Orelsan", "PLK"],
   "styles": ["rap", "rnb"],
   "mots_cles": [],
   "inclure_sans_style": true,
@@ -19,6 +19,7 @@
   "pages": [
     {"nom": "La Coopérative de Mai", "url": "https://www.lacoope.org/"},
     {"nom": "Le Fil", "url": "https://www.le-fil.com/"},
-    {"nom": "Le Transbordeur", "url": "https://www.transbordeur.fr/"}
+    {"nom": "Le Transbordeur", "url": "https://www.transbordeur.fr/"},
+    {"nom": "Satde de France", "url": "https://www.stadefrance.com/fr"}    
   ]
 }
