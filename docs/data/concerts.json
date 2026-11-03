@@ -38,6 +38,37 @@
    "premier_scan": "2026-11-02T15:28:18Z"
   },
   {
+   "id": "oa-90184734",
+   "ids": [
+    "oa-90184734"
+   ],
+   "titre": "Concert\"participatif\" pour oreilles délicates",
+   "artistes": [],
+   "date": "2026-11-05",
+   "heure": "14:30",
+   "salle": "ephad morlot",
+   "salle_id": "oa-52508929",
+   "ville": "Décines-Charpieu",
+   "lat": 45.773606,
+   "lon": 4.963331,
+   "url": "https://openagenda.com/anissa-karat/events/90184734_concertparticipatif-pour-oreilles-delicates",
+   "styles": [],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Anissa Karat",
+    "url": "https://anissakarat.conteuse.pro/",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-10-05"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-03T15:04:08Z"
+  },
+  {
    "id": "rZ7SnyZ1A77xeK",
    "ids": [
     "rZ7SnyZ1A77xeK"
@@ -246,6 +277,37 @@
     "Style non renseigné"
    ],
    "premier_scan": "2026-11-02T20:46:07Z"
+  },
+  {
+   "id": "oa-55344996",
+   "ids": [
+    "oa-55344996"
+   ],
+   "titre": "Concert automnal",
+   "artistes": [],
+   "date": "2026-11-07",
+   "heure": "20:30",
+   "salle": "Salle Georges Bourbon",
+   "salle_id": "oa-9600276",
+   "ville": "Amplepuis",
+   "lat": 45.9659,
+   "lon": 4.33277,
+   "url": "https://openagenda.com/cmf/events/55344996_concert-4132217",
+   "styles": [],
+   "statut": "rescheduled",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Confédération Musicale de France",
+    "url": "https://www.cmf-musique.org",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-10-13"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-03T15:04:08Z"
   },
   {
    "id": "ZkyMmBwZ1A716Fv",
@@ -709,6 +771,37 @@
    "premier_scan": "2026-11-02T20:46:07Z"
   },
   {
+   "id": "oa-58893756",
+   "ids": [
+    "oa-58893756"
+   ],
+   "titre": "Piao plume en concert !",
+   "artistes": [],
+   "date": "2026-11-17",
+   "heure": "18:30",
+   "salle": "Salle Georges Brassens,",
+   "salle_id": "oa-16601281",
+   "ville": "Saint-Germain-au-Mont-d'Or",
+   "lat": 45.885543,
+   "lon": 4.80188,
+   "url": "https://openagenda.com/saint-germain-au-mont-dor/events/58893756_piao-plume-en-concert",
+   "styles": [],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Saint-Germain-au-Mont-d'Or",
+    "url": "https://www.saintgermainaumontdor.org/",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-10-30"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-03T15:04:08Z"
+  },
+  {
    "id": "cf-7710475",
    "ids": [
     "cf-7710475"
@@ -848,6 +941,37 @@
     "R&B, soul et funk"
    ],
    "premier_scan": "2026-11-02T15:28:18Z"
+  },
+  {
+   "id": "oa-66694908",
+   "ids": [
+    "oa-66694908"
+   ],
+   "titre": "ASSEMBLAGE - CONCERT RIOT GRRRL & Marché DIY",
+   "artistes": [],
+   "date": "2026-11-20",
+   "heure": "17:00",
+   "salle": "Toï Toï Le Zinc",
+   "salle_id": "oa-97116157",
+   "ville": "Villeurbanne",
+   "lat": 45.779709,
+   "lon": 4.877152,
+   "url": "https://openagenda.com/villeurbanne2022/events/66694908_assemblage-concert-riot-grrrl-and-marche-diy",
+   "styles": [],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Villeurbanne - Agenda culturel",
+    "url": "https://viva.villeurbanne.fr/Agenda/list",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-10-19"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-03T15:04:08Z"
   },
   {
    "id": "ZkyMmBwZ1A7uebY",
@@ -1022,6 +1146,40 @@
    "premier_scan": "2026-11-02T15:45:39Z"
   },
   {
+   "id": "oa-49997806",
+   "ids": [
+    "oa-49997806"
+   ],
+   "titre": "SOIRÉE JAZZ",
+   "artistes": [],
+   "date": "2026-11-23",
+   "heure": "20:00",
+   "salle": "ENM de Villeurbanne",
+   "salle_id": "oa-22128828",
+   "ville": "Villeurbanne",
+   "lat": 45.766993,
+   "lon": 4.873806,
+   "url": "https://openagenda.com/villeurbanne/events/49997806_soiree-jazz-5303319",
+   "styles": [
+    "ENM",
+    "jazz"
+   ],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Villeurbanne",
+    "url": "https://www.villeurbanne.fr/",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-10-07"
+   },
+   "raisons": [
+    "Jazz et blues"
+   ],
+   "premier_scan": "2026-11-03T15:04:08Z"
+  },
+  {
    "id": "ZkyMmBwZ1A7C74O",
    "ids": [
     "ZkyMmBwZ1A7C74O"
@@ -1165,6 +1323,99 @@
     "Jazz et blues"
    ],
    "premier_scan": "2026-11-02T15:28:18Z"
+  },
+  {
+   "id": "oa-92690185",
+   "ids": [
+    "oa-92690185"
+   ],
+   "titre": "Grande Soirée de Solidarité Internationale avec Cuba le Vendredi 27 Novembre 2026 au CCVA",
+   "artistes": [],
+   "date": "2026-11-27",
+   "heure": "19:00",
+   "salle": "CCVA - Centre Culturel et de la Vie Associative",
+   "salle_id": "oa-54691858",
+   "ville": "Villeurbanne",
+   "lat": 45.767893,
+   "lon": 4.887866,
+   "url": "https://openagenda.com/wikilleurbanne/events/92690185_grande-soiree-de-solidarite-internationale-avec-cuba-le-vendredi-27-novembre-2026-au-ccva",
+   "styles": [],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Wikilleurbanne",
+    "url": "https://www.wikilleurbanne.fr/?PagePrincipale",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-10-29"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-03T15:04:08Z"
+  },
+  {
+   "id": "oa-929263",
+   "ids": [
+    "oa-929263"
+   ],
+   "titre": "Concert de Ste Cécile \"Ballades dans Paris\"",
+   "artistes": [],
+   "date": "2026-11-29",
+   "heure": "15:30",
+   "salle": "Espace Mosaïque",
+   "salle_id": "oa-90656702",
+   "ville": "Saint-Priest",
+   "lat": 45.693889,
+   "lon": 4.930338,
+   "url": "https://openagenda.com/cmf/events/929263_concert-de-ste-cecile-ballades-dans-paris",
+   "styles": [],
+   "statut": "rescheduled",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Confédération Musicale de France",
+    "url": "https://www.cmf-musique.org",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-11-03"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-03T15:04:08Z"
+  },
+  {
+   "id": "oa-82460593",
+   "ids": [
+    "oa-82460593"
+   ],
+   "titre": "Concert acoustique - AMI",
+   "artistes": [],
+   "date": "2026-12-02",
+   "heure": "12:45",
+   "salle": "Salle René Char (bâtiment La Rotonde, INSA Lyon, campus La Doua)",
+   "salle_id": "oa-98516635",
+   "ville": "Villeurbanne",
+   "lat": 45.782382,
+   "lon": 4.874914,
+   "url": "https://openagenda.com/villeurbanne2022/events/82460593_concert-acoustique-ami-9415094",
+   "styles": [],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Villeurbanne - Agenda culturel",
+    "url": "https://viva.villeurbanne.fr/Agenda/list",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-10-27"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-03T15:04:08Z"
   },
   {
    "id": "ZkyMmBwZ1A7ueOE",
@@ -1388,6 +1639,37 @@
    "premier_scan": "2026-11-02T15:28:18Z"
   },
   {
+   "id": "oa-48655190",
+   "ids": [
+    "oa-48655190"
+   ],
+   "titre": "Concert \" Participatif\"",
+   "artistes": [],
+   "date": "2026-12-07",
+   "heure": "14:00",
+   "salle": "Hôpital des Charpennes",
+   "salle_id": "oa-6531197",
+   "ville": "Villeurbanne",
+   "lat": 45.771447,
+   "lon": 4.864625,
+   "url": "https://openagenda.com/anissa-karat/events/48655190_concert-participatif-4188602",
+   "styles": [],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Anissa Karat",
+    "url": "https://anissakarat.conteuse.pro/",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-10-05"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-03T15:04:08Z"
+  },
+  {
    "id": "ZkyMmBwZ1A7awfU",
    "ids": [
     "ZkyMmBwZ1A7awfU",
@@ -1423,6 +1705,45 @@
     "Jazz et blues"
    ],
    "premier_scan": "2026-11-02T15:45:39Z"
+  },
+  {
+   "id": "oa-47267211",
+   "ids": [
+    "oa-47267211"
+   ],
+   "titre": "Le livre de la jungle : projection de Noël",
+   "artistes": [],
+   "date": "2026-12-09",
+   "heure": "14:30",
+   "salle": "Maison du livre, de l'image et du son",
+   "salle_id": "oa-59158404",
+   "ville": "Villeurbanne",
+   "lat": 45.768033,
+   "lon": 4.887698,
+   "url": "https://openagenda.com/test-villeurbanne/events/47267211_le-livre-de-la-jungle-projection-de-noel",
+   "styles": [
+    "cinéma",
+    "jeune public",
+    "3-5 ans",
+    "6-7 ans",
+    "8-9 ans",
+    "ados +10 ans",
+    "adultes"
+   ],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Test Villeurbanne",
+    "url": "https://openagenda.com/test-villeurbanne",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-08-06"
+   },
+   "raisons": [
+    "Jungle"
+   ],
+   "premier_scan": "2026-11-03T15:04:08Z"
   },
   {
    "id": "oa-64424655",
@@ -1641,6 +1962,37 @@
    "premier_scan": "2026-11-02T15:28:18Z"
   },
   {
+   "id": "oa-18528709",
+   "ids": [
+    "oa-18528709"
+   ],
+   "titre": "CONCERT de Noel",
+   "artistes": [],
+   "date": "2026-12-18",
+   "heure": "20:00",
+   "salle": "Espace Albert Camus",
+   "salle_id": "oa-50075126",
+   "ville": "Bron",
+   "lat": 45.727398,
+   "lon": 4.919838,
+   "url": "https://openagenda.com/cmf/events/18528709_concert-de-noel-3984332",
+   "styles": [],
+   "statut": "rescheduled",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Confédération Musicale de France",
+    "url": "https://www.cmf-musique.org",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-09-29"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-03T15:04:08Z"
+  },
+  {
    "id": "oa-10802483",
    "ids": [
     "oa-10802483"
@@ -1673,6 +2025,69 @@
     "Rap et hip-hop"
    ],
    "premier_scan": "2026-11-02T20:46:07Z"
+  },
+  {
+   "id": "oa-2992115",
+   "ids": [
+    "oa-2992115",
+    "oa-54325496"
+   ],
+   "titre": "Concert de Noël",
+   "artistes": [],
+   "date": "2026-12-19",
+   "heure": "17:00",
+   "salle": "CCVA - Centre Culturel et de la Vie Associative",
+   "salle_id": "oa-54691858",
+   "ville": "Villeurbanne",
+   "lat": 45.767893,
+   "lon": 4.887866,
+   "url": "https://openagenda.com/wikilleurbanne/events/2992115_concert-de-noel-6809933",
+   "styles": [],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Wikilleurbanne",
+    "url": "https://www.wikilleurbanne.fr/?PagePrincipale",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-10-31"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-03T15:04:08Z"
+  },
+  {
+   "id": "oa-62828454",
+   "ids": [
+    "oa-62828454"
+   ],
+   "titre": "Orchestre d'Harmonie de Châtel-Guyon",
+   "artistes": [],
+   "date": "2026-12-20",
+   "heure": "17:00",
+   "salle": "Théâtre",
+   "salle_id": "oa-36967615",
+   "ville": "CHATEL GUYON",
+   "lat": 45.919931,
+   "lon": 3.063652,
+   "url": "https://openagenda.com/cmf/events/62828454_orchestre-dharmonie-de-chatel-guyon-830941",
+   "styles": [],
+   "statut": "rescheduled",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Confédération Musicale de France",
+    "url": "https://www.cmf-musique.org",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-07-31"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-03T15:04:08Z"
   },
   {
    "id": "oa-65028691",
@@ -2037,6 +2452,40 @@
     "Rap et hip-hop"
    ],
    "premier_scan": "2026-11-02T15:28:18Z"
+  },
+  {
+   "id": "oa-98869413",
+   "ids": [
+    "oa-98869413"
+   ],
+   "titre": "HOMMAGE À GILBERT DOJAT",
+   "artistes": [],
+   "date": "2027-02-11",
+   "heure": "20:00",
+   "salle": "ENM de Villeurbanne",
+   "salle_id": "oa-22128828",
+   "ville": "Villeurbanne",
+   "lat": 45.766993,
+   "lon": 4.873806,
+   "url": "https://openagenda.com/villeurbanne/events/98869413_hommage-a-gilbert-dojat",
+   "styles": [
+    "jazz",
+    "ENM"
+   ],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Villeurbanne",
+    "url": "https://www.villeurbanne.fr/",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-10-07"
+   },
+   "raisons": [
+    "Jazz et blues"
+   ],
+   "premier_scan": "2026-11-03T15:04:08Z"
   },
   {
    "id": "ZkyMmBwZ1A7uZGo",
@@ -2772,6 +3221,37 @@
    "premier_scan": "2026-11-02T15:28:18Z"
   },
   {
+   "id": "oa-86691749",
+   "ids": [
+    "oa-86691749"
+   ],
+   "titre": "CONCERT DE PRINTEMPS - Harmonie",
+   "artistes": [],
+   "date": "2027-03-20",
+   "heure": "20:30",
+   "salle": "Espace Albert Camus",
+   "salle_id": "oa-50075126",
+   "ville": "Bron",
+   "lat": 45.727398,
+   "lon": 4.919838,
+   "url": "https://openagenda.com/cmf/events/86691749_concert-de-printemps-harmonie",
+   "styles": [],
+   "statut": "rescheduled",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Confédération Musicale de France",
+    "url": "https://www.cmf-musique.org",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-09-30"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-03T15:04:08Z"
+  },
+  {
    "id": "ZkyMmBwZ1A7C7b9",
    "ids": [
     "ZkyMmBwZ1A7C7b9"
@@ -3113,6 +3593,73 @@
    "premier_scan": "2026-11-02T15:28:18Z"
   },
   {
+   "id": "oa-72318641",
+   "ids": [
+    "oa-72318641"
+   ],
+   "titre": "Assassin @ Saint-Étienne (42) - Le Fil",
+   "artistes": [],
+   "date": "2027-04-03",
+   "heure": "19:30",
+   "salle": "Le Fil",
+   "salle_id": "oa-46486391",
+   "ville": "Saint-Étienne",
+   "lat": 45.44995,
+   "lon": 4.390749,
+   "url": "https://openagenda.com/ile-de-france/events/72318641_assassin-saint-etienne-42-le-fil",
+   "styles": [
+    "hiphop",
+    "rap",
+    "Assassin",
+    "Tournée"
+   ],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "OpenAgenda en Île-de-France",
+    "url": "https://idf.oagenda.com/",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-05-12"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-03T15:04:08Z"
+  },
+  {
+   "id": "oa-54362406",
+   "ids": [
+    "oa-54362406"
+   ],
+   "titre": "Concert de Printemps",
+   "artistes": [],
+   "date": "2027-04-03",
+   "heure": "20:30",
+   "salle": "La Mouniaude",
+   "salle_id": "oa-5283892",
+   "ville": "CHATEL-GUYON",
+   "lat": 45.918699,
+   "lon": 3.073981,
+   "url": "https://openagenda.com/cmf/events/54362406_concert-de-printemps-4988271",
+   "styles": [],
+   "statut": "rescheduled",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Confédération Musicale de France",
+    "url": "https://www.cmf-musique.org",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-09-02"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-03T15:04:08Z"
+  },
+  {
    "id": "ZkyMmBwZ1A78z-U",
    "ids": [
     "ZkyMmBwZ1A78z-U"
@@ -3291,6 +3838,37 @@
     "R&B, soul et funk"
    ],
    "premier_scan": "2026-11-02T15:28:18Z"
+  },
+  {
+   "id": "oa-23240907",
+   "ids": [
+    "oa-23240907"
+   ],
+   "titre": "Concert école de musique",
+   "artistes": [],
+   "date": "2027-05-02",
+   "heure": "16:00",
+   "salle": "Espace Albert Camus",
+   "salle_id": "oa-50075126",
+   "ville": "Bron",
+   "lat": 45.727398,
+   "lon": 4.919838,
+   "url": "https://openagenda.com/cmf/events/23240907_concert-ecole-de-musique-109897",
+   "styles": [],
+   "statut": "rescheduled",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Confédération Musicale de France",
+    "url": "https://www.cmf-musique.org",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-09-30"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-03T15:04:08Z"
   },
   {
    "id": "oa-42159614",
@@ -3549,7 +4127,7 @@
    "styles": [
     "Hip-Hop/Rap"
    ],
-   "statut": "offsale",
+   "statut": "onsale",
    "ventes": [
     {
      "type": "publique",
@@ -3643,6 +4221,37 @@
    "premier_scan": "2026-11-02T15:28:18Z"
   },
   {
+   "id": "oa-15359745",
+   "ids": [
+    "oa-15359745"
+   ],
+   "titre": "Concert",
+   "artistes": [],
+   "date": "2027-11-06",
+   "heure": "20:30",
+   "salle": "Salle Georges Bourbon",
+   "salle_id": "oa-9600276",
+   "ville": "Amplepuis",
+   "lat": 45.9659,
+   "lon": 4.33277,
+   "url": "https://openagenda.com/cmf/events/15359745_concert-6057537",
+   "styles": [],
+   "statut": "rescheduled",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Confédération Musicale de France",
+    "url": "https://www.cmf-musique.org",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-06-05"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-03T15:04:08Z"
+  },
+  {
    "id": "ZkyMmBwZ1A7uok3",
    "ids": [
     "ZkyMmBwZ1A7uok3"
@@ -3715,6 +4324,38 @@
     "Rap et hip-hop"
    ],
    "premier_scan": "2026-11-02T15:28:18Z"
+  },
+  {
+   "id": "oa-77535615",
+   "ids": [
+    "oa-64490808",
+    "oa-77535615"
+   ],
+   "titre": "CONCERT // Fiesta latina",
+   "artistes": [],
+   "date": "2035-09-14",
+   "heure": "20:30",
+   "salle": "Toï Toï Le Zinc",
+   "salle_id": "oa-2337014",
+   "ville": "Villeurbanne",
+   "lat": 45.779709,
+   "lon": 4.877152,
+   "url": "https://openagenda.com/test-wiki/events/77535615_concert-fiesta-latina-5163064",
+   "styles": [],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Test Wiki",
+    "url": "https://openagenda.com/test-wiki",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-06-02"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-03T15:04:08Z"
   }
  ],
  "reperes": [

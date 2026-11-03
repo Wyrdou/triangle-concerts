@@ -1,14 +1,14 @@
 {
- "dernier_scan": "2026-11-03T07:15:35Z",
+ "dernier_scan": "2026-11-03T15:04:08Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 601,
-  "dans_la_zone": 514,
-  "retenus": 103,
-  "sans_style": 21
+  "recus": 674,
+  "dans_la_zone": 580,
+  "retenus": 123,
+  "sans_style": 37
  },
  "styles_vus": [
   [
@@ -17,11 +17,11 @@
   ],
   [
    "Pop",
-   163
+   162
   ],
   [
    "Rock",
-   137
+   136
   ],
   [
    "Arts et culture",
@@ -34,6 +34,10 @@
   [
    "Hip-Hop/Rap",
    53
+  ],
+  [
+   "ENM",
+   26
   ],
   [
    "Metal",
@@ -92,11 +96,15 @@
    7
   ],
   [
+   "rap",
+   7
+  ],
+  [
    "Alternative",
    6
   ],
   [
-   "rap",
+   "chanson",
    6
   ],
   [
@@ -109,6 +117,10 @@
   ],
   [
    "Comedy",
+   4
+  ],
+  [
+   "rock",
    4
   ],
   [
@@ -132,7 +144,19 @@
    3
   ],
   [
-   "rock",
+   "baltrad",
+   3
+  ],
+  [
+   "balfolk",
+   3
+  ],
+  [
+   "folk",
+   3
+  ],
+  [
+   "baroque",
    3
   ],
   [
@@ -140,35 +164,11 @@
    3
   ],
   [
+   "Chanson",
+   3
+  ],
+  [
    "Theatre",
-   2
-  ],
-  [
-   "Musical",
-   2
-  ],
-  [
-   "International Pop",
-   2
-  ],
-  [
-   "Miscellaneous",
-   2
-  ],
-  [
-   "Singer-Songwriter",
-   2
-  ],
-  [
-   "Folk",
-   2
-  ],
-  [
-   "Dream Pop",
-   2
-  ],
-  [
-   "Indie Rock",
    2
   ]
  ],
@@ -209,12 +209,105 @@
    "nom": "OpenAgenda",
    "type": "openagenda",
    "ok": true,
-   "message": "39 concert(s) dans 1 agenda(s) lisible(s)",
+   "message": "113 concert(s) avec la lecture transverse",
+   "transverse": true,
+   "recherches": [
+    {
+     "terme": "concert",
+     "lus": 99,
+     "concerts": 90
+    },
+    {
+     "terme": "récital",
+     "lus": 2,
+     "concerts": 2
+    },
+    {
+     "terme": "showcase",
+     "lus": 1,
+     "concerts": 1
+    },
+    {
+     "terme": "dj set",
+     "lus": 7,
+     "concerts": 2
+    },
+    {
+     "terme": "festival de musique",
+     "lus": 196,
+     "concerts": 10
+    },
+    {
+     "terme": "musiques actuelles",
+     "lus": 10,
+     "concerts": 0
+    },
+    {
+     "terme": "Orelsan",
+     "lus": 0,
+     "concerts": 0
+    },
+    {
+     "terme": "PLK",
+     "lus": 0,
+     "concerts": 0
+    },
+    {
+     "terme": "Vald",
+     "lus": 0,
+     "concerts": 0
+    },
+    {
+     "terme": "Yamê",
+     "lus": 0,
+     "concerts": 0
+    },
+    {
+     "terme": "Eminem",
+     "lus": 0,
+     "concerts": 0
+    },
+    {
+     "terme": "Tom Misch",
+     "lus": 2,
+     "concerts": 0
+    },
+    {
+     "terme": "Imagine Dragons",
+     "lus": 1,
+     "concerts": 0
+    },
+    {
+     "terme": "Tori Kelly",
+     "lus": 0,
+     "concerts": 0
+    },
+    {
+     "terme": "Yebba",
+     "lus": 0,
+     "concerts": 0
+    },
+    {
+     "terme": "Emma Nissen",
+     "lus": 0,
+     "concerts": 0
+    },
+    {
+     "terme": "Jungle",
+     "lus": 1,
+     "concerts": 1
+    },
+    {
+     "terme": "Vulfpeck",
+     "lus": 0,
+     "concerts": 0
+    }
+   ],
    "agendas": [
     {
      "uid": 9969608,
      "titre": "9969608",
-     "concerts": 39
+     "concerts": 7
     }
    ]
   },

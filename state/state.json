@@ -644,7 +644,7 @@
     "ZkyMmBwZ1A78wfy"
    ],
    "date": "2027-10-23",
-   "statut": "offsale",
+   "statut": "onsale",
    "ventes": {
     "publique:Vente générale": "2026-11-03T11:00:00Z"
    },
@@ -1044,6 +1044,208 @@
    "statut": "",
    "ventes": {},
    "rappels": []
+  },
+  "oa-90184734": {
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "ids": [
+    "oa-90184734"
+   ],
+   "date": "2026-11-05",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-55344996": {
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "ids": [
+    "oa-55344996"
+   ],
+   "date": "2026-11-07",
+   "statut": "rescheduled",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-58893756": {
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "ids": [
+    "oa-58893756"
+   ],
+   "date": "2026-11-17",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-66694908": {
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "ids": [
+    "oa-66694908"
+   ],
+   "date": "2026-11-20",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-49997806": {
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "ids": [
+    "oa-49997806"
+   ],
+   "date": "2026-11-23",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-92690185": {
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "ids": [
+    "oa-92690185"
+   ],
+   "date": "2026-11-27",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-929263": {
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "ids": [
+    "oa-929263"
+   ],
+   "date": "2026-11-29",
+   "statut": "rescheduled",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-82460593": {
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "ids": [
+    "oa-82460593"
+   ],
+   "date": "2026-12-02",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-48655190": {
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "ids": [
+    "oa-48655190"
+   ],
+   "date": "2026-12-07",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-47267211": {
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "ids": [
+    "oa-47267211"
+   ],
+   "date": "2026-12-09",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-18528709": {
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "ids": [
+    "oa-18528709"
+   ],
+   "date": "2026-12-18",
+   "statut": "rescheduled",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-2992115": {
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "ids": [
+    "oa-2992115",
+    "oa-54325496"
+   ],
+   "date": "2026-12-19",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-62828454": {
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "ids": [
+    "oa-62828454"
+   ],
+   "date": "2026-12-20",
+   "statut": "rescheduled",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-98869413": {
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "ids": [
+    "oa-98869413"
+   ],
+   "date": "2027-02-11",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-86691749": {
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "ids": [
+    "oa-86691749"
+   ],
+   "date": "2027-03-20",
+   "statut": "rescheduled",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-72318641": {
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "ids": [
+    "oa-72318641"
+   ],
+   "date": "2027-04-03",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-54362406": {
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "ids": [
+    "oa-54362406"
+   ],
+   "date": "2027-04-03",
+   "statut": "rescheduled",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-23240907": {
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "ids": [
+    "oa-23240907"
+   ],
+   "date": "2027-05-02",
+   "statut": "rescheduled",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-15359745": {
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "ids": [
+    "oa-15359745"
+   ],
+   "date": "2027-11-06",
+   "statut": "rescheduled",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-77535615": {
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "ids": [
+    "oa-64490808",
+    "oa-77535615"
+   ],
+   "date": "2035-09-14",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
   }
  },
  "sources_vues": [
@@ -1167,5 +1369,6 @@
     "titre": "Rencontres contées de Saint-Étienne"
    }
   ]
- }
+ },
+ "oa_transverse": true
 }
