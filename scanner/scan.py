@@ -39,6 +39,8 @@ OPENAGENDA_PAGE_SIZE = 300
 OPENAGENDA_MAX_PAGES = 6
 OPENAGENDA_MAX_AGENDAS = 25
 OPENAGENDA_REFRESH_DAYS = 7
+OPENAGENDA_TRANSVERSE_PAGES = 20
+OPENAGENDA_TERMS = ["concert", "récital", "showcase", "dj set", "festival de musique", "musiques actuelles"]
 OPENAGENDA_SEARCHES = ["Lyon concert", "Saint-Étienne concert", "Clermont-Ferrand concert",
                        "Lyon", "Saint-Étienne", "Clermont-Ferrand"]
 OPEN_LICENSES = ("etalab", "cc0", "cc-by", "odc-by", "ogl")
@@ -470,8 +472,12 @@ def parse_oa_date(value: str | None) -> datetime | None:
     return parse_datetime(re.sub(r"([+-]\d{2})(\d{2})$", r"\1:\2", value))
 
 
-def parse_openagenda_event(raw: dict, now: datetime) -> dict | None:
-    """Renvoie un concert, ou None si l'événement n'en est pas un."""
+def parse_openagenda_event(raw: dict, now: datetime, artists: tuple = ()) -> dict | None:
+    """Renvoie un concert, ou None si l'événement n'en est pas un.
+
+    Un artiste suivi cité dans le titre ou le texte suffit à garder l'événement,
+    même si le mot « concert » n'y figure pas.
+    """
     title = raw.get("title") or ""
     if isinstance(title, dict):
         title = title.get("fr") or next(iter(title.values()), "")
@@ -485,7 +491,9 @@ def parse_openagenda_event(raw: dict, now: datetime) -> dict | None:
     start = next_timing(timings, now)
     if not title or start is None or len(timings) > MAX_CONCERT_TIMINGS or raw.get("attendanceMode") == 2:
         return None
-    if is_excluded_format(title) or not looks_like_concert(title, " ".join(keywords), description):
+    text = normalize(f"{title} {description}")
+    names_artist = any(contains_phrase(text, normalize(artist)) for artist in artists)
+    if is_excluded_format(title) or not (names_artist or looks_like_concert(title, " ".join(keywords), description)):
         return None
     location = raw.get("location") or {}
     rights = raw.get("rights") or {}
@@ -525,6 +533,27 @@ def parse_openagenda_event(raw: dict, now: datetime) -> dict | None:
     }
 
 
+def read_oa_pages(path: str, params: list, key: str, max_pages: int) -> tuple[list[dict], bool]:
+    """Suit le curseur « after ». Renvoie les événements et True si la lecture est coupée."""
+    events: list[dict] = []
+    after: list = []
+    for _ in range(max_pages):
+        data = oa_get(path, params + [("after[]", value) for value in after], key)
+        events += data.get("events", [])
+        after = data.get("after") or []
+        time.sleep(REQUEST_PAUSE)
+        if not after:
+            return events, False
+    return events, True
+
+
+def transverse_searches(options: dict, artists: list[str]) -> list[tuple[str, bool]]:
+    """Renvoie (terme, seuil) : le seuil écarte les réponses faibles sur les noms et expressions."""
+    terms = options.get("recherches_transverses") or OPENAGENDA_TERMS
+    pairs = [(term, " " in term) for term in terms]
+    return pairs + [(artist, True) for artist in artists]
+
+
 def fetch_openagenda(config: dict, key: str, state: dict, now: datetime) -> tuple[list[dict], dict]:
     zone = config["zone"]
     margin = zone.get("marge_km", 25)
@@ -535,55 +564,75 @@ def fetch_openagenda(config: dict, key: str, state: dict, now: datetime) -> tupl
     box = [("geo[northEast][lat]", round(max(lats) + dlat, 4)), ("geo[northEast][lng]", round(max(lons) + dlon, 4)),
            ("geo[southWest][lat]", round(min(lats) - dlat, 4)), ("geo[southWest][lng]", round(min(lons) - dlon, 4))]
     options = (config.get("sources") or {}).get("openagenda") or {}
-    agendas = choose_agendas(options, key, state, now)
+    artists = tuple(config.get("artistes", []))
+    params = [("relative[]", "current"), ("relative[]", "upcoming"), ("monolingual", "fr"), ("detailed", 1),
+              ("sort", "timings.asc"), ("size", OPENAGENDA_PAGE_SIZE), *box]
     concerts: dict[str, dict] = {}
     refused = 0
+
+    def keep(raw_events: list[dict]) -> int:
+        nonlocal refused
+        added = 0
+        for raw in raw_events:
+            if not raw.get("uid") or not (concert := parse_openagenda_event(raw, now, artists)):
+                continue
+            if not license_is_open(raw.get("rights")):
+                refused += 1
+                continue
+            added += concert["id"] not in concerts
+            concerts[concert["id"]] = concert
+        return added
+
+    # Lecture transverse : tous les agendas publics de la zone, sans liste à tenir.
+    transverse = True
+    searches = []
+    cut_searches = 0
+    try:
+        for term, strict in transverse_searches(options, list(artists)):
+            query = params + [("search", term)] + ([("threshold", "auto")] if strict else [])
+            events, cut = read_oa_pages("/events", query, key, OPENAGENDA_TRANSVERSE_PAGES)
+            searches.append({"terme": term, "lus": len(events), "concerts": keep(events)})
+            cut_searches += cut
+    except ScanError as exc:
+        if exc.code not in (401, 403):
+            raise
+        transverse = False
+
+    # Repli sans accès transverse. Avec cet accès, seuls les agendas choisis restent lus.
+    manual = [{"uid": int(uid), "titre": str(uid)} for uid in options.get("agendas", [])]
+    agendas = manual if transverse else choose_agendas(options, key, state, now)
     truncated = 0
     per_agenda = []
     errors = []
     for agenda in agendas:
-        params = [("relative[]", "current"), ("relative[]", "upcoming"), ("monolingual", "fr"), ("detailed", 1),
-                  ("sort", "timings.asc"), ("size", OPENAGENDA_PAGE_SIZE), *box]
-        after: list = []
-        found = 0
-        failure = ""
+        entry = {"uid": agenda["uid"], "titre": agenda["titre"], "concerts": 0}
         try:
-            for page in range(OPENAGENDA_MAX_PAGES):
-                data = oa_get(f"/agendas/{agenda['uid']}/events", params + [("after[]", value) for value in after], key)
-                for raw in data.get("events", []):
-                    if not raw.get("uid") or not (concert := parse_openagenda_event(raw, now)):
-                        continue
-                    if not license_is_open(raw.get("rights")):
-                        refused += 1
-                        continue
-                    found += concert["id"] not in concerts
-                    concerts[concert["id"]] = concert
-                after = data.get("after") or []
-                time.sleep(REQUEST_PAUSE)
-                if not after:
-                    break
-            else:
-                truncated += 1
+            events, cut = read_oa_pages(f"/agendas/{agenda['uid']}/events", params, key, OPENAGENDA_MAX_PAGES)
+            entry["concerts"] = keep(events)
+            truncated += cut
         except ScanError as exc:  # Un agenda privé ne doit pas bloquer les autres.
             errors.append(exc)
-            failure = str(exc.code or "réseau")
-        entry = {"uid": agenda["uid"], "titre": agenda["titre"], "concerts": found}
-        if failure:
-            entry["erreur"] = failure
+            entry["erreur"] = str(exc.code or "réseau")
         per_agenda.append(entry)
-    if agendas and len(errors) == len(agendas):
+    if not transverse and agendas and len(errors) == len(agendas):
         state.pop("openagenda", None)
         codes = sorted({str(e.code or "réseau") for e in errors})
         raise ScanError(f"OpenAgenda a refusé la lecture de tous les agendas ({', '.join(codes)}) : "
                         "vérifiez les droits de la clé.", errors[0].code)
-    message = f"{len(concerts)} concert(s) dans {len(agendas) - len(errors)} agenda(s) lisible(s)"
+
+    if transverse:
+        message = f"{len(concerts)} concert(s) avec la lecture transverse"
+    else:
+        message = (f"{len(concerts)} concert(s) dans {len(agendas) - len(errors)} agenda(s) lisible(s), "
+                   "lecture transverse refusée pour cette clé")
     if errors:
         message += f", {len(errors)} agenda(s) inaccessible(s)"
     if refused:
         message += f", {refused} écarté(s) car leur licence n'est pas ouverte"
-    if truncated:
-        message += f", lecture limitée pour {truncated} agenda(s)"
-    report = {"nom": "OpenAgenda", "type": "openagenda", "ok": True, "message": message, "agendas": per_agenda}
+    if truncated or cut_searches:
+        message += f", lecture limitée pour {truncated + cut_searches} recherche(s)"
+    report = {"nom": "OpenAgenda", "type": "openagenda", "ok": True, "message": message,
+              "transverse": transverse, "recherches": searches, "agendas": per_agenda}
     return list(concerts.values()), report
 
 
@@ -1045,9 +1094,15 @@ def run(now: datetime | None = None) -> int:
     # Une installation déjà en service ne connaissait que Ticketmaster.
     seen_sources = set(updated.get("sources_vues", [])) or ({"ticketmaster"} if not first_run else set())
     working_sources = {r["type"] for r in source_reports if r["ok"]} | {"ticketmaster"}
-    silent = frozenset(working_sources - seen_sources)
+    silent = set(working_sources - seen_sources)
+    # Passer à la lecture transverse ne doit pas annoncer d'un coup tout l'existant.
+    went_transverse = any(r.get("transverse") for r in source_reports)
+    if went_transverse and not updated.get("oa_transverse"):
+        silent.add("openagenda")
+    silent = frozenset(silent)
     alerts = compare(concerts, updated, config.get("rappels_jours", [7, 1]), now, first_run, silent)
     updated["sources_vues"] = sorted(seen_sources | working_sources)
+    updated["oa_transverse"] = updated.get("oa_transverse", False) or went_transverse
     # Tant que rien n'est choisi, le prochain scan reste un « premier scan » :
     # enregistrer ses goûts ne doit pas déclencher une avalanche d'alertes.
     updated.update(initialise=has_filters, connecte=True, echecs=0, pages=page_memory)
