@@ -1,27 +1,27 @@
 {
- "dernier_scan": "2026-11-03T16:16:39Z",
+ "dernier_scan": "2026-11-03T19:15:49Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 674,
-  "dans_la_zone": 580,
+  "recus": 675,
+  "dans_la_zone": 581,
   "retenus": 123,
   "sans_style": 37
  },
  "styles_vus": [
   [
    "Chanson Francaise",
-   166
+   165
   ],
   [
    "Pop",
-   162
+   164
   ],
   [
    "Rock",
-   136
+   138
   ],
   [
    "Arts et culture",
@@ -41,7 +41,7 @@
   ],
   [
    "Metal",
-   24
+   25
   ],
   [
    "Dance/Electronic",
@@ -76,16 +76,16 @@
    9
   ],
   [
-   "Children's Music",
-   9
+   "Heavy Metal",
+   8
   ],
   [
    "Adult Contemporary",
    8
   ],
   [
-   "Heavy Metal",
-   7
+   "Children's Music",
+   8
   ],
   [
    "Jazz",
@@ -108,6 +108,14 @@
    6
   ],
   [
+   "Religious",
+   4
+  ],
+  [
+   "Gospel",
+   4
+  ],
+  [
    "Classical",
    4
   ],
@@ -122,14 +130,6 @@
   [
    "rock",
    4
-  ],
-  [
-   "Religious",
-   3
-  ],
-  [
-   "Gospel",
-   3
   ],
   [
    "Blues",
