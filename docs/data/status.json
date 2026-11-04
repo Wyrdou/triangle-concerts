@@ -1,5 +1,5 @@
 {
- "dernier_scan": "2026-11-03T19:15:49Z",
+ "dernier_scan": "2026-11-04T00:37:46Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
@@ -13,15 +13,15 @@
  "styles_vus": [
   [
    "Chanson Francaise",
-   165
-  ],
-  [
-   "Pop",
    164
   ],
   [
+   "Pop",
+   163
+  ],
+  [
    "Rock",
-   138
+   137
   ],
   [
    "Arts et culture",
@@ -209,13 +209,13 @@
    "nom": "OpenAgenda",
    "type": "openagenda",
    "ok": true,
-   "message": "113 concert(s) avec la lecture transverse",
+   "message": "114 concert(s) avec la lecture transverse",
    "transverse": true,
    "recherches": [
     {
      "terme": "concert",
      "lus": 99,
-     "concerts": 90
+     "concerts": 91
     },
     {
      "terme": "récital",
