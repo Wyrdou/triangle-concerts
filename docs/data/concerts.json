@@ -1146,6 +1146,38 @@
    "premier_scan": "2026-11-02T15:45:39Z"
   },
   {
+   "id": "oa-9111713",
+   "ids": [
+    "oa-54978718",
+    "oa-9111713"
+   ],
+   "titre": "Concert de Sainte Cécile",
+   "artistes": [],
+   "date": "2026-11-22",
+   "heure": "15:30",
+   "salle": "Place du château",
+   "salle_id": "oa-74686186",
+   "ville": "LYON",
+   "lat": 45.74967,
+   "lon": 4.88794,
+   "url": "https://openagenda.com/cmf/events/9111713_concert-de-sainte-cecile-4838218",
+   "styles": [],
+   "statut": "rescheduled",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Confédération Musicale de France",
+    "url": "https://www.cmf-musique.org",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-11-04"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-04T07:15:36Z"
+  },
+  {
    "id": "oa-49997806",
    "ids": [
     "oa-49997806"
