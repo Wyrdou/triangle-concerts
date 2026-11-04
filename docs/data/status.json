@@ -1,13 +1,13 @@
 {
- "dernier_scan": "2026-11-04T07:15:36Z",
+ "dernier_scan": "2026-11-04T16:21:12Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 678,
-  "dans_la_zone": 583,
-  "retenus": 124,
+  "recus": 679,
+  "dans_la_zone": 584,
+  "retenus": 125,
   "sans_style": 38
  },
  "styles_vus": [
@@ -17,7 +17,7 @@
   ],
   [
    "Pop",
-   163
+   162
   ],
   [
    "Rock",
@@ -60,11 +60,11 @@
    14
   ],
   [
-   "Reggae",
-   11
+   "French Pop",
+   10
   ],
   [
-   "French Pop",
+   "Reggae",
    10
   ],
   [
@@ -80,16 +80,16 @@
    8
   ],
   [
+   "Jazz",
+   8
+  ],
+  [
    "Adult Contemporary",
    8
   ],
   [
    "Children's Music",
    8
-  ],
-  [
-   "Jazz",
-   7
   ],
   [
    "Club Dance",
@@ -209,13 +209,13 @@
    "nom": "OpenAgenda",
    "type": "openagenda",
    "ok": true,
-   "message": "115 concert(s) avec la lecture transverse",
+   "message": "116 concert(s) avec la lecture transverse",
    "transverse": true,
    "recherches": [
     {
      "terme": "concert",
-     "lus": 100,
-     "concerts": 92
+     "lus": 101,
+     "concerts": 93
     },
     {
      "terme": "récital",
@@ -234,7 +234,7 @@
     },
     {
      "terme": "festival de musique",
-     "lus": 206,
+     "lus": 204,
      "concerts": 10
     },
     {

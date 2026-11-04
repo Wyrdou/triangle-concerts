@@ -1924,6 +1924,43 @@
    "premier_scan": "2026-11-02T15:28:18Z"
   },
   {
+   "id": "ZkyMmBwZ1A7of-9",
+   "ids": [
+    "ZkyMmBwZ1A7of-9"
+   ],
+   "titre": "ANDRE MANOUKIAN",
+   "artistes": [
+    "André Manoukian"
+   ],
+   "date": "2026-12-12",
+   "heure": "20:30",
+   "salle": "SALLE LOUIS ARAGON",
+   "salle_id": "rZ7SnyZaAku",
+   "ville": "St Maurice L Exil",
+   "lat": 45.391507,
+   "lon": 4.776316,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/andre-manoukian-billet/idmanif/677776/idseance/4454857",
+   "styles": [
+    "Jazz"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-03T15:41:42Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Jazz et blues"
+   ],
+   "premier_scan": "2026-11-04T16:21:12Z"
+  },
+  {
    "id": "oa-41993764",
    "ids": [
     "oa-41993764"
