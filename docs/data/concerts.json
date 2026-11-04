@@ -1,43 +1,6 @@
 {
  "concerts": [
   {
-   "id": "ZkyMmBwZ1A7Ck4E",
-   "ids": [
-    "ZkyMmBwZ1A7Ck4E"
-   ],
-   "titre": "MIKE D 5D",
-   "artistes": [
-    "Mike D"
-   ],
-   "date": "2026-11-04",
-   "heure": "20:00",
-   "salle": "LE TRANSBORDEUR",
-   "salle_id": "rZ6SnyZ6A6",
-   "ville": "Villeurbanne",
-   "lat": 45.778753,
-   "lon": 4.859536,
-   "url": "https://www.ticketmaster.fr/fr/manifestation/mike-d-5d-billet/idmanif/668088/idtier/18864121",
-   "styles": [
-    "Hip-Hop/Rap"
-   ],
-   "statut": "onsale",
-   "ventes": [
-    {
-     "type": "publique",
-     "nom": "Vente générale",
-     "debut": "2026-07-24T08:00:00Z"
-    }
-   ],
-   "source": {
-    "type": "ticketmaster",
-    "nom": "Ticketmaster"
-   },
-   "raisons": [
-    "Rap et hip-hop"
-   ],
-   "premier_scan": "2026-11-02T15:28:18Z"
-  },
-  {
    "id": "oa-90184734",
    "ids": [
     "oa-90184734"
