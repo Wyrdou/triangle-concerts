@@ -1133,7 +1133,7 @@
     "url": "https://www.cmf-musique.org",
     "licence": "Licence Ouverte 2.0",
     "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
-    "maj": "2026-11-04"
+    "maj": "2026-11-05"
    },
    "raisons": [
     "Style non renseigné"
@@ -2409,6 +2409,37 @@
     "Rap et hip-hop"
    ],
    "premier_scan": "2026-11-02T15:28:18Z"
+  },
+  {
+   "id": "oa-32965756",
+   "ids": [
+    "oa-32965756"
+   ],
+   "titre": "Triétérides - Festival de Chorales (Concert)",
+   "artistes": [],
+   "date": "2027-01-31",
+   "heure": "16:00",
+   "salle": "Espace Maurice Plaisantin",
+   "salle_id": "oa-55590477",
+   "ville": "QUINCIEUX",
+   "lat": 45.913582,
+   "lon": 4.778301,
+   "url": "https://openagenda.com/stages-cmf/events/32965756_trieterides-festival-de-chorales-concert",
+   "styles": [],
+   "statut": "rescheduled",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Stages CMF",
+    "url": "https://www.cmf-musique.org",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-11-05"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-05T07:15:36Z"
   },
   {
    "id": "ZkyMmBwZ1A78ZJF",
