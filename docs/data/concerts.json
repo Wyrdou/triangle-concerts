@@ -1,37 +1,6 @@
 {
  "concerts": [
   {
-   "id": "oa-90184734",
-   "ids": [
-    "oa-90184734"
-   ],
-   "titre": "Concert\"participatif\" pour oreilles délicates",
-   "artistes": [],
-   "date": "2026-11-05",
-   "heure": "14:30",
-   "salle": "ephad morlot",
-   "salle_id": "oa-52508929",
-   "ville": "Décines-Charpieu",
-   "lat": 45.773606,
-   "lon": 4.963331,
-   "url": "https://openagenda.com/anissa-karat/events/90184734_concertparticipatif-pour-oreilles-delicates",
-   "styles": [],
-   "statut": "",
-   "ventes": [],
-   "source": {
-    "type": "openagenda",
-    "nom": "Anissa Karat",
-    "url": "https://anissakarat.conteuse.pro/",
-    "licence": "Licence Ouverte 2.0",
-    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
-    "maj": "2026-10-05"
-   },
-   "raisons": [
-    "Style non renseigné"
-   ],
-   "premier_scan": "2026-11-03T15:04:08Z"
-  },
-  {
    "id": "rZ7SnyZ1A77xeK",
    "ids": [
     "rZ7SnyZ1A77xeK"
@@ -1911,7 +1880,7 @@
     {
      "type": "publique",
      "nom": "Vente générale",
-     "debut": "2026-11-03T15:41:42Z"
+     "debut": "2026-11-05T15:00:50Z"
     }
    ],
    "source": {
@@ -3139,44 +3108,6 @@
     "Style non renseigné"
    ],
    "premier_scan": "2026-11-02T20:46:07Z"
-  },
-  {
-   "id": "ZkyMmBwZ1A7GJaS",
-   "ids": [
-    "ZkyMmBwZ1A7GJaS"
-   ],
-   "titre": "PICHE",
-   "artistes": [
-    "Piche"
-   ],
-   "date": "2027-03-17",
-   "heure": "20:00",
-   "salle": "LE TRANSBORDEUR",
-   "salle_id": "rZ6SnyZ6A6",
-   "ville": "Villeurbanne",
-   "lat": 45.778753,
-   "lon": 4.859536,
-   "url": "https://www.ticketmaster.fr/fr/manifestation/piche-billet/idmanif/658143/idtier/18864121",
-   "styles": [
-    "Hip-Hop/Rap",
-    "French Rap"
-   ],
-   "statut": "onsale",
-   "ventes": [
-    {
-     "type": "publique",
-     "nom": "Vente générale",
-     "debut": "2026-04-29T15:00:00Z"
-    }
-   ],
-   "source": {
-    "type": "ticketmaster",
-    "nom": "Ticketmaster"
-   },
-   "raisons": [
-    "Rap et hip-hop"
-   ],
-   "premier_scan": "2026-11-02T15:28:18Z"
   },
   {
    "id": "ZkyMmBwZ1A7C7bF",
