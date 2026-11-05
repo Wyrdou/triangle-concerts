@@ -1,13 +1,13 @@
 {
- "dernier_scan": "2026-11-05T16:29:18Z",
+ "dernier_scan": "2026-11-05T19:15:38Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 674,
-  "dans_la_zone": 579,
-  "retenus": 123,
+  "recus": 670,
+  "dans_la_zone": 575,
+  "retenus": 121,
   "sans_style": 38
  },
  "styles_vus": [
@@ -33,23 +33,23 @@
   ],
   [
    "Hip-Hop/Rap",
-   51
+   49
   ],
   [
    "ENM",
    26
   ],
   [
-   "Metal",
-   23
-  ],
-  [
    "Dance/Electronic",
    23
   ],
   [
+   "Metal",
+   22
+  ],
+  [
    "World",
-   16
+   15
   ],
   [
    "Alternative Rock",
@@ -72,11 +72,11 @@
    9
   ],
   [
-   "Urban",
-   9
+   "Heavy Metal",
+   8
   ],
   [
-   "Heavy Metal",
+   "Urban",
    8
   ],
   [
@@ -234,7 +234,7 @@
     },
     {
      "terme": "festival de musique",
-     "lus": 206,
+     "lus": 205,
      "concerts": 10
     },
     {
