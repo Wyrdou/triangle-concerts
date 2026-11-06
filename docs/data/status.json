@@ -1,13 +1,13 @@
 {
- "dernier_scan": "2026-11-06T15:56:19Z",
+ "dernier_scan": "2026-11-06T19:15:39Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 680,
-  "dans_la_zone": 576,
-  "retenus": 123,
+  "recus": 673,
+  "dans_la_zone": 572,
+  "retenus": 122,
   "sans_style": 40
  },
  "styles_vus": [
@@ -17,42 +17,42 @@
   ],
   [
    "Pop",
-   162
+   160
   ],
   [
    "Rock",
-   137
+   135
   ],
   [
    "Arts et culture",
-   68
+   69
   ],
   [
    "Concert",
-   68
+   69
   ],
   [
    "Hip-Hop/Rap",
-   49
+   48
   ],
   [
    "ENM",
    26
   ],
   [
-   "Dance/Electronic",
-   23
-  ],
-  [
    "Metal",
    22
   ],
   [
-   "Alternative Rock",
-   15
+   "Dance/Electronic",
+   21
   ],
   [
    "World",
+   14
+  ],
+  [
+   "Alternative Rock",
    14
   ],
   [
@@ -64,19 +64,15 @@
    11
   ],
   [
-   "Reggae",
-   10
-  ],
-  [
    "R&B",
    9
   ],
   [
-   "Heavy Metal",
-   8
+   "Reggae",
+   9
   ],
   [
-   "Urban",
+   "Heavy Metal",
    8
   ],
   [
@@ -90,6 +86,10 @@
   [
    "Children's Music",
    8
+  ],
+  [
+   "Urban",
+   7
   ],
   [
    "Club Dance",
@@ -209,7 +209,7 @@
    "nom": "OpenAgenda",
    "type": "openagenda",
    "ok": true,
-   "message": "115 concert(s) avec la lecture transverse",
+   "message": "114 concert(s) avec la lecture transverse",
    "transverse": true,
    "recherches": [
     {
@@ -307,7 +307,7 @@
     {
      "uid": 9969608,
      "titre": "9969608",
-     "concerts": 7
+     "concerts": 6
     }
    ]
   },

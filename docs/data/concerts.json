@@ -32,44 +32,6 @@
    "premier_scan": "2026-11-02T20:46:07Z"
   },
   {
-   "id": "ZkyMmBwZ1A7aOuV",
-   "ids": [
-    "ZkyMmBwZ1A7aOuV"
-   ],
-   "titre": "DJADJA & DINAZ",
-   "artistes": [
-    "Djadja & Dinaz"
-   ],
-   "date": "2026-11-06",
-   "heure": "20:00",
-   "salle": "HALLE TONY GARNIER",
-   "salle_id": "rZFSnyZeA1F",
-   "ville": "Lyon",
-   "lat": 45.73224,
-   "lon": 4.824296,
-   "url": "https://www.ticketmaster.fr/fr/manifestation/djadja-dinaz-billet/idmanif/628299/idtier/18864121",
-   "styles": [
-    "Hip-Hop/Rap",
-    "Urban"
-   ],
-   "statut": "onsale",
-   "ventes": [
-    {
-     "type": "publique",
-     "nom": "Vente générale",
-     "debut": "2026-01-26T11:00:00Z"
-    }
-   ],
-   "source": {
-    "type": "ticketmaster",
-    "nom": "Ticketmaster"
-   },
-   "raisons": [
-    "Rap et hip-hop"
-   ],
-   "premier_scan": "2026-11-02T15:28:18Z"
-  },
-  {
    "id": "oa-12675043",
    "ids": [
     "oa-12675043"
