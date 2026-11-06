@@ -1,14 +1,14 @@
 {
- "dernier_scan": "2026-11-06T07:15:39Z",
+ "dernier_scan": "2026-11-06T15:56:19Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 678,
-  "dans_la_zone": 575,
-  "retenus": 122,
-  "sans_style": 39
+  "recus": 680,
+  "dans_la_zone": 576,
+  "retenus": 123,
+  "sans_style": 40
  },
  "styles_vus": [
   [
@@ -17,11 +17,11 @@
   ],
   [
    "Pop",
-   161
+   162
   ],
   [
    "Rock",
-   136
+   137
   ],
   [
    "Arts et culture",
@@ -61,7 +61,7 @@
   ],
   [
    "French Pop",
-   10
+   11
   ],
   [
    "Reggae",
@@ -234,7 +234,7 @@
     },
     {
      "terme": "festival de musique",
-     "lus": 205,
+     "lus": 208,
      "concerts": 10
     },
     {

@@ -1290,6 +1290,16 @@
    "statut": "rescheduled",
    "ventes": {},
    "rappels": []
+  },
+  "oa-18450327": {
+   "premier_scan": "2026-11-06T15:56:19Z",
+   "ids": [
+    "oa-18450327"
+   ],
+   "date": "2026-11-14",
+   "statut": "",
+   "ventes": {},
+   "rappels": []
   }
  },
  "sources_vues": [
