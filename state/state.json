@@ -237,7 +237,8 @@
   "ZkyMmBwZ1A7G0G-": {
    "premier_scan": "2026-11-02T15:28:18Z",
    "ids": [
-    "ZkyMmBwZ1A7G0G-"
+    "ZkyMmBwZ1A7G0G-",
+    "cf-8054413"
    ],
    "date": "2026-12-06",
    "statut": "onsale",
@@ -247,7 +248,8 @@
   "ZkyMmBwZ1A7G3bI": {
    "premier_scan": "2026-11-02T15:28:18Z",
    "ids": [
-    "ZkyMmBwZ1A7G3bI"
+    "ZkyMmBwZ1A7G3bI",
+    "cf-8054438"
    ],
    "date": "2026-12-10",
    "statut": "onsale",
@@ -257,7 +259,8 @@
   "ZkyMmBwZ1A71Fx8": {
    "premier_scan": "2026-11-02T15:28:18Z",
    "ids": [
-    "ZkyMmBwZ1A71Fx8"
+    "ZkyMmBwZ1A71Fx8",
+    "cf-8054462"
    ],
    "date": "2026-12-11",
    "statut": "onsale",
@@ -1274,6 +1277,16 @@
     "oa-32965756"
    ],
    "date": "2027-01-31",
+   "statut": "rescheduled",
+   "ventes": {},
+   "rappels": []
+  },
+  "oa-74061821": {
+   "premier_scan": "2026-11-06T07:15:39Z",
+   "ids": [
+    "oa-74061821"
+   ],
+   "date": "2026-12-12",
    "statut": "rescheduled",
    "ventes": {},
    "rappels": []

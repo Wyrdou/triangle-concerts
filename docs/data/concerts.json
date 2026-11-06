@@ -1493,7 +1493,8 @@
   {
    "id": "ZkyMmBwZ1A7G0G-",
    "ids": [
-    "ZkyMmBwZ1A7G0G-"
+    "ZkyMmBwZ1A7G0G-",
+    "cf-8054413"
    ],
    "titre": "YANNS",
    "artistes": [
@@ -1670,7 +1671,8 @@
   {
    "id": "ZkyMmBwZ1A7G3bI",
    "ids": [
-    "ZkyMmBwZ1A7G3bI"
+    "ZkyMmBwZ1A7G3bI",
+    "cf-8054438"
    ],
    "titre": "PICHE",
    "artistes": [
@@ -1746,7 +1748,8 @@
   {
    "id": "ZkyMmBwZ1A71Fx8",
    "ids": [
-    "ZkyMmBwZ1A71Fx8"
+    "ZkyMmBwZ1A71Fx8",
+    "cf-8054462"
    ],
    "titre": "THE AMY WINEHOUSE BAND",
    "artistes": [
@@ -1818,6 +1821,37 @@
     "Jazz et blues"
    ],
    "premier_scan": "2026-11-04T16:21:12Z"
+  },
+  {
+   "id": "oa-74061821",
+   "ids": [
+    "oa-74061821"
+   ],
+   "titre": "Concert de Sainte-Cécile 2026 à l'occasion des 20 ans de l'alliance entre l'UAO et la SAF",
+   "artistes": [],
+   "date": "2026-12-12",
+   "heure": "20:00",
+   "salle": "Eglise du Mas",
+   "salle_id": "oa-24739333",
+   "ville": "FIRMINY",
+   "lat": 45.392119,
+   "lon": 4.292555,
+   "url": "https://openagenda.com/cmf/events/74061821_concert-de-sainte-cecile-2026-a-loccasion-des-20-ans-de-lalliance-entre-luao-et-la-saf",
+   "styles": [],
+   "statut": "rescheduled",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Confédération Musicale de France",
+    "url": "https://www.cmf-musique.org",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-11-06"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-06T07:15:39Z"
   },
   {
    "id": "oa-41993764",
@@ -2330,7 +2364,7 @@
     "url": "https://www.cmf-musique.org",
     "licence": "Licence Ouverte 2.0",
     "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
-    "maj": "2026-11-05"
+    "maj": "2026-11-06"
    },
    "raisons": [
     "Style non renseigné"
