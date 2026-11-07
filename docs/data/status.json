@@ -1,19 +1,19 @@
 {
- "dernier_scan": "2026-11-07T07:15:37Z",
+ "dernier_scan": "2026-11-07T14:54:46Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 667,
-  "dans_la_zone": 566,
+  "recus": 666,
+  "dans_la_zone": 565,
   "retenus": 120,
   "sans_style": 39
  },
  "styles_vus": [
   [
    "Chanson Francaise",
-   164
+   163
   ],
   [
    "Pop",
