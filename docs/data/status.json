@@ -1,39 +1,39 @@
 {
- "dernier_scan": "2026-11-07T14:54:46Z",
+ "dernier_scan": "2026-11-07T19:15:36Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 666,
-  "dans_la_zone": 565,
-  "retenus": 120,
+  "recus": 658,
+  "dans_la_zone": 559,
+  "retenus": 117,
   "sans_style": 39
  },
  "styles_vus": [
   [
    "Chanson Francaise",
-   163
+   162
   ],
   [
    "Pop",
-   160
+   159
   ],
   [
    "Rock",
-   135
+   134
   ],
   [
    "Arts et culture",
-   67
+   68
   ],
   [
    "Concert",
-   67
+   68
   ],
   [
    "Hip-Hop/Rap",
-   48
+   45
   ],
   [
    "ENM",
@@ -57,7 +57,7 @@
   ],
   [
    "French Rap",
-   13
+   12
   ],
   [
    "French Pop",
@@ -100,12 +100,12 @@
    6
   ],
   [
-   "rap",
+   "chanson",
    6
   ],
   [
-   "chanson",
-   6
+   "rap",
+   5
   ],
   [
    "Religious",
@@ -209,13 +209,13 @@
    "nom": "OpenAgenda",
    "type": "openagenda",
    "ok": true,
-   "message": "109 concert(s) avec la lecture transverse",
+   "message": "106 concert(s) avec la lecture transverse",
    "transverse": true,
    "recherches": [
     {
      "terme": "concert",
      "lus": 96,
-     "concerts": 89
+     "concerts": 86
     },
     {
      "terme": "récital",
@@ -229,12 +229,12 @@
     },
     {
      "terme": "dj set",
-     "lus": 7,
+     "lus": 6,
      "concerts": 2
     },
     {
      "terme": "festival de musique",
-     "lus": 207,
+     "lus": 205,
      "concerts": 10
     },
     {

@@ -63,143 +63,33 @@
    "premier_scan": "2026-11-03T15:04:08Z"
   },
   {
-   "id": "ZkyMmBwZ1A716Fv",
+   "id": "cf-8047370",
    "ids": [
-    "ZkyMmBwZ1A716Fv"
+    "cf-8047370"
    ],
-   "titre": "FERDI",
+   "titre": "WALLACE CLEAVER | La Coopérative de Mai",
    "artistes": [],
    "date": "2026-11-07",
-   "heure": "20:00",
-   "salle": "LE MARCHE GARE",
-   "salle_id": "rZFSnyZadkd",
-   "ville": "Lyon",
-   "lat": 45.741721,
-   "lon": 4.82291,
-   "url": "https://www.ticketmaster.fr/fr/manifestation/ferdi-billet/idmanif/651563/idtier/18864121",
+   "heure": "",
+   "salle": "La Coopérative de Mai - Grande salle",
+   "salle_id": "",
+   "ville": "Clermont-Ferrand",
+   "lat": 45.789394,
+   "lon": 3.101705,
+   "url": "",
    "styles": [
-    "Hip-Hop/Rap"
-   ],
-   "statut": "onsale",
-   "ventes": [
-    {
-     "type": "publique",
-     "nom": "Vente générale",
-     "debut": "2026-02-25T16:05:23Z"
-    }
-   ],
-   "source": {
-    "type": "ticketmaster",
-    "nom": "Ticketmaster"
-   },
-   "raisons": [
-    "Rap et hip-hop"
-   ],
-   "premier_scan": "2026-11-02T15:28:18Z"
-  },
-  {
-   "id": "ZkyMmBwZ1A7aUut",
-   "ids": [
-    "ZkyMmBwZ1A7aUut"
-   ],
-   "titre": "JOSMAN",
-   "artistes": [
-    "Josman"
-   ],
-   "date": "2026-11-07",
-   "heure": "20:00",
-   "salle": "HALLE TONY GARNIER",
-   "salle_id": "rZFSnyZeA1F",
-   "ville": "Lyon",
-   "lat": 45.73224,
-   "lon": 4.824296,
-   "url": "https://www.ticketmaster.fr/fr/manifestation/josman-billet/idmanif/649849/idseance/4276369",
-   "styles": [
-    "Hip-Hop/Rap",
-    "French Rap"
-   ],
-   "statut": "onsale",
-   "ventes": [
-    {
-     "type": "publique",
-     "nom": "Vente générale",
-     "debut": "2026-02-12T11:00:00Z"
-    }
-   ],
-   "source": {
-    "type": "ticketmaster",
-    "nom": "Ticketmaster"
-   },
-   "raisons": [
-    "Rap et hip-hop"
-   ],
-   "premier_scan": "2026-11-02T15:28:18Z"
-  },
-  {
-   "id": "oa-45150420",
-   "ids": [
-    "oa-45150420"
-   ],
-   "titre": "Plavace 5 ans w. 63OG - YJICK",
-   "artistes": [],
-   "date": "2026-11-07",
-   "heure": "18:30",
-   "salle": "Le Sucre",
-   "salle_id": "oa-59135229",
-   "ville": "Lyon",
-   "lat": 45.736572,
-   "lon": 4.815134,
-   "url": "https://openagenda.com/shotgun/events/45150420_plavace-5-ans-w-63og-yjick",
-   "styles": [
-    "rap",
-    "trap",
-    "afro"
+    "Arts et culture",
+    "Concert"
    ],
    "statut": "",
    "ventes": [],
    "source": {
-    "type": "openagenda",
-    "nom": "Shotgun",
-    "url": "https://shotgun.live/fr",
+    "type": "clermont",
+    "nom": "Clermont Auvergne Métropole, Clermont Auvergne Volcans, Département du Puy-de-Dôme",
+    "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
     "licence": "Licence Ouverte 2.0",
-    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
-    "maj": "2026-10-05"
-   },
-   "raisons": [
-    "Rap et hip-hop"
-   ],
-   "premier_scan": "2026-11-02T20:46:07Z"
-  },
-  {
-   "id": "ZkyMmBwZ1A7Gb0y",
-   "ids": [
-    "ZkyMmBwZ1A7Gb0y",
-    "cf-8047370"
-   ],
-   "titre": "WALLACE CLEAVER",
-   "artistes": [],
-   "date": "2026-11-07",
-   "heure": "20:00",
-   "salle": "LA COOPERATIVE DE MAI",
-   "salle_id": "rZFSnyZed7e",
-   "ville": "Clermont Ferrand",
-   "lat": 45.788558,
-   "lon": 3.100011,
-   "url": "https://www.ticketmaster.fr/fr/manifestation/wallace-cleaver-billet/idmanif/656857/idtier/18864121",
-   "styles": [
-    "Hip-Hop/Rap"
-   ],
-   "statut": "onsale",
-   "ventes": [
-    {
-     "type": "publique",
-     "nom": "Vente générale",
-     "debut": "2026-04-20T08:00:00Z"
-    }
-   ],
-   "source": {
-    "type": "ticketmaster",
-    "nom": "Ticketmaster"
+    "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+    "maj": "2026-11-07"
    },
    "raisons": [
     "Rap et hip-hop"
