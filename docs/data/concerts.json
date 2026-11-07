@@ -1,102 +1,6 @@
 {
  "concerts": [
   {
-   "id": "oa-96140135",
-   "ids": [
-    "oa-96140135"
-   ],
-   "titre": "After Plavace 5 ans w. BU$HI",
-   "artistes": [],
-   "date": "2026-11-07",
-   "heure": "23:00",
-   "salle": "Le Sucre",
-   "salle_id": "oa-50314000",
-   "ville": "Lyon",
-   "lat": 45.736564,
-   "lon": 4.815116,
-   "url": "https://openagenda.com/shotgun/events/96140135_after-plavace-5-ans-w-budollarhi",
-   "styles": [],
-   "statut": "",
-   "ventes": [],
-   "source": {
-    "type": "openagenda",
-    "nom": "Shotgun",
-    "url": "https://shotgun.live/fr",
-    "licence": "Licence Ouverte 2.0",
-    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
-    "maj": "2026-10-05"
-   },
-   "raisons": [
-    "Style non renseigné"
-   ],
-   "premier_scan": "2026-11-02T20:46:07Z"
-  },
-  {
-   "id": "oa-55344996",
-   "ids": [
-    "oa-55344996"
-   ],
-   "titre": "Concert automnal",
-   "artistes": [],
-   "date": "2026-11-07",
-   "heure": "20:30",
-   "salle": "Salle Georges Bourbon",
-   "salle_id": "oa-9600276",
-   "ville": "Amplepuis",
-   "lat": 45.9659,
-   "lon": 4.33277,
-   "url": "https://openagenda.com/cmf/events/55344996_concert-4132217",
-   "styles": [],
-   "statut": "rescheduled",
-   "ventes": [],
-   "source": {
-    "type": "openagenda",
-    "nom": "Confédération Musicale de France",
-    "url": "https://www.cmf-musique.org",
-    "licence": "Licence Ouverte 2.0",
-    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
-    "maj": "2026-10-13"
-   },
-   "raisons": [
-    "Style non renseigné"
-   ],
-   "premier_scan": "2026-11-03T15:04:08Z"
-  },
-  {
-   "id": "cf-8047370",
-   "ids": [
-    "cf-8047370"
-   ],
-   "titre": "WALLACE CLEAVER | La Coopérative de Mai",
-   "artistes": [],
-   "date": "2026-11-07",
-   "heure": "",
-   "salle": "La Coopérative de Mai - Grande salle",
-   "salle_id": "",
-   "ville": "Clermont-Ferrand",
-   "lat": 45.789394,
-   "lon": 3.101705,
-   "url": "",
-   "styles": [
-    "Arts et culture",
-    "Concert"
-   ],
-   "statut": "",
-   "ventes": [],
-   "source": {
-    "type": "clermont",
-    "nom": "Clermont Auvergne Métropole, Clermont Auvergne Volcans, Département du Puy-de-Dôme",
-    "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
-    "licence": "Licence Ouverte 2.0",
-    "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
-    "maj": "2026-11-07"
-   },
-   "raisons": [
-    "Rap et hip-hop"
-   ],
-   "premier_scan": "2026-11-02T15:28:18Z"
-  },
-  {
    "id": "ZkyMmBwZ1A7uZ1p",
    "ids": [
     "ZkyMmBwZ1A7uZ1p"
@@ -263,7 +167,7 @@
     "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
     "licence": "Licence Ouverte 2.0",
     "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
-    "maj": "2026-11-07"
+    "maj": "2026-11-08"
    },
    "raisons": [
     "Jazz et blues"
@@ -502,7 +406,7 @@
     "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
     "licence": "Licence Ouverte 2.0",
     "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
-    "maj": "2026-11-07"
+    "maj": "2026-11-08"
    },
    "raisons": [
     "Rap et hip-hop"
@@ -812,7 +716,7 @@
     "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
     "licence": "Licence Ouverte 2.0",
     "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
-    "maj": "2026-11-07"
+    "maj": "2026-11-08"
    },
    "raisons": [
     "Jazz et blues"
@@ -1997,7 +1901,7 @@
     "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
     "licence": "Licence Ouverte 2.0",
     "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
-    "maj": "2026-11-07"
+    "maj": "2026-11-08"
    },
    "raisons": [
     "Rap et hip-hop",
