@@ -1,11 +1,11 @@
 {
- "dernier_scan": "2026-11-07T00:07:30Z",
+ "dernier_scan": "2026-11-07T07:15:37Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 666,
+  "recus": 667,
   "dans_la_zone": 566,
   "retenus": 120,
   "sans_style": 39
@@ -214,7 +214,7 @@
    "recherches": [
     {
      "terme": "concert",
-     "lus": 97,
+     "lus": 96,
      "concerts": 89
     },
     {
@@ -224,7 +224,7 @@
     },
     {
      "terme": "showcase",
-     "lus": 1,
+     "lus": 0,
      "concerts": 0
     },
     {
@@ -315,7 +315,7 @@
    "nom": "Agenda de Clermont-Ferrand",
    "type": "clermont",
    "ok": true,
-   "message": "96 concert(s) sur 503 événement(s)"
+   "message": "97 concert(s) sur 502 événement(s)"
   }
  ]
 }
