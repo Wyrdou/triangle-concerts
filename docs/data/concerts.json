@@ -1,74 +1,6 @@
 {
  "concerts": [
   {
-   "id": "oa-81207164",
-   "ids": [
-    "oa-81207164"
-   ],
-   "titre": "After Plavace 5 ans w. Piravates",
-   "artistes": [],
-   "date": "2026-11-06",
-   "heure": "22:00",
-   "salle": "Ninkasi Cordeliers",
-   "salle_id": "oa-74062526",
-   "ville": "Lyon",
-   "lat": 45.76297,
-   "lon": 4.837951,
-   "url": "https://openagenda.com/shotgun/events/81207164_after-plavace-5-ans-w-piravates",
-   "styles": [],
-   "statut": "",
-   "ventes": [],
-   "source": {
-    "type": "openagenda",
-    "nom": "Shotgun",
-    "url": "https://shotgun.live/fr",
-    "licence": "Licence Ouverte 2.0",
-    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
-    "maj": "2026-10-05"
-   },
-   "raisons": [
-    "Style non renseigné"
-   ],
-   "premier_scan": "2026-11-02T20:46:07Z"
-  },
-  {
-   "id": "oa-12675043",
-   "ids": [
-    "oa-12675043"
-   ],
-   "titre": "Showcase Wantché",
-   "artistes": [],
-   "date": "2026-11-06",
-   "heure": "23:00",
-   "salle": "Villeurbanne",
-   "salle_id": "oa-10186810",
-   "ville": "Villeurbanne",
-   "lat": 45.771178,
-   "lon": 4.873474,
-   "url": "https://openagenda.com/shotgun/events/12675043_showcase-wantche",
-   "styles": [
-    "afro",
-    "rap",
-    "trap",
-    "r&b"
-   ],
-   "statut": "",
-   "ventes": [],
-   "source": {
-    "type": "openagenda",
-    "nom": "Shotgun",
-    "url": "https://shotgun.live/fr",
-    "licence": "Licence Ouverte 2.0",
-    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
-    "maj": "2026-10-05"
-   },
-   "raisons": [
-    "Rap et hip-hop",
-    "R&B, soul et funk"
-   ],
-   "premier_scan": "2026-11-02T20:46:07Z"
-  },
-  {
    "id": "oa-96140135",
    "ids": [
     "oa-96140135"
@@ -441,7 +373,7 @@
     "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
     "licence": "Licence Ouverte 2.0",
     "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
-    "maj": "2026-11-06"
+    "maj": "2026-11-07"
    },
    "raisons": [
     "Jazz et blues"
@@ -680,7 +612,7 @@
     "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
     "licence": "Licence Ouverte 2.0",
     "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
-    "maj": "2026-11-06"
+    "maj": "2026-11-07"
    },
    "raisons": [
     "Rap et hip-hop"
@@ -990,7 +922,7 @@
     "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
     "licence": "Licence Ouverte 2.0",
     "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
-    "maj": "2026-11-06"
+    "maj": "2026-11-07"
    },
    "raisons": [
     "Jazz et blues"
@@ -2175,7 +2107,7 @@
     "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
     "licence": "Licence Ouverte 2.0",
     "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
-    "maj": "2026-11-06"
+    "maj": "2026-11-07"
    },
    "raisons": [
     "Rap et hip-hop",

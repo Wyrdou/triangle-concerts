@@ -1,14 +1,14 @@
 {
- "dernier_scan": "2026-11-06T19:15:39Z",
+ "dernier_scan": "2026-11-07T00:07:30Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 673,
-  "dans_la_zone": 572,
-  "retenus": 122,
-  "sans_style": 40
+  "recus": 666,
+  "dans_la_zone": 566,
+  "retenus": 120,
+  "sans_style": 39
  },
  "styles_vus": [
   [
@@ -25,11 +25,11 @@
   ],
   [
    "Arts et culture",
-   69
+   67
   ],
   [
    "Concert",
-   69
+   67
   ],
   [
    "Hip-Hop/Rap",
@@ -96,11 +96,11 @@
    7
   ],
   [
-   "rap",
-   7
+   "Alternative",
+   6
   ],
   [
-   "Alternative",
+   "rap",
    6
   ],
   [
@@ -140,10 +140,6 @@
    3
   ],
   [
-   "trap",
-   3
-  ],
-  [
    "baltrad",
    3
   ],
@@ -169,6 +165,10 @@
   ],
   [
    "Theatre",
+   2
+  ],
+  [
+   "Musical",
    2
   ]
  ],
@@ -209,13 +209,13 @@
    "nom": "OpenAgenda",
    "type": "openagenda",
    "ok": true,
-   "message": "114 concert(s) avec la lecture transverse",
+   "message": "109 concert(s) avec la lecture transverse",
    "transverse": true,
    "recherches": [
     {
      "terme": "concert",
-     "lus": 100,
-     "concerts": 92
+     "lus": 97,
+     "concerts": 89
     },
     {
      "terme": "récital",
@@ -225,7 +225,7 @@
     {
      "terme": "showcase",
      "lus": 1,
-     "concerts": 1
+     "concerts": 0
     },
     {
      "terme": "dj set",
@@ -234,7 +234,7 @@
     },
     {
      "terme": "festival de musique",
-     "lus": 208,
+     "lus": 207,
      "concerts": 10
     },
     {
@@ -307,7 +307,7 @@
     {
      "uid": 9969608,
      "titre": "9969608",
-     "concerts": 6
+     "concerts": 5
     }
    ]
   },
@@ -315,7 +315,7 @@
    "nom": "Agenda de Clermont-Ferrand",
    "type": "clermont",
    "ok": true,
-   "message": "98 concert(s) sur 503 événement(s)"
+   "message": "96 concert(s) sur 503 événement(s)"
   }
  ]
 }
