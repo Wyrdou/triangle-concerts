@@ -289,8 +289,15 @@ function genresOf(concert) {
 }
 function artistsOf(concert) {
   const text = words([concert.titre, ...(concert.artistes || [])].join(" "));
-  return (app.config?.artistes || []).filter((artist) => (concert.raisons || []).includes(artist) || hasPhrase(text, words(artist)));
+  const followed = (app.config?.artistes || []).filter((artist) => (concert.raisons || []).includes(artist) || hasPhrase(text, words(artist)));
+  const names = new Map();
+  for (const name of [...followed, ...(concert.artistes || [])]) {
+    const key = words(name);
+    if (key && !names.has(key)) names.set(key, name.trim());
+  }
+  return [...names.values()];
 }
+const sameArtist = (a, b) => words(a) === words(b);
 function filtersActive() {
   return Boolean(app.query || app.artist || app.genre || app.side !== "tous");
 }
@@ -298,7 +305,7 @@ function visibleConcerts() {
   const query = normalize(app.query);
   return app.concerts.filter((concert) => {
     if (app.side !== "tous" && nearestCorner(concert) !== app.side) return false;
-    if (app.artist && !artistsOf(concert).includes(app.artist)) return false;
+    if (app.artist && !artistsOf(concert).some((name) => sameArtist(name, app.artist))) return false;
     if (app.genre && !genresOf(concert).includes(app.genre)) return false;
     if (!query) return true;
     return normalize([concert.titre, concert.salle, concert.ville, ...(concert.artistes || []), ...(concert.styles || [])].join(" ")).includes(query);
@@ -430,15 +437,30 @@ function filters() {
     el("div", { className: "picks" }, artistPicker(), genrePicker()));
 }
 function artistPicker() {
-  const artists = app.config?.artistes || [];
-  if (!artists.length) return null;
-  const pool = viewPool();
-  const options = artists
-    .map((artist) => ({ value: artist, count: pool.filter((concert) => artistsOf(concert).includes(artist)).length }))
-    .filter((option) => option.count || option.value === app.artist)
-    .map((option) => ({ value: option.value, label: `${option.value} (${option.count})` }));
-  return picker("Artiste", app.artist, [{ value: "", label: "Tous les artistes" }, ...options],
-    (value) => { app.artist = value; renderList(); });
+  const followedKeys = new Set((app.config?.artistes || []).map(words));
+  const found = new Map();
+  for (const concert of viewPool()) {
+    for (const name of artistsOf(concert)) {
+      const key = words(name);
+      const entry = found.get(key) || { name, count: 0 };
+      entry.count += 1;
+      found.set(key, entry);
+    }
+  }
+  if (app.artist && !found.has(words(app.artist))) found.set(words(app.artist), { name: app.artist, count: 0 });
+  if (!found.size) return null;
+  const byName = (a, b) => a.name.localeCompare(b.name, "fr", { sensitivity: "base" });
+  const entries = [...found.entries()].map(([key, entry]) => ({ ...entry, followed: followedKeys.has(key) }));
+  const option = (entry) => el("option", { value: entry.name, selected: Boolean(app.artist) && sameArtist(entry.name, app.artist) },
+    `${entry.name} (${entry.count})`);
+  const mine = entries.filter((entry) => entry.followed).sort(byName);
+  const others = entries.filter((entry) => !entry.followed).sort(byName);
+  const groups = [];
+  if (mine.length) groups.push(el("optgroup", { label: "Vos artistes" }, mine.map(option)));
+  if (others.length) groups.push(mine.length ? el("optgroup", { label: "Autres artistes" }, others.map(option)) : others.map(option));
+  const select = el("select", { onchange: (event) => { app.artist = event.target.value; renderList(); } },
+    el("option", { value: "", selected: !app.artist }, `Tous les artistes (${entries.length})`), ...groups.flat());
+  return el("label", { className: "pick" }, el("span", {}, "Artiste"), select);
 }
 function genrePicker() {
   const pool = viewPool();
