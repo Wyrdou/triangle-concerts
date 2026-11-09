@@ -585,6 +585,7 @@ function renderSettings(target) {
   const artists = el("textarea", { id: "artists", rows: 5, value: (config.artistes || []).join("\n") });
   const words = el("input", { id: "words", type: "text", value: (config.mots_cles || []).join(", ") });
   const unclassified = el("input", { type: "checkbox", checked: config.inclure_sans_style !== false });
+  const weekly = el("input", { type: "checkbox", checked: config.resume_hebdo !== false });
   const reminders = el("input", { id: "reminders", type: "text", inputMode: "numeric", value: (config.rappels_jours || [7, 1]).join(", ") });
   const agendas = el("input", { id: "agendas", type: "text", inputMode: "numeric", value: (config.sources?.openagenda?.agendas || []).join(", ") });
   const pages = el("textarea", { id: "pages", rows: 4, value: (config.pages || []).map((page) => `${page.nom} | ${page.url}`).join("\n") });
@@ -626,6 +627,7 @@ function renderSettings(target) {
         styles: styleBoxes.filter((box) => box.input.checked).map((box) => box.input.value),
         mots_cles: splitList(words.value),
         inclure_sans_style: unclassified.checked,
+        resume_hebdo: weekly.checked,
         rappels_jours: [...new Set(days)].sort((a, b) => b - a),
         pages: parsePages(pages.value),
         sources: { ...config.sources, openagenda: { actif: true, ...config.sources?.openagenda, agendas: agendaIds } },
@@ -658,6 +660,7 @@ function renderSettings(target) {
     el("div", { className: "field" }, el("label", { className: "check" }, unclassified, "Garder les concerts dont le style n’est pas renseigné")),
     el("div", { className: "field" }, el("label", { htmlFor: "margin" }, "Marge autour du triangle : ", marginOutput),
       el("p", { className: "hint" }, "Elle inclut par exemple Décines et Vienne à 25 km. La carte suit votre réglage."), margin),
+    el("div", { className: "field" }, el("label", { className: "check" }, weekly, "Recevoir un résumé Telegram chaque lundi")),
     el("div", { className: "field" }, el("label", { htmlFor: "reminders" }, "Rappels avant une mise en vente"),
       el("p", { className: "hint" }, "Nombre de jours avant l’ouverture, séparés par des virgules."), reminders),
     el("div", { className: "field" }, el("label", { htmlFor: "agendas" }, "Agendas OpenAgenda"),
