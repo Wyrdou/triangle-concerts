@@ -114,7 +114,22 @@ input[type="search"], input[type="text"], input[type="password"], textarea {
   border-radius: 4px;
   background: var(--field);
 }
-input[type="search"] { flex: 1 1 12rem; width: auto; }
+input[type="search"] { flex: 1 1 100%; width: 100%; }
+.picks { flex: 1 1 100%; display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: .6rem; }
+.pick { display: block; }
+.pick span { display: block; margin-bottom: .2rem; color: var(--soft); font-size: .9rem; font-weight: 700; }
+.pick select {
+  width: 100%;
+  padding: .5rem .6rem;
+  border: 2px solid var(--line);
+  border-radius: 4px;
+  background: var(--field);
+  color: var(--ink);
+  font: inherit;
+}
+.pick select:focus { border-color: var(--ink); }
+.count { display: flex; flex-wrap: wrap; gap: .4rem 1rem; align-items: baseline; margin: .9rem 0 0; color: var(--soft); font-weight: 700; }
+.reset { padding: 0; border: 0; background: none; color: var(--pink); font-weight: 700; text-decoration: underline; cursor: pointer; }
 input:focus, textarea:focus { border-color: var(--ink); }
 
 .rows { list-style: none; margin: 0; padding: 0; }
@@ -212,7 +227,7 @@ const DEFAULT_CORNERS = [
   { nom: "Saint-Étienne", lat: 45.4397, lon: 4.3872 },
   { nom: "Clermont-Ferrand", lat: 45.7772, lon: 3.087 },
 ];
-const app = { config: null, styles: [], concerts: [], reperes: [], status: {}, view: "ventes", side: "tous", query: "", margin: 25 };
+const app = { config: null, styles: [], concerts: [], reperes: [], status: {}, view: "ventes", side: "tous", query: "", artist: "", genre: "", margin: 25 };
 
 function el(tag, props = {}, ...children) {
   const node = document.createElement(tag);
@@ -263,13 +278,40 @@ function nearestCorner(concert) {
     return distance < best.distance ? { nom: corner.nom, distance } : best;
   }, { nom: "", distance: Infinity }).nom;
 }
+const words = (text) => normalize(text).replace(/[^a-z0-9]+/g, " ").trim();
+const hasPhrase = (hay, needle) => Boolean(needle) && ` ${hay} `.includes(` ${needle} `);
+const NO_GENRE = { id: "aucun", label: "Genre non renseigné" };
+
+function genresOf(concert) {
+  const text = words((concert.styles || []).join(" "));
+  const found = app.styles.filter((style) => style.id !== "tout" && style.mots.some((word) => hasPhrase(text, words(word))));
+  return found.length ? found.map((style) => style.id) : [NO_GENRE.id];
+}
+function artistsOf(concert) {
+  const text = words([concert.titre, ...(concert.artistes || [])].join(" "));
+  return (app.config?.artistes || []).filter((artist) => (concert.raisons || []).includes(artist) || hasPhrase(text, words(artist)));
+}
+function filtersActive() {
+  return Boolean(app.query || app.artist || app.genre || app.side !== "tous");
+}
 function visibleConcerts() {
   const query = normalize(app.query);
   return app.concerts.filter((concert) => {
     if (app.side !== "tous" && nearestCorner(concert) !== app.side) return false;
+    if (app.artist && !artistsOf(concert).includes(app.artist)) return false;
+    if (app.genre && !genresOf(concert).includes(app.genre)) return false;
     if (!query) return true;
     return normalize([concert.titre, concert.salle, concert.ville, ...(concert.artistes || []), ...(concert.styles || [])].join(" ")).includes(query);
   });
+}
+function viewPool() {
+  if (app.view !== "ventes") return app.concerts;
+  return app.concerts.filter((concert) => !isCancelled(concert) && nextSale(concert));
+}
+function picker(labelText, value, options, onChange) {
+  const select = el("select", { onchange: (event) => onChange(event.target.value) },
+    options.map((option) => el("option", { value: option.value, selected: option.value === value }, option.label)));
+  return el("label", { className: "pick" }, el("span", {}, labelText), select);
 }
 function upcomingSales(concerts) {
   const sales = [];
@@ -382,9 +424,38 @@ function filters() {
         onclick: () => { app.side = option.id; render(); },
       }, option.label))),
     el("input", {
-      type: "search", placeholder: "Chercher un artiste ou une salle", ariaLabel: "Chercher un artiste ou une salle", value: app.query,
+      type: "search", placeholder: "Chercher un artiste, une salle, une ville", ariaLabel: "Chercher un artiste, une salle ou une ville", value: app.query,
       oninput: (event) => { app.query = event.target.value; renderList(); },
-    }));
+    }),
+    el("div", { className: "picks" }, artistPicker(), genrePicker()));
+}
+function artistPicker() {
+  const artists = app.config?.artistes || [];
+  if (!artists.length) return null;
+  const pool = viewPool();
+  const options = artists
+    .map((artist) => ({ value: artist, count: pool.filter((concert) => artistsOf(concert).includes(artist)).length }))
+    .filter((option) => option.count || option.value === app.artist)
+    .map((option) => ({ value: option.value, label: `${option.value} (${option.count})` }));
+  return picker("Artiste", app.artist, [{ value: "", label: "Tous les artistes" }, ...options],
+    (value) => { app.artist = value; renderList(); });
+}
+function genrePicker() {
+  const pool = viewPool();
+  const all = [...app.styles.filter((style) => style.id !== "tout"), NO_GENRE];
+  const options = all
+    .map((style) => ({ value: style.id, label: style.label, count: pool.filter((concert) => genresOf(concert).includes(style.id)).length }))
+    .filter((option) => option.count || option.value === app.genre)
+    .map((option) => ({ value: option.value, label: `${option.label} (${option.count})` }));
+  return picker("Genre", app.genre, [{ value: "", label: "Tous les genres" }, ...options],
+    (value) => { app.genre = value; renderList(); });
+}
+function countLine(count, one, many) {
+  const reset = el("button", {
+    type: "button", className: "reset",
+    onclick: () => { app.query = ""; app.artist = ""; app.genre = ""; app.side = "tous"; render(); },
+  }, "Effacer les filtres");
+  return el("p", { className: "count" }, plural(count, one, many), filtersActive() ? reset : null);
 }
 function emptyMessage() {
   if (app.status.ok === undefined) return "Aucun scan pour le moment. Choisissez vos artistes et vos styles dans les réglages, puis lancez le premier scan.";
@@ -399,15 +470,15 @@ function renderList() {
   const base = emptyMessage();
   if (app.view === "ventes") {
     const sales = upcomingSales(concerts);
-    target.replaceChildren(sales.length
+    target.replaceChildren(countLine(sales.length, "mise en vente", "mises en vente"), sales.length
       ? el("ol", { className: "rows" }, sales.map(({ concert, sale }) => row(concert, new Date(sale.debut),
           title(concert), placeLine(concert),
           el("span", { className: "sale" }, `${sale.nom} : ${saleTime(sale.debut)}, ${countdown(sale.debut)}`),
           reasons(concert))))
-      : el("p", { className: "empty" }, base || "Aucune mise en vente datée pour cette recherche. Les concerts déjà en vente sont dans l’onglet Concerts."));
+      : el("p", { className: "empty" }, base || "Aucune mise en vente datée pour ces filtres. Les concerts déjà en vente sont dans l’onglet Concerts."));
     return;
   }
-  const nodes = [];
+  const nodes = [countLine(concerts.length, "concert", "concerts")];
   if (concerts.length) {
     nodes.push(el("ol", { className: "rows" }, concerts.map((concert) => {
       const sale = isCancelled(concert) ? null : nextSale(concert);
@@ -417,9 +488,9 @@ function renderList() {
         reasons(concert), attribution(concert));
     })));
   } else {
-    nodes.push(el("p", { className: "empty" }, base || "Aucun concert pour cette recherche."));
+    nodes.push(el("p", { className: "empty" }, base || "Aucun concert pour ces filtres."));
   }
-  if ((app.reperes || []).length && app.side === "tous" && !app.query) {
+  if ((app.reperes || []).length && !filtersActive()) {
     nodes.push(el("h2", {}, "Repérés sur le site des salles"));
     nodes.push(el("ul", { className: "report" }, app.reperes.map((hit) => el("li", {},
       `${hit.artiste} sur `, el("a", { href: hit.url, target: "_blank", rel: "noopener" }, hit.salle)))));
@@ -479,7 +550,7 @@ function statusBlock() {
     (status.sources || []).length ? el("details", {}, el("summary", {}, "État des sources"),
       el("ul", { className: "report" }, status.sources.map((source) => el("li", {}, `${source.nom} : ${source.message}`))),
       ...status.sources.flatMap((source) => (source.agendas || []).length ? [el("p", { className: "hint" },
-        source.agendas.map((agenda) => `${agenda.titre} (n° ${agenda.uid}) : ${agenda.concerts}`).join(", "))] : []),
+        source.agendas.map((agenda) => `${agenda.titre} (n° ${agenda.uid}) : ${agenda.erreur ? `erreur ${agenda.erreur}` : agenda.concerts}`).join(", "))] : []),
       ...status.sources.flatMap((source) => (source.champs || []).length ? [el("p", { className: "hint" },
         `Format inattendu pour ${source.nom}. Champs lus : ${source.champs.join(", ")}`)] : [])) : null,
     (status.styles_vus || []).length ? el("details", {}, el("summary", {}, "Styles trouvés dans les sources"),
