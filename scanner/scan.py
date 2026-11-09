@@ -856,9 +856,11 @@ def compare(concerts: list[dict], state: dict, reminder_days: list[int], now: da
             entry = {"premier_scan": api_date(now), "ids": [], "date": concert["date"],
                      "statut": concert["statut"], "ventes": {}, "rappels": []}
             known[key] = entry
-            if not first_run and concert.get("source", {}).get("type") not in silent_sources:
+            entry["signale"] = not first_run and concert.get("source", {}).get("type") not in silent_sources
+            if entry["signale"]:
                 alerts["nouveaux"].append(concert)
         concert["premier_scan"] = entry["premier_scan"]
+        concert["signale"] = entry.get("signale", False)
         entry["ids"] = sorted(set(entry["ids"]) | set(concert["ids"]))
 
         if not is_new:
@@ -1010,6 +1012,53 @@ def site_url() -> str:
     return f"https://{owner.lower()}.github.io/{name}/"
 
 
+# --- Résumé du lundi ---------------------------------------------------------
+
+def week_key(now: datetime) -> str:
+    year, week, _ = now.astimezone(PARIS).isocalendar()
+    return f"{year}-S{week:02d}"
+
+
+def summary_due(config: dict, state: dict, now: datetime) -> bool:
+    """Le lundi, ou plus tard dans la semaine si le lundi a été manqué."""
+    if not config.get("resume_hebdo", True):
+        return False
+    last = state.get("resume_semaine")
+    if last == week_key(now):
+        return False
+    # À la première activation, on attend le lundi suivant.
+    return now.astimezone(PARIS).weekday() == 0 or bool(last)
+
+
+def build_summary(concerts: list[dict], now: datetime, site: str) -> str:
+    today = now.astimezone(PARIS).date()
+    sunday = today + timedelta(days=6 - today.weekday())
+    active = [c for c in concerts if c.get("statut") not in CANCELLED_STATUSES]
+    this_week = [c for c in active if c.get("date") and today.isoformat() <= c["date"] <= sunday.isoformat()]
+    sales = []
+    for concert in active:
+        for sale in concert.get("ventes", []):
+            start = parse_datetime(sale["debut"])
+            if start and now < start <= now + timedelta(days=7):
+                sales.append((start, concert, sale))
+    sales.sort(key=lambda item: item[0])
+    week_ago = now - timedelta(days=7)
+    found = [c for c in active if c.get("signale") and (parse_datetime(c.get("premier_scan")) or now) >= week_ago]
+
+    parts = [f"🗓 <b>Votre semaine concerts</b>\nDu {fr_date(datetime.combine(today, datetime.min.time(), PARIS))} "
+             f"au {fr_date(datetime.combine(sunday, datetime.min.time(), PARIS))}", ""]
+    parts += section("Concerts cette semaine", [concert_line(c) for c in this_week], site)
+    parts += section("Mises en vente dans les 7 jours",
+                     [f"{concert_line(c)}\n{sale_line(s)}" for _, c, s in sales], site)
+    parts += section("Trouvés ces 7 derniers jours", [concert_line(c) for c in found], site)
+    if len(parts) == 2:
+        parts.append("Rien de prévu cette semaine.")
+        parts.append("")
+    if site:
+        parts.append(f"Tout voir : {site}")
+    return "\n".join(parts).strip()
+
+
 def gather_other_sources(config: dict, state: dict, now: datetime) -> tuple[list[dict], list[dict], set]:
     """Une source en panne ne bloque jamais le scan : ses concerts précédents sont gardés."""
     concerts: list[dict] = []
@@ -1118,10 +1167,15 @@ def run(now: datetime | None = None) -> int:
         message = first_run_message(concerts, site) if has_filters or not state.get("connecte") else ""
     else:
         message = build_message(alerts, hits, site, now)
+    messages = [message] if message else []
+    if not first_run and has_filters and summary_due(config, state, now):
+        messages.append(build_summary(concerts, now, site))
+        updated["resume_semaine"] = week_key(now)
     delivered = True
-    if message and can_notify:
+    if messages and can_notify:
         try:
-            send_telegram(message, token, chat_id)
+            for text in messages:
+                send_telegram(text, token, chat_id)
         except ScanError as exc:
             # L'état n'est pas enregistré : les alertes repartiront au prochain scan.
             delivered = False
