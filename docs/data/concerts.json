@@ -1108,6 +1108,37 @@
    "premier_scan": "2026-11-02T15:28:18Z"
   },
   {
+   "id": "oa-68681064",
+   "ids": [
+    "oa-68681064"
+   ],
+   "titre": "OKTOBEOURFEST#3 - Concert des autres lumières",
+   "artistes": [],
+   "date": "2026-12-04",
+   "heure": "20:30",
+   "salle": "Toï Toï Le Zinc",
+   "salle_id": "oa-97116157",
+   "ville": "Villeurbanne",
+   "lat": 45.779709,
+   "lon": 4.877152,
+   "url": "https://openagenda.com/villeurbanne2022/events/68681064_oktobeourfest3-concert-des-autres-lumieres",
+   "styles": [],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Villeurbanne - Agenda culturel",
+    "url": "https://viva.villeurbanne.fr/Agenda/list",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-11-06"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-09T18:49:49Z"
+  },
+  {
    "id": "oa-92239922",
    "ids": [
     "oa-47770720",
@@ -2608,6 +2639,41 @@
     "Rap et hip-hop"
    ],
    "premier_scan": "2026-11-02T15:28:18Z"
+  },
+  {
+   "id": "ZkyMmBwZ1A7opvo",
+   "ids": [
+    "ZkyMmBwZ1A7opvo"
+   ],
+   "titre": "ANTES ET MADZES",
+   "artistes": [],
+   "date": "2027-03-12",
+   "heure": "20:45",
+   "salle": "LA PUCE A L'OREILLE",
+   "salle_id": "rZ7SnyZad6S",
+   "ville": "Riom",
+   "lat": 45.886909,
+   "lon": 3.115613,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/antes-et-madzes-billet/idmanif/678071/idseance/4456051",
+   "styles": [
+    "Hip-Hop/Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-06T10:51:27Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-09T18:49:49Z"
   },
   {
    "id": "ZkyMmBwZ1A7ugoZ",
