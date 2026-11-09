@@ -1,41 +1,6 @@
 {
  "concerts": [
   {
-   "id": "ZkyMmBwZ1A7uZ1p",
-   "ids": [
-    "ZkyMmBwZ1A7uZ1p"
-   ],
-   "titre": "AMISTAT",
-   "artistes": [],
-   "date": "2026-11-09",
-   "heure": "20:00",
-   "salle": "LE TRANSBORDEUR",
-   "salle_id": "rZ6SnyZ6A6",
-   "ville": "Villeurbanne",
-   "lat": 45.778753,
-   "lon": 4.859536,
-   "url": "https://www.ticketmaster.fr/fr/manifestation/amistat-billet/idmanif/659741/idtier/18864121",
-   "styles": [
-    "Hip-Hop/Rap"
-   ],
-   "statut": "onsale",
-   "ventes": [
-    {
-     "type": "publique",
-     "nom": "Vente générale",
-     "debut": "2026-05-18T12:59:12Z"
-    }
-   ],
-   "source": {
-    "type": "ticketmaster",
-    "nom": "Ticketmaster"
-   },
-   "raisons": [
-    "Rap et hip-hop"
-   ],
-   "premier_scan": "2026-11-02T15:28:18Z"
-  },
-  {
    "id": "oa-92595387",
    "ids": [
     "oa-92595387"

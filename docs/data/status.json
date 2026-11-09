@@ -1,13 +1,13 @@
 {
- "dernier_scan": "2026-11-09T18:49:49Z",
+ "dernier_scan": "2026-11-09T19:15:38Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 649,
-  "dans_la_zone": 553,
-  "retenus": 116,
+  "recus": 648,
+  "dans_la_zone": 552,
+  "retenus": 115,
   "sans_style": 38
  },
  "styles_vus": [
@@ -33,7 +33,7 @@
   ],
   [
    "Hip-Hop/Rap",
-   46
+   45
   ],
   [
    "ENM",
@@ -234,7 +234,7 @@
     },
     {
      "terme": "festival de musique",
-     "lus": 203,
+     "lus": 202,
      "concerts": 10
     },
     {
