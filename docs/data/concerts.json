@@ -167,7 +167,7 @@
     "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
     "licence": "Licence Ouverte 2.0",
     "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
-    "maj": "2026-11-08"
+    "maj": "2026-11-09"
    },
    "raisons": [
     "Jazz et blues"
@@ -249,7 +249,8 @@
   {
    "id": "ZkyMmBwZ1A7Fk-y",
    "ids": [
-    "ZkyMmBwZ1A7Fk-y"
+    "ZkyMmBwZ1A7Fk-y",
+    "cf-8047433"
    ],
    "titre": "SINCLAIR",
    "artistes": [
@@ -405,7 +406,7 @@
     "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
     "licence": "Licence Ouverte 2.0",
     "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
-    "maj": "2026-11-08"
+    "maj": "2026-11-09"
    },
    "raisons": [
     "Rap et hip-hop"
@@ -715,7 +716,7 @@
     "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
     "licence": "Licence Ouverte 2.0",
     "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
-    "maj": "2026-11-08"
+    "maj": "2026-11-09"
    },
    "raisons": [
     "Jazz et blues"
@@ -894,7 +895,8 @@
   {
    "id": "ZkyMmBwZ1A7GMot",
    "ids": [
-    "ZkyMmBwZ1A7GMot"
+    "ZkyMmBwZ1A7GMot",
+    "cf-8047558"
    ],
    "titre": "THOMAS KAHN",
    "artistes": [
@@ -1210,7 +1212,8 @@
   {
    "id": "ZkyMmBwZ1A7G0G-",
    "ids": [
-    "ZkyMmBwZ1A7G0G-"
+    "ZkyMmBwZ1A7G0G-",
+    "cf-8054413"
    ],
    "titre": "YANNS",
    "artistes": [
@@ -1280,7 +1283,9 @@
   {
    "id": "ZkyMmBwZ1A7awfU",
    "ids": [
-    "ZkyMmBwZ1A7awfU"
+    "ZkyMmBwZ1A7awfU",
+    "cf-7670650",
+    "cf-7673046"
    ],
    "titre": "HIBA TAWAJI INVITE IBRAHIM MAALOUF",
    "artistes": [],
@@ -1385,7 +1390,8 @@
   {
    "id": "ZkyMmBwZ1A7G3bI",
    "ids": [
-    "ZkyMmBwZ1A7G3bI"
+    "ZkyMmBwZ1A7G3bI",
+    "cf-8054438"
    ],
    "titre": "PICHE",
    "artistes": [
@@ -1461,7 +1467,8 @@
   {
    "id": "ZkyMmBwZ1A71Fx8",
    "ids": [
-    "ZkyMmBwZ1A71Fx8"
+    "ZkyMmBwZ1A71Fx8",
+    "cf-8054462"
    ],
    "titre": "THE AMY WINEHOUSE BAND",
    "artistes": [
@@ -1894,7 +1901,7 @@
     "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
     "licence": "Licence Ouverte 2.0",
     "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
-    "maj": "2026-11-08"
+    "maj": "2026-11-09"
    },
    "raisons": [
     "Rap et hip-hop",
@@ -3108,7 +3115,8 @@
   {
    "id": "ZkyMmBwZ1A7CaAE",
    "ids": [
-    "ZkyMmBwZ1A7CaAE"
+    "ZkyMmBwZ1A7CaAE",
+    "cf-8018131"
    ],
    "titre": "DANYL",
    "artistes": [
