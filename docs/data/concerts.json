@@ -259,38 +259,6 @@
    "signale": false
   },
   {
-   "id": "oa-18450327",
-   "ids": [
-    "oa-18450327"
-   ],
-   "titre": "Concert Mezenkor",
-   "artistes": [],
-   "date": "2026-11-14",
-   "heure": "18:00",
-   "salle": "Salle Georges Brassens,",
-   "salle_id": "oa-16601281",
-   "ville": "Saint-Germain-au-Mont-d'Or",
-   "lat": 45.885543,
-   "lon": 4.80188,
-   "url": "https://openagenda.com/saint-germain-au-mont-dor/events/18450327_concert-mezenkor",
-   "styles": [],
-   "statut": "",
-   "ventes": [],
-   "source": {
-    "type": "openagenda",
-    "nom": "Saint-Germain-au-Mont-d'Or",
-    "url": "https://www.saintgermainaumontdor.org/",
-    "licence": "Licence Ouverte 2.0",
-    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
-    "maj": "2026-11-06"
-   },
-   "raisons": [
-    "Style non renseigné"
-   ],
-   "premier_scan": "2026-11-06T15:56:19Z",
-   "signale": false
-  },
-  {
    "id": "oa-59681344",
    "ids": [
     "oa-59681344"
@@ -321,6 +289,38 @@
    ],
    "premier_scan": "2026-11-02T20:46:07Z",
    "signale": false
+  },
+  {
+   "id": "oa-36384160",
+   "ids": [
+    "oa-36384160"
+   ],
+   "titre": "À TAAABLE... AVEC BUSTER KEATON ET FATTY !",
+   "artistes": [],
+   "date": "2026-11-15",
+   "heure": "15:00",
+   "salle": "Salle des Fêtes",
+   "salle_id": "oa-99040535",
+   "ville": "Saint-Genis-l'Argentière",
+   "lat": 45.710553,
+   "lon": 4.490898,
+   "url": "https://openagenda.com/mediatheque-stgenis/events/36384160_a-taaable-avec-buster-keaton-et-fatty",
+   "styles": [],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Médiathèque \"Le Marque-Page\" - Saint-Genis-l'Argentière",
+    "url": "https://openagenda.com/mediatheque-stgenis",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-11-10"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-10T16:26:12Z",
+   "signale": true
   },
   {
    "id": "oa-58893756",
@@ -2734,7 +2734,7 @@
     {
      "type": "publique",
      "nom": "Vente générale",
-     "debut": "2026-11-06T10:51:27Z"
+     "debut": "2026-11-10T10:15:33Z"
     }
    ],
    "source": {
@@ -3675,6 +3675,42 @@
    ],
    "premier_scan": "2026-11-02T15:28:18Z",
    "signale": false
+  },
+  {
+   "id": "ZkyMmBwZ1A7o9kA",
+   "ids": [
+    "ZkyMmBwZ1A7o9kA"
+   ],
+   "titre": "DALI",
+   "artistes": [],
+   "date": "2027-04-29",
+   "heure": "20:00",
+   "salle": "LA COOPERATIVE DE MAI",
+   "salle_id": "rZFSnyZed7e",
+   "ville": "Clermont Ferrand",
+   "lat": 45.788558,
+   "lon": 3.100011,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/dali-billet/idmanif/678296/idseance/4457185",
+   "styles": [
+    "Hip-Hop/Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-09T14:28:44Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-10T16:26:12Z",
+   "signale": true
   },
   {
    "id": "oa-23240907",
