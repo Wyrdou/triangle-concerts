@@ -36,79 +36,6 @@
    "signale": false
   },
   {
-   "id": "ZkyMmBwZ1A78UuM",
-   "ids": [
-    "ZkyMmBwZ1A78UuM"
-   ],
-   "titre": "CHICAGO BLUES FESTIVAL",
-   "artistes": [],
-   "date": "2026-11-10",
-   "heure": "20:00",
-   "salle": "THEATRE COMEDIE ODEON",
-   "salle_id": "rZ7SnyZa7CY",
-   "ville": "Lyon",
-   "lat": 45.76275,
-   "lon": 4.836719,
-   "url": "https://www.ticketmaster.fr/fr/manifestation/chicago-blues-festival-billet/idmanif/674981/idseance/4436377",
-   "styles": [
-    "Blues",
-    "Country Blues"
-   ],
-   "statut": "onsale",
-   "ventes": [
-    {
-     "type": "publique",
-     "nom": "Vente générale",
-     "debut": "2026-10-13T11:33:37Z"
-    }
-   ],
-   "source": {
-    "type": "ticketmaster",
-    "nom": "Ticketmaster"
-   },
-   "raisons": [
-    "Jazz et blues"
-   ],
-   "premier_scan": "2026-11-02T15:45:39Z",
-   "signale": false
-  },
-  {
-   "id": "ZkyMmBwZ1A78JZI",
-   "ids": [
-    "ZkyMmBwZ1A78JZI"
-   ],
-   "titre": "PLAVACE 5 ANS w. 8RUKI - ZED - TH",
-   "artistes": [],
-   "date": "2026-11-10",
-   "heure": "18:30",
-   "salle": "LE TRANSBORDEUR",
-   "salle_id": "rZ6SnyZ6A6",
-   "ville": "Villeurbanne",
-   "lat": 45.778753,
-   "lon": 4.859536,
-   "url": "https://www.ticketmaster.fr/fr/manifestation/plavace-5-ans-w-8ruki-zed-th-billet/idmanif/673246/idseance/4426028",
-   "styles": [
-    "Hip-Hop/Rap"
-   ],
-   "statut": "onsale",
-   "ventes": [
-    {
-     "type": "publique",
-     "nom": "Vente générale",
-     "debut": "2026-09-22T09:38:06Z"
-    }
-   ],
-   "source": {
-    "type": "ticketmaster",
-    "nom": "Ticketmaster"
-   },
-   "raisons": [
-    "Rap et hip-hop"
-   ],
-   "premier_scan": "2026-11-02T15:28:18Z",
-   "signale": false
-  },
-  {
    "id": "cf-8047403",
    "ids": [
     "cf-8047403"
@@ -3948,6 +3875,74 @@
    ],
    "premier_scan": "2026-11-02T15:28:18Z",
    "signale": false
+  },
+  {
+   "id": "ZkyMmBwZ1A7o4Pw",
+   "ids": [
+    "ZkyMmBwZ1A7o4Pw"
+   ],
+   "titre": "FESTI APPELOU",
+   "artistes": [],
+   "date": "2027-09-10",
+   "heure": "18:00",
+   "salle": "LE FIRMAMENT",
+   "salle_id": "rZFSnyZdkv6",
+   "ville": "Firminy",
+   "lat": 45.391191,
+   "lon": 4.275515,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/festi-appelou-billet/idmanif/678026/idseance/4455972",
+   "styles": [],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-05T17:03:21Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-10T19:15:39Z",
+   "signale": true
+  },
+  {
+   "id": "ZkyMmBwZ1A7o4JA",
+   "ids": [
+    "ZkyMmBwZ1A7o4JA"
+   ],
+   "titre": "FESTI APPELOU",
+   "artistes": [],
+   "date": "2027-09-11",
+   "heure": "16:00",
+   "salle": "LE FIRMAMENT",
+   "salle_id": "rZFSnyZdkv6",
+   "ville": "Firminy",
+   "lat": 45.391191,
+   "lon": 4.275515,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/festi-appelou-billet/idmanif/678029/idseance/4455985",
+   "styles": [],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-05T17:14:11Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-10T19:15:39Z",
+   "signale": true
   },
   {
    "id": "ZkyMmBwZ1A78x_s",

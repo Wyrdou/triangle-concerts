@@ -1,14 +1,14 @@
 {
- "dernier_scan": "2026-11-10T16:26:12Z",
+ "dernier_scan": "2026-11-10T19:15:39Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 653,
-  "dans_la_zone": 557,
+  "recus": 652,
+  "dans_la_zone": 556,
   "retenus": 117,
-  "sans_style": 39
+  "sans_style": 41
  },
  "styles_vus": [
   [
@@ -21,7 +21,7 @@
   ],
   [
    "Rock",
-   134
+   133
   ],
   [
    "Arts et culture",
@@ -33,7 +33,7 @@
   ],
   [
    "Hip-Hop/Rap",
-   46
+   45
   ],
   [
    "ENM",
@@ -45,7 +45,7 @@
   ],
   [
    "Metal",
-   21
+   20
   ],
   [
    "World",
@@ -132,14 +132,6 @@
    4
   ],
   [
-   "Blues",
-   3
-  ],
-  [
-   "Country Blues",
-   3
-  ],
-  [
    "baltrad",
    3
   ],
@@ -169,6 +161,14 @@
   ],
   [
    "International Pop",
+   2
+  ],
+  [
+   "Miscellaneous",
+   2
+  ],
+  [
+   "Singer-Songwriter",
    2
   ]
  ],
@@ -234,7 +234,7 @@
     },
     {
      "terme": "festival de musique",
-     "lus": 202,
+     "lus": 201,
      "concerts": 10
     },
     {
