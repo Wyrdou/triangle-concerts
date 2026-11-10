@@ -1753,6 +1753,38 @@
    "signale": false
   },
   {
+   "id": "oa-1306880",
+   "ids": [
+    "oa-1306880"
+   ],
+   "titre": "50e concert de Noël",
+   "artistes": [],
+   "date": "2026-12-19",
+   "heure": "18:00",
+   "salle": "Centre jean vilar",
+   "salle_id": "oa-43547494",
+   "ville": "NEUVILLE SUR SAONE",
+   "lat": 45.878292,
+   "lon": 4.837886,
+   "url": "https://openagenda.com/cmf/events/1306880_50e-concert-de-noel",
+   "styles": [],
+   "statut": "rescheduled",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Confédération Musicale de France",
+    "url": "https://www.cmf-musique.org",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-11-10"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-10T07:15:37Z",
+   "signale": true
+  },
+  {
    "id": "oa-2992115",
    "ids": [
     "oa-2992115",
