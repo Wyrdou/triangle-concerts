@@ -32,7 +32,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T20:46:07Z"
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A78UuM",
@@ -68,7 +69,8 @@
    "raisons": [
     "Jazz et blues"
    ],
-   "premier_scan": "2026-11-02T15:45:39Z"
+   "premier_scan": "2026-11-02T15:45:39Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A78JZI",
@@ -103,7 +105,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "cf-8047403",
@@ -132,12 +135,13 @@
     "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
     "licence": "Licence Ouverte 2.0",
     "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
-    "maj": "2026-11-09"
+    "maj": "2026-11-10"
    },
    "raisons": [
     "Jazz et blues"
    ],
-   "premier_scan": "2026-11-02T15:45:39Z"
+   "premier_scan": "2026-11-02T15:45:39Z",
+   "signale": false
   },
   {
    "id": "rZ7SnyZ1A77v-O",
@@ -174,7 +178,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7ubZd",
@@ -209,7 +214,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7Fk-y",
@@ -249,7 +255,8 @@
    "raisons": [
     "R&B, soul et funk"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "oa-18450327",
@@ -280,7 +287,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-06T15:56:19Z"
+   "premier_scan": "2026-11-06T15:56:19Z",
+   "signale": false
   },
   {
    "id": "oa-59681344",
@@ -311,7 +319,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-02T20:46:07Z"
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "signale": false
   },
   {
    "id": "oa-58893756",
@@ -342,7 +351,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-03T15:04:08Z"
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "signale": false
   },
   {
    "id": "cf-7710475",
@@ -371,12 +381,13 @@
     "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
     "licence": "Licence Ouverte 2.0",
     "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
-    "maj": "2026-11-09"
+    "maj": "2026-11-10"
    },
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "oa-30357394",
@@ -407,7 +418,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-02T20:46:07Z"
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7GP8O",
@@ -444,7 +456,8 @@
    "raisons": [
     "Jazz et blues"
    ],
-   "premier_scan": "2026-11-02T15:45:39Z"
+   "premier_scan": "2026-11-02T15:45:39Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7C8-M",
@@ -483,7 +496,8 @@
     "Rap et hip-hop",
     "R&B, soul et funk"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "oa-66694908",
@@ -514,7 +528,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-03T15:04:08Z"
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7uebY",
@@ -551,7 +566,8 @@
    "raisons": [
     "R&B, soul et funk"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7GI_3",
@@ -586,7 +602,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "oa-59006423",
@@ -617,7 +634,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-02T20:46:07Z"
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7u-39",
@@ -652,7 +670,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "cf-7977244",
@@ -681,12 +700,13 @@
     "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
     "licence": "Licence Ouverte 2.0",
     "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
-    "maj": "2026-11-09"
+    "maj": "2026-11-10"
    },
    "raisons": [
     "Jazz et blues"
    ],
-   "premier_scan": "2026-11-02T15:45:39Z"
+   "premier_scan": "2026-11-02T15:45:39Z",
+   "signale": false
   },
   {
    "id": "oa-9111713",
@@ -718,7 +738,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-04T07:15:36Z"
+   "premier_scan": "2026-11-04T07:15:36Z",
+   "signale": false
   },
   {
    "id": "oa-49997806",
@@ -752,7 +773,8 @@
    "raisons": [
     "Jazz et blues"
    ],
-   "premier_scan": "2026-11-03T15:04:08Z"
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7C74O",
@@ -785,7 +807,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7uoaN",
@@ -824,7 +847,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "oa-35279360",
@@ -855,7 +879,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-02T20:46:07Z"
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7GMot",
@@ -897,7 +922,8 @@
     "R&B, soul et funk",
     "Jazz et blues"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "oa-92690185",
@@ -928,7 +954,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-03T15:04:08Z"
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "signale": false
   },
   {
    "id": "oa-929263",
@@ -959,7 +986,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-03T15:04:08Z"
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "signale": false
   },
   {
    "id": "oa-82460593",
@@ -990,7 +1018,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-03T15:04:08Z"
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7ueOE",
@@ -1030,7 +1059,8 @@
    "raisons": [
     "R&B, soul et funk"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7F-Pd",
@@ -1070,7 +1100,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "oa-68681064",
@@ -1101,7 +1132,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-09T18:49:49Z"
+   "premier_scan": "2026-11-09T18:49:49Z",
+   "signale": false
   },
   {
    "id": "oa-92239922",
@@ -1135,7 +1167,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T20:46:07Z"
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A78e0J",
@@ -1170,7 +1203,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "oa-3583628",
@@ -1203,7 +1237,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T20:46:07Z"
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7G0G-",
@@ -1243,7 +1278,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "oa-48655190",
@@ -1274,7 +1310,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-03T15:04:08Z"
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7awfU",
@@ -1311,7 +1348,8 @@
    "raisons": [
     "Jazz et blues"
    ],
-   "premier_scan": "2026-11-02T15:45:39Z"
+   "premier_scan": "2026-11-02T15:45:39Z",
+   "signale": false
   },
   {
    "id": "oa-47267211",
@@ -1350,7 +1388,8 @@
    "raisons": [
     "Jungle"
    ],
-   "premier_scan": "2026-11-03T15:04:08Z"
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "signale": false
   },
   {
    "id": "oa-64424655",
@@ -1381,7 +1420,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-02T20:46:07Z"
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7G3bI",
@@ -1420,7 +1460,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "rZ7SnyZ1A7A40I",
@@ -1458,7 +1499,8 @@
    "raisons": [
     "Jazz et blues"
    ],
-   "premier_scan": "2026-11-02T15:45:39Z"
+   "premier_scan": "2026-11-02T15:45:39Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A71Fx8",
@@ -1498,7 +1540,8 @@
    "raisons": [
     "R&B, soul et funk"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7of-9",
@@ -1535,7 +1578,8 @@
    "raisons": [
     "Jazz et blues"
    ],
-   "premier_scan": "2026-11-04T16:21:12Z"
+   "premier_scan": "2026-11-04T16:21:12Z",
+   "signale": false
   },
   {
    "id": "oa-74061821",
@@ -1566,7 +1610,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-06T07:15:39Z"
+   "premier_scan": "2026-11-06T07:15:39Z",
+   "signale": false
   },
   {
    "id": "oa-41993764",
@@ -1597,7 +1642,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-02T20:46:07Z"
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7FUGt",
@@ -1636,7 +1682,8 @@
    "raisons": [
     "R&B, soul et funk"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "oa-18528709",
@@ -1667,7 +1714,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-03T15:04:08Z"
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "signale": false
   },
   {
    "id": "oa-10802483",
@@ -1701,7 +1749,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T20:46:07Z"
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "signale": false
   },
   {
    "id": "oa-2992115",
@@ -1733,7 +1782,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-03T15:04:08Z"
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "signale": false
   },
   {
    "id": "oa-62828454",
@@ -1764,7 +1814,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-03T15:04:08Z"
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "signale": false
   },
   {
    "id": "oa-65028691",
@@ -1795,7 +1846,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-02T20:46:07Z"
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7FPx9",
@@ -1833,7 +1885,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "oa-72456004",
@@ -1868,7 +1921,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T20:46:07Z"
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "signale": false
   },
   {
    "id": "cf-7796516",
@@ -1897,13 +1951,14 @@
     "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
     "licence": "Licence Ouverte 2.0",
     "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
-    "maj": "2026-11-09"
+    "maj": "2026-11-10"
    },
    "raisons": [
     "Rap et hip-hop",
     "R&B, soul et funk"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7C3bb",
@@ -1940,7 +1995,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A78Iux",
@@ -1978,7 +2034,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7CZbd",
@@ -2015,7 +2072,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A780Z4",
@@ -2053,7 +2111,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "oa-32965756",
@@ -2084,7 +2143,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-05T07:15:36Z"
+   "premier_scan": "2026-11-05T07:15:36Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A78ZJF",
@@ -2121,7 +2181,8 @@
    "raisons": [
     "R&B, soul et funk"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A78y4z",
@@ -2159,7 +2220,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "oa-98869413",
@@ -2193,7 +2255,8 @@
    "raisons": [
     "Jazz et blues"
    ],
-   "premier_scan": "2026-11-03T15:04:08Z"
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7uZGo",
@@ -2231,7 +2294,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "oa-88196637",
@@ -2262,7 +2326,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-02T20:46:07Z"
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7GgC9",
@@ -2300,7 +2365,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A788fs",
@@ -2340,7 +2406,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7Ck4f",
@@ -2375,7 +2442,8 @@
    "raisons": [
     "Jazz et blues"
    ],
-   "premier_scan": "2026-11-02T15:45:39Z"
+   "premier_scan": "2026-11-02T15:45:39Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7okZk",
@@ -2413,7 +2481,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7ZgOP",
@@ -2452,7 +2521,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7uM-o",
@@ -2491,7 +2561,8 @@
    "raisons": [
     "Jazz et blues"
    ],
-   "premier_scan": "2026-11-02T15:45:39Z"
+   "premier_scan": "2026-11-02T15:45:39Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A780GS",
@@ -2530,7 +2601,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A780qp",
@@ -2565,7 +2637,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7ugfg",
@@ -2603,7 +2676,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7opvo",
@@ -2638,7 +2712,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-09T18:49:49Z"
+   "premier_scan": "2026-11-09T18:49:49Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7ugoZ",
@@ -2678,7 +2753,8 @@
    "raisons": [
     "Jazz et blues"
    ],
-   "premier_scan": "2026-11-02T15:45:39Z"
+   "premier_scan": "2026-11-02T15:45:39Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7uI3F",
@@ -2715,7 +2791,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A78MZd",
@@ -2754,7 +2831,8 @@
    "raisons": [
     "Jazz et blues"
    ],
-   "premier_scan": "2026-11-02T15:45:39Z"
+   "premier_scan": "2026-11-02T15:45:39Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7C7b7",
@@ -2787,7 +2865,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "oa-33479126",
@@ -2818,7 +2897,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-02T20:46:07Z"
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7C7bF",
@@ -2851,7 +2931,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7C7b4",
@@ -2884,7 +2965,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A78IAv",
@@ -2923,7 +3005,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "oa-86691749",
@@ -2954,7 +3037,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-03T15:04:08Z"
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7C7b9",
@@ -2991,7 +3075,8 @@
    "raisons": [
     "Jazz et blues"
    ],
-   "premier_scan": "2026-11-02T15:45:39Z"
+   "premier_scan": "2026-11-02T15:45:39Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7u0-A",
@@ -3028,7 +3113,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7oA0f",
@@ -3066,7 +3152,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7oA0p",
@@ -3104,7 +3191,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7Gb-P",
@@ -3141,7 +3229,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7CaAE",
@@ -3180,7 +3269,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A78Y_z",
@@ -3219,7 +3309,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7u8F9",
@@ -3257,7 +3348,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7Gbuv",
@@ -3295,7 +3387,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "oa-72318641",
@@ -3331,7 +3424,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-03T15:04:08Z"
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "signale": false
   },
   {
    "id": "oa-54362406",
@@ -3362,7 +3456,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-03T15:04:08Z"
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A78z-U",
@@ -3397,7 +3492,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7Cax6",
@@ -3435,7 +3531,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "oa-14459941",
@@ -3466,7 +3563,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-02T20:46:07Z"
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7u00M",
@@ -3503,7 +3601,8 @@
    "raisons": [
     "R&B, soul et funk"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7G_kA",
@@ -3542,7 +3641,8 @@
    "raisons": [
     "R&B, soul et funk"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "oa-23240907",
@@ -3573,7 +3673,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-03T15:04:08Z"
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "signale": false
   },
   {
    "id": "oa-42159614",
@@ -3604,7 +3705,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-02T20:46:07Z"
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "signale": false
   },
   {
    "id": "oa-18487102",
@@ -3635,7 +3737,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-02T20:46:07Z"
+   "premier_scan": "2026-11-02T20:46:07Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7o8ZO",
@@ -3668,7 +3771,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-02T20:19:49Z"
+   "premier_scan": "2026-11-02T20:19:49Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7ookv",
@@ -3701,7 +3805,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-02T20:19:49Z"
+   "premier_scan": "2026-11-02T20:19:49Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7o8Z-",
@@ -3734,7 +3839,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-02T20:19:49Z"
+   "premier_scan": "2026-11-02T20:19:49Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A787-6",
@@ -3772,7 +3878,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A78x_s",
@@ -3810,7 +3917,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A78wfy",
@@ -3847,7 +3955,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A78x_b",
@@ -3885,7 +3994,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A78xOb",
@@ -3923,7 +4033,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "oa-15359745",
@@ -3954,7 +4065,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-03T15:04:08Z"
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7uok3",
@@ -3991,7 +4103,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "ZkyMmBwZ1A7u8-8",
@@ -4028,7 +4141,8 @@
    "raisons": [
     "Rap et hip-hop"
    ],
-   "premier_scan": "2026-11-02T15:28:18Z"
+   "premier_scan": "2026-11-02T15:28:18Z",
+   "signale": false
   },
   {
    "id": "oa-77535615",
@@ -4060,7 +4174,8 @@
    "raisons": [
     "Style non renseigné"
    ],
-   "premier_scan": "2026-11-03T15:04:08Z"
+   "premier_scan": "2026-11-03T15:04:08Z",
+   "signale": false
   }
  ],
  "reperes": [

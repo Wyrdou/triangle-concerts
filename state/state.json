@@ -1,36 +1,5 @@
 {
  "evenements": {
-  "ZkyMmBwZ1A716Fv": {
-   "premier_scan": "2026-11-02T15:28:18Z",
-   "ids": [
-    "ZkyMmBwZ1A716Fv"
-   ],
-   "date": "2026-11-07",
-   "statut": "onsale",
-   "ventes": {},
-   "rappels": []
-  },
-  "ZkyMmBwZ1A7aUut": {
-   "premier_scan": "2026-11-02T15:28:18Z",
-   "ids": [
-    "ZkyMmBwZ1A7aUut"
-   ],
-   "date": "2026-11-07",
-   "statut": "onsale",
-   "ventes": {},
-   "rappels": []
-  },
-  "ZkyMmBwZ1A7Gb0y": {
-   "premier_scan": "2026-11-02T15:28:18Z",
-   "ids": [
-    "ZkyMmBwZ1A7Gb0y",
-    "cf-8047370"
-   ],
-   "date": "2026-11-07",
-   "statut": "",
-   "ventes": {},
-   "rappels": []
-  },
   "ZkyMmBwZ1A7uZ1p": {
    "premier_scan": "2026-11-02T15:28:18Z",
    "ids": [
@@ -797,26 +766,6 @@
    "ventes": {},
    "rappels": []
   },
-  "oa-96140135": {
-   "premier_scan": "2026-11-02T20:46:07Z",
-   "ids": [
-    "oa-96140135"
-   ],
-   "date": "2026-11-07",
-   "statut": "",
-   "ventes": {},
-   "rappels": []
-  },
-  "oa-45150420": {
-   "premier_scan": "2026-11-02T20:46:07Z",
-   "ids": [
-    "oa-45150420"
-   ],
-   "date": "2026-11-07",
-   "statut": "",
-   "ventes": {},
-   "rappels": []
-  },
   "oa-92595387": {
    "premier_scan": "2026-11-02T20:46:07Z",
    "ids": [
@@ -985,16 +934,6 @@
    ],
    "date": "2027-06-16",
    "statut": "",
-   "ventes": {},
-   "rappels": []
-  },
-  "oa-55344996": {
-   "premier_scan": "2026-11-03T15:04:08Z",
-   "ids": [
-    "oa-55344996"
-   ],
-   "date": "2026-11-07",
-   "statut": "rescheduled",
    "ventes": {},
    "rappels": []
   },
