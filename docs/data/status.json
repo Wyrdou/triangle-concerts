@@ -1,12 +1,12 @@
 {
- "dernier_scan": "2026-11-11T00:40:46Z",
+ "dernier_scan": "2026-11-11T07:15:41Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 647,
-  "dans_la_zone": 552,
+  "recus": 648,
+  "dans_la_zone": 553,
   "retenus": 115,
   "sans_style": 41
  },
@@ -25,11 +25,11 @@
   ],
   [
    "Arts et culture",
-   62
+   63
   ],
   [
    "Concert",
-   62
+   63
   ],
   [
    "Hip-Hop/Rap",
@@ -214,7 +214,7 @@
    "recherches": [
     {
      "terme": "concert",
-     "lus": 94,
+     "lus": 93,
      "concerts": 86
     },
     {
@@ -234,7 +234,7 @@
     },
     {
      "terme": "festival de musique",
-     "lus": 199,
+     "lus": 200,
      "concerts": 10
     },
     {
@@ -315,7 +315,7 @@
    "nom": "Agenda de Clermont-Ferrand",
    "type": "clermont",
    "ok": true,
-   "message": "88 concert(s) sur 485 événement(s)"
+   "message": "89 concert(s) sur 521 événement(s)"
   }
  ]
 }
