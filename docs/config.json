@@ -47,7 +47,9 @@
   "sources": {
     "openagenda": {
       "actif": true,
-      "agendas": [9969608]
+      "agendas": [
+        9969608
+      ]
     },
     "clermont": {
       "actif": true
@@ -73,6 +75,11 @@
     {
       "nom": "Bercy",
       "url": "https://www.accorarena.com/fr"
+    },
+    {
+      "nom": "LDLC Arena",
+      "url": "https://www.ldlcarena.com/"
     }
-  ]
+  ],
+  "resume_hebdo": true
 }
