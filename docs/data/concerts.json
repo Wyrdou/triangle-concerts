@@ -4171,6 +4171,18 @@
    "salle": "Bercy",
    "url": "https://www.accorarena.com/fr",
    "nouveau": false
+  },
+  {
+   "artiste": "Orelsan",
+   "salle": "LDLC Arena",
+   "url": "https://www.ldlcarena.com/",
+   "nouveau": true
+  },
+  {
+   "artiste": "PLK",
+   "salle": "LDLC Arena",
+   "url": "https://www.ldlcarena.com/",
+   "nouveau": true
   }
  ]
 }

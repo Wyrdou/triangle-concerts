@@ -1,11 +1,11 @@
 {
- "dernier_scan": "2026-11-12T19:15:39Z",
+ "dernier_scan": "2026-11-12T20:39:42Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 643,
+  "recus": 642,
   "dans_la_zone": 550,
   "retenus": 115,
   "sans_style": 42
@@ -13,7 +13,7 @@
  "styles_vus": [
   [
    "Chanson Francaise",
-   159
+   158
   ],
   [
    "Pop",
@@ -25,11 +25,11 @@
   ],
   [
    "Arts et culture",
-   61
+   62
   ],
   [
    "Concert",
-   61
+   62
   ],
   [
    "Hip-Hop/Rap",
@@ -202,6 +202,12 @@
    "url": "https://www.accorarena.com/fr",
    "ok": true,
    "message": "1 artiste(s) repéré(s)"
+  },
+  {
+   "nom": "LDLC Arena",
+   "url": "https://www.ldlcarena.com/",
+   "ok": true,
+   "message": "2 artiste(s) repéré(s)"
   }
  ],
  "sources": [
@@ -234,7 +240,7 @@
     },
     {
      "terme": "festival de musique",
-     "lus": 194,
+     "lus": 193,
      "concerts": 10
     },
     {
