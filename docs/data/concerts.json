@@ -1,44 +1,6 @@
 {
  "concerts": [
   {
-   "id": "rZ7SnyZ1A77v-O",
-   "ids": [
-    "rZ7SnyZ1A77v-O"
-   ],
-   "titre": "SNIPER",
-   "artistes": [
-    "SNIPER"
-   ],
-   "date": "2026-11-12",
-   "heure": "20:00",
-   "salle": "LE TRANSBORDEUR",
-   "salle_id": "rZ6SnyZ6A6",
-   "ville": "Villeurbanne",
-   "lat": 45.778753,
-   "lon": 4.859536,
-   "url": "https://www.ticketmaster.fr/fr/manifestation/sniper-billet/idmanif/624197/idseance/4101860",
-   "styles": [
-    "Hip-Hop/Rap"
-   ],
-   "statut": "rescheduled",
-   "ventes": [
-    {
-     "type": "publique",
-     "nom": "Vente générale",
-     "debut": "2025-05-23T09:17:15Z"
-    }
-   ],
-   "source": {
-    "type": "ticketmaster",
-    "nom": "Ticketmaster"
-   },
-   "raisons": [
-    "Rap et hip-hop"
-   ],
-   "premier_scan": "2026-11-02T15:28:18Z",
-   "signale": false
-  },
-  {
    "id": "ZkyMmBwZ1A7ubZd",
    "ids": [
     "ZkyMmBwZ1A7ubZd"
@@ -3859,7 +3821,7 @@
     {
      "type": "publique",
      "nom": "Vente générale",
-     "debut": "2026-11-05T17:03:21Z"
+     "debut": "2026-11-12T17:03:12Z"
     }
    ],
    "source": {
@@ -3893,7 +3855,7 @@
     {
      "type": "publique",
      "nom": "Vente générale",
-     "debut": "2026-11-05T17:14:11Z"
+     "debut": "2026-11-12T17:03:23Z"
     }
    ],
    "source": {
