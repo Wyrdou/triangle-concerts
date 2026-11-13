@@ -1,13 +1,13 @@
 {
- "dernier_scan": "2026-11-13T16:27:17Z",
+ "dernier_scan": "2026-11-13T19:15:38Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 639,
-  "dans_la_zone": 547,
-  "retenus": 115,
+  "recus": 635,
+  "dans_la_zone": 544,
+  "retenus": 113,
   "sans_style": 42
  },
  "styles_vus": [
@@ -17,23 +17,23 @@
   ],
   [
    "Pop",
-   156
+   155
   ],
   [
    "Rock",
-   130
+   129
   ],
   [
    "Arts et culture",
-   58
+   59
   ],
   [
    "Concert",
-   58
+   59
   ],
   [
    "Hip-Hop/Rap",
-   44
+   43
   ],
   [
    "ENM",
@@ -45,7 +45,7 @@
   ],
   [
    "Metal",
-   20
+   19
   ],
   [
    "World",
@@ -64,12 +64,12 @@
    11
   ],
   [
-   "R&B",
+   "Reggae",
    9
   ],
   [
-   "Reggae",
-   9
+   "R&B",
+   8
   ],
   [
    "Heavy Metal",
@@ -215,13 +215,13 @@
    "nom": "OpenAgenda",
    "type": "openagenda",
    "ok": true,
-   "message": "111 concert(s) avec la lecture transverse",
+   "message": "110 concert(s) avec la lecture transverse",
    "transverse": true,
    "recherches": [
     {
      "terme": "concert",
      "lus": 97,
-     "concerts": 90
+     "concerts": 89
     },
     {
      "terme": "récital",
@@ -240,7 +240,7 @@
     },
     {
      "terme": "festival de musique",
-     "lus": 190,
+     "lus": 187,
      "concerts": 10
     },
     {
