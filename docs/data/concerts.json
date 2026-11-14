@@ -1,38 +1,6 @@
 {
  "concerts": [
   {
-   "id": "oa-59681344",
-   "ids": [
-    "oa-59681344"
-   ],
-   "titre": "EXAEQUA - Nuit 2 : Flore & Honeydrip, Rroxymore and more",
-   "artistes": [],
-   "date": "2026-11-14",
-   "heure": "23:00",
-   "salle": "Le Sucre",
-   "salle_id": "oa-50314000",
-   "ville": "Lyon",
-   "lat": 45.736564,
-   "lon": 4.815116,
-   "url": "https://openagenda.com/shotgun/events/59681344_exaequa-nuit-2-flore-and-honeydrip-rroxymore-and-more",
-   "styles": [],
-   "statut": "",
-   "ventes": [],
-   "source": {
-    "type": "openagenda",
-    "nom": "Shotgun",
-    "url": "https://shotgun.live/fr",
-    "licence": "Licence Ouverte 2.0",
-    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
-    "maj": "2026-10-05"
-   },
-   "raisons": [
-    "Style non renseigné"
-   ],
-   "premier_scan": "2026-11-02T20:46:07Z",
-   "signale": false
-  },
-  {
    "id": "oa-36384160",
    "ids": [
     "oa-36384160"
@@ -123,7 +91,7 @@
     "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
     "licence": "Licence Ouverte 2.0",
     "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
-    "maj": "2026-11-14"
+    "maj": "2026-11-15"
    },
    "raisons": [
     "Rap et hip-hop"
@@ -442,7 +410,7 @@
     "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
     "licence": "Licence Ouverte 2.0",
     "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
-    "maj": "2026-11-14"
+    "maj": "2026-11-15"
    },
    "raisons": [
     "Jazz et blues"
@@ -1725,7 +1693,7 @@
     "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
     "licence": "Licence Ouverte 2.0",
     "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
-    "maj": "2026-11-14"
+    "maj": "2026-11-15"
    },
    "raisons": [
     "Rap et hip-hop",
