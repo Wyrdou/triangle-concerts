@@ -1,19 +1,19 @@
 {
- "dernier_scan": "2026-11-13T19:15:38Z",
+ "dernier_scan": "2026-11-14T00:15:08Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 635,
-  "dans_la_zone": 544,
+  "recus": 633,
+  "dans_la_zone": 542,
   "retenus": 113,
   "sans_style": 42
  },
  "styles_vus": [
   [
    "Chanson Francaise",
-   158
+   157
   ],
   [
    "Pop",
@@ -25,11 +25,11 @@
   ],
   [
    "Arts et culture",
-   59
+   57
   ],
   [
    "Concert",
-   59
+   57
   ],
   [
    "Hip-Hop/Rap",
@@ -193,13 +193,13 @@
   },
   {
    "nom": "Stade de France",
-   "url": "https://www.stadefrance.com/fr",
+   "url": "https://www.stadefrance.com/fr/",
    "ok": true,
    "message": "0 artiste(s) repéré(s)"
   },
   {
    "nom": "Bercy",
-   "url": "https://www.accorarena.com/fr",
+   "url": "https://www.accorarena.com/fr/",
    "ok": true,
    "message": "1 artiste(s) repéré(s)"
   },
@@ -215,13 +215,13 @@
    "nom": "OpenAgenda",
    "type": "openagenda",
    "ok": true,
-   "message": "110 concert(s) avec la lecture transverse",
+   "message": "111 concert(s) avec la lecture transverse",
    "transverse": true,
    "recherches": [
     {
      "terme": "concert",
      "lus": 97,
-     "concerts": 89
+     "concerts": 90
     },
     {
      "terme": "récital",
@@ -240,7 +240,7 @@
     },
     {
      "terme": "festival de musique",
-     "lus": 187,
+     "lus": 185,
      "concerts": 10
     },
     {
@@ -321,7 +321,7 @@
    "nom": "Agenda de Clermont-Ferrand",
    "type": "clermont",
    "ok": true,
-   "message": "82 concert(s) sur 521 événement(s)"
+   "message": "80 concert(s) sur 521 événement(s)"
   }
  ]
 }

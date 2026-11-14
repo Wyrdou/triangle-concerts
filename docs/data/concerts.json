@@ -155,7 +155,7 @@
     "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
     "licence": "Licence Ouverte 2.0",
     "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
-    "maj": "2026-11-13"
+    "maj": "2026-11-14"
    },
    "raisons": [
     "Rap et hip-hop"
@@ -474,7 +474,7 @@
     "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
     "licence": "Licence Ouverte 2.0",
     "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
-    "maj": "2026-11-13"
+    "maj": "2026-11-14"
    },
    "raisons": [
     "Jazz et blues"
@@ -1757,7 +1757,7 @@
     "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
     "licence": "Licence Ouverte 2.0",
     "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
-    "maj": "2026-11-13"
+    "maj": "2026-11-14"
    },
    "raisons": [
     "Rap et hip-hop",
@@ -4092,8 +4092,8 @@
   {
    "artiste": "Orelsan",
    "salle": "Bercy",
-   "url": "https://www.accorarena.com/fr",
-   "nouveau": false
+   "url": "https://www.accorarena.com/fr/",
+   "nouveau": true
   },
   {
    "artiste": "Orelsan",
