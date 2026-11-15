@@ -1,38 +1,6 @@
 {
  "concerts": [
   {
-   "id": "oa-36384160",
-   "ids": [
-    "oa-36384160"
-   ],
-   "titre": "À TAAABLE... AVEC BUSTER KEATON ET FATTY !",
-   "artistes": [],
-   "date": "2026-11-15",
-   "heure": "15:00",
-   "salle": "Salle des Fêtes",
-   "salle_id": "oa-99040535",
-   "ville": "Saint-Genis-l'Argentière",
-   "lat": 45.710553,
-   "lon": 4.490898,
-   "url": "https://openagenda.com/mediatheque-stgenis/events/36384160_a-taaable-avec-buster-keaton-et-fatty",
-   "styles": [],
-   "statut": "",
-   "ventes": [],
-   "source": {
-    "type": "openagenda",
-    "nom": "Médiathèque \"Le Marque-Page\" - Saint-Genis-l'Argentière",
-    "url": "https://openagenda.com/mediatheque-stgenis",
-    "licence": "Licence Ouverte 2.0",
-    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
-    "maj": "2026-11-10"
-   },
-   "raisons": [
-    "Style non renseigné"
-   ],
-   "premier_scan": "2026-11-10T16:26:12Z",
-   "signale": true
-  },
-  {
    "id": "oa-58893756",
    "ids": [
     "oa-58893756"
