@@ -1,12 +1,12 @@
 {
- "dernier_scan": "2026-11-15T15:40:22Z",
+ "dernier_scan": "2026-11-15T19:15:41Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 630,
-  "dans_la_zone": 539,
+  "recus": 628,
+  "dans_la_zone": 537,
   "retenus": 110,
   "sans_style": 39
  },
@@ -17,11 +17,11 @@
   ],
   [
    "Pop",
-   154
+   153
   ],
   [
    "Rock",
-   128
+   127
   ],
   [
    "Arts et culture",
@@ -45,7 +45,7 @@
   ],
   [
    "Metal",
-   19
+   18
   ],
   [
    "World",
@@ -72,10 +72,6 @@
    8
   ],
   [
-   "Heavy Metal",
-   8
-  ],
-  [
    "Jazz",
    8
   ],
@@ -86,6 +82,10 @@
   [
    "Children's Music",
    8
+  ],
+  [
+   "Heavy Metal",
+   7
   ],
   [
    "Urban",
@@ -240,7 +240,7 @@
     },
     {
      "terme": "festival de musique",
-     "lus": 173,
+     "lus": 169,
      "concerts": 10
     },
     {
