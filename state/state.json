@@ -1,26 +1,5 @@
 {
  "evenements": {
-  "ZkyMmBwZ1A7ubZd": {
-   "premier_scan": "2026-11-02T15:28:18Z",
-   "ids": [
-    "ZkyMmBwZ1A7ubZd"
-   ],
-   "date": "2026-11-13",
-   "statut": "onsale",
-   "ventes": {},
-   "rappels": []
-  },
-  "ZkyMmBwZ1A7Fk-y": {
-   "premier_scan": "2026-11-02T15:28:18Z",
-   "ids": [
-    "ZkyMmBwZ1A7Fk-y",
-    "cf-8047433"
-   ],
-   "date": "2026-11-13",
-   "statut": "onsale",
-   "ventes": {},
-   "rappels": []
-  },
   "cf-7710475": {
    "premier_scan": "2026-11-02T15:28:18Z",
    "ids": [
@@ -1312,5 +1291,6 @@
    }
   ]
  },
- "oa_transverse": true
+ "oa_transverse": true,
+ "resume_semaine": "2026-S47"
 }
