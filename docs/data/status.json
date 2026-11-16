@@ -1,5 +1,5 @@
 {
- "dernier_scan": "2026-11-15T23:58:20Z",
+ "dernier_scan": "2026-11-16T07:15:37Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
@@ -321,7 +321,7 @@
    "nom": "Agenda de Clermont-Ferrand",
    "type": "clermont",
    "ok": true,
-   "message": "79 concert(s) sur 515 événement(s)"
+   "message": "79 concert(s) sur 505 événement(s)"
   }
  ]
 }
