@@ -695,16 +695,6 @@
    "ventes": {},
    "rappels": []
   },
-  "oa-59681344": {
-   "premier_scan": "2026-11-02T20:46:07Z",
-   "ids": [
-    "oa-59681344"
-   ],
-   "date": "2026-11-14",
-   "statut": "",
-   "ventes": {},
-   "rappels": []
-  },
   "oa-30357394": {
    "premier_scan": "2026-11-02T20:46:07Z",
    "ids": [
@@ -1076,16 +1066,6 @@
    ],
    "date": "2026-12-12",
    "statut": "rescheduled",
-   "ventes": {},
-   "rappels": []
-  },
-  "oa-18450327": {
-   "premier_scan": "2026-11-06T15:56:19Z",
-   "ids": [
-    "oa-18450327"
-   ],
-   "date": "2026-11-14",
-   "statut": "",
    "ventes": {},
    "rappels": []
   },
