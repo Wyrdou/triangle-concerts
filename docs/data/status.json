@@ -1,12 +1,12 @@
 {
- "dernier_scan": "2026-11-17T17:38:22Z",
+ "dernier_scan": "2026-11-17T19:15:38Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
   "recus": 629,
-  "dans_la_zone": 538,
+  "dans_la_zone": 540,
   "retenus": 110,
   "sans_style": 39
  },
@@ -17,19 +17,19 @@
   ],
   [
    "Pop",
-   154
+   155
   ],
   [
    "Rock",
-   128
+   129
   ],
   [
    "Arts et culture",
-   55
+   56
   ],
   [
    "Concert",
-   55
+   56
   ],
   [
    "Hip-Hop/Rap",
