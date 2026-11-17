@@ -1,38 +1,6 @@
 {
  "concerts": [
   {
-   "id": "oa-58893756",
-   "ids": [
-    "oa-58893756"
-   ],
-   "titre": "Piao plume en concert !",
-   "artistes": [],
-   "date": "2026-11-17",
-   "heure": "18:30",
-   "salle": "Salle Georges Brassens,",
-   "salle_id": "oa-16601281",
-   "ville": "Saint-Germain-au-Mont-d'Or",
-   "lat": 45.885543,
-   "lon": 4.80188,
-   "url": "https://openagenda.com/saint-germain-au-mont-dor/events/58893756_piao-plume-en-concert",
-   "styles": [],
-   "statut": "",
-   "ventes": [],
-   "source": {
-    "type": "openagenda",
-    "nom": "Saint-Germain-au-Mont-d'Or",
-    "url": "https://www.saintgermainaumontdor.org/",
-    "licence": "Licence Ouverte 2.0",
-    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
-    "maj": "2026-10-30"
-   },
-   "raisons": [
-    "Style non renseigné"
-   ],
-   "premier_scan": "2026-11-03T15:04:08Z",
-   "signale": false
-  },
-  {
    "id": "cf-7710475",
    "ids": [
     "cf-7710475"
@@ -883,6 +851,38 @@
    ],
    "premier_scan": "2026-11-02T15:28:18Z",
    "signale": false
+  },
+  {
+   "id": "oa-42650186",
+   "ids": [
+    "oa-42650186"
+   ],
+   "titre": "Concert de Noël",
+   "artistes": [],
+   "date": "2026-12-05",
+   "heure": "20:00",
+   "salle": "Glèisa (Sant Dièir)",
+   "salle_id": "oa-89731001",
+   "ville": "Saint-Dier-d'Auvergne",
+   "lat": 45.675841,
+   "lon": 3.482997,
+   "url": "https://openagenda.com/occitan/events/42650186_concert-de-noel-5999973",
+   "styles": [],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Lo CalenDiari",
+    "url": "https://agenda.lodiari.com",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-11-17"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-17T17:38:22Z",
+   "signale": true
   },
   {
    "id": "oa-3583628",
@@ -3630,7 +3630,8 @@
   {
    "id": "ZkyMmBwZ1A7o4Pw",
    "ids": [
-    "ZkyMmBwZ1A7o4Pw"
+    "ZkyMmBwZ1A7o4Pw",
+    "ZkyMmBwZ1A7oOAg"
    ],
    "titre": "FESTI APPELOU",
    "artistes": [],

@@ -1,19 +1,19 @@
 {
- "dernier_scan": "2026-11-17T07:15:38Z",
+ "dernier_scan": "2026-11-17T17:38:22Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 626,
-  "dans_la_zone": 536,
+  "recus": 629,
+  "dans_la_zone": 538,
   "retenus": 110,
   "sans_style": 39
  },
  "styles_vus": [
   [
    "Chanson Francaise",
-   156
+   157
   ],
   [
    "Pop",
@@ -132,6 +132,10 @@
    4
   ],
   [
+   "Rhône",
+   3
+  ],
+  [
    "baltrad",
    3
   ],
@@ -165,10 +169,6 @@
   ],
   [
    "Miscellaneous",
-   2
-  ],
-  [
-   "Singer-Songwriter",
    2
   ]
  ],
@@ -215,13 +215,13 @@
    "nom": "OpenAgenda",
    "type": "openagenda",
    "ok": true,
-   "message": "107 concert(s) avec la lecture transverse",
+   "message": "108 concert(s) avec la lecture transverse",
    "transverse": true,
    "recherches": [
     {
      "terme": "concert",
-     "lus": 93,
-     "concerts": 87
+     "lus": 95,
+     "concerts": 88
     },
     {
      "terme": "récital",
