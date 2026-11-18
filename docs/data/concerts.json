@@ -36,38 +36,6 @@
    "signale": false
   },
   {
-   "id": "oa-30357394",
-   "ids": [
-    "oa-30357394"
-   ],
-   "titre": "KICK IN THE JAM | MER. 18.11",
-   "artistes": [],
-   "date": "2026-11-18",
-   "heure": "20:00",
-   "salle": "Kraspek Myzik",
-   "salle_id": "oa-93085059",
-   "ville": "Lyon",
-   "lat": 45.771287,
-   "lon": 4.835777,
-   "url": "https://openagenda.com/shotgun/events/30357394_kick-in-the-jam-or-mer-1811",
-   "styles": [],
-   "statut": "",
-   "ventes": [],
-   "source": {
-    "type": "openagenda",
-    "nom": "Shotgun",
-    "url": "https://shotgun.live/fr",
-    "licence": "Licence Ouverte 2.0",
-    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
-    "maj": "2026-10-05"
-   },
-   "raisons": [
-    "Style non renseigné"
-   ],
-   "premier_scan": "2026-11-02T20:46:07Z",
-   "signale": false
-  },
-  {
    "id": "ZkyMmBwZ1A7GP8O",
    "ids": [
     "ZkyMmBwZ1A7GP8O"
@@ -3989,45 +3957,6 @@
    ],
    "premier_scan": "2026-11-02T15:28:18Z",
    "signale": false
-  },
-  {
-   "id": "ZkyMmBwZ1A7o7rF",
-   "ids": [
-    "ZkyMmBwZ1A7o7rF"
-   ],
-   "titre": "LETO",
-   "artistes": [
-    "Leto"
-   ],
-   "date": "2027-11-25",
-   "heure": "20:00",
-   "salle": "HALLE TONY GARNIER",
-   "salle_id": "rZFSnyZeA1F",
-   "ville": "Lyon",
-   "lat": 45.73224,
-   "lon": 4.824296,
-   "url": "https://www.ticketmaster.fr/fr/manifestation/leto-billet/idmanif/676628/idseance/4444788",
-   "styles": [
-    "Hip-Hop/Rap",
-    "French Rap"
-   ],
-   "statut": "offsale",
-   "ventes": [
-    {
-     "type": "publique",
-     "nom": "Vente générale",
-     "debut": "2026-11-20T11:00:00Z"
-    }
-   ],
-   "source": {
-    "type": "ticketmaster",
-    "nom": "Ticketmaster"
-   },
-   "raisons": [
-    "Rap et hip-hop"
-   ],
-   "premier_scan": "2026-11-18T17:16:19Z",
-   "signale": true
   },
   {
    "id": "ZkyMmBwZ1A7u8-8",

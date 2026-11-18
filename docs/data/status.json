@@ -1,14 +1,14 @@
 {
- "dernier_scan": "2026-11-18T17:16:19Z",
+ "dernier_scan": "2026-11-18T19:15:36Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 639,
-  "dans_la_zone": 550,
-  "retenus": 114,
-  "sans_style": 40
+  "recus": 634,
+  "dans_la_zone": 546,
+  "retenus": 112,
+  "sans_style": 39
  },
  "styles_vus": [
   [
@@ -33,7 +33,7 @@
   ],
   [
    "Hip-Hop/Rap",
-   46
+   45
   ],
   [
    "Dance/Electronic",
@@ -49,7 +49,7 @@
   ],
   [
    "French Rap",
-   15
+   14
   ],
   [
    "World",
@@ -64,11 +64,11 @@
    11
   ],
   [
-   "Reggae",
-   9
+   "R&B",
+   8
   ],
   [
-   "R&B",
+   "Reggae",
    8
   ],
   [
@@ -96,15 +96,15 @@
    7
   ],
   [
-   "chanson",
-   6
-  ],
-  [
    "Alternative",
    5
   ],
   [
    "Comedy",
+   5
+  ],
+  [
+   "chanson",
    5
   ],
   [
@@ -124,10 +124,6 @@
    4
   ],
   [
-   "rock",
-   4
-  ],
-  [
    "rap",
    4
   ],
@@ -141,6 +137,10 @@
   ],
   [
    "balfolk",
+   3
+  ],
+  [
+   "rock",
    3
   ],
   [
@@ -215,13 +215,13 @@
    "nom": "OpenAgenda",
    "type": "openagenda",
    "ok": true,
-   "message": "109 concert(s) avec la lecture transverse",
+   "message": "106 concert(s) avec la lecture transverse",
    "transverse": true,
    "recherches": [
     {
      "terme": "concert",
      "lus": 95,
-     "concerts": 89
+     "concerts": 88
     },
     {
      "terme": "récital",
@@ -241,7 +241,7 @@
     {
      "terme": "festival de musique",
      "lus": 167,
-     "concerts": 10
+     "concerts": 8
     },
     {
      "terme": "musiques actuelles",
