@@ -600,8 +600,8 @@
     "cf-7670650",
     "cf-7673046"
    ],
-   "date": "2026-12-08",
-   "statut": "onsale",
+   "date": "2027-05-04",
+   "statut": "rescheduled",
    "ventes": {},
    "rappels": []
   },
@@ -1154,6 +1154,47 @@
    "statut": "rescheduled",
    "ventes": {},
    "rappels": [],
+   "signale": true
+  },
+  "ZkyMmBwZ1A7o-A-": {
+   "premier_scan": "2026-11-18T17:16:19Z",
+   "ids": [
+    "ZkyMmBwZ1A7o-A-"
+   ],
+   "date": "2027-03-04",
+   "statut": "onsale",
+   "ventes": {},
+   "rappels": [],
+   "signale": true
+  },
+  "ZkyMmBwZ1A7o7rF": {
+   "premier_scan": "2026-11-18T17:16:19Z",
+   "ids": [
+    "ZkyMmBwZ1A7o7rF"
+   ],
+   "date": "2027-11-25",
+   "statut": "offsale",
+   "ventes": {
+    "publique:Vente générale": "2026-11-20T11:00:00Z"
+   },
+   "rappels": [
+    "publique:Vente générale|7"
+   ],
+   "signale": true
+  },
+  "ZkyMmBwZ1A7oOx8": {
+   "premier_scan": "2026-11-18T17:16:19Z",
+   "ids": [
+    "ZkyMmBwZ1A7oOx8"
+   ],
+   "date": "2027-11-28",
+   "statut": "offsale",
+   "ventes": {
+    "publique:Vente générale": "2026-11-19T11:00:00Z"
+   },
+   "rappels": [
+    "publique:Vente générale|1"
+   ],
    "signale": true
   }
  },

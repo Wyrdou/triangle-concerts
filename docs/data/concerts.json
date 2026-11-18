@@ -992,44 +992,6 @@
    "signale": false
   },
   {
-   "id": "ZkyMmBwZ1A7awfU",
-   "ids": [
-    "ZkyMmBwZ1A7awfU",
-    "cf-7670650",
-    "cf-7673046"
-   ],
-   "titre": "HIBA TAWAJI INVITE IBRAHIM MAALOUF",
-   "artistes": [],
-   "date": "2026-12-08",
-   "heure": "20:30",
-   "salle": "MAISON DE LA CULTURE",
-   "salle_id": "rZ6SnyZFAe",
-   "ville": "Clermont Ferrand",
-   "lat": 45.770745,
-   "lon": 3.086107,
-   "url": "https://www.ticketmaster.fr/fr/manifestation/hiba-tawaji-invite-ibrahim-maalouf-billet/idmanif/649366/idseance/4272536",
-   "styles": [
-    "Jazz"
-   ],
-   "statut": "onsale",
-   "ventes": [
-    {
-     "type": "publique",
-     "nom": "Vente générale",
-     "debut": "2026-02-06T15:25:02Z"
-    }
-   ],
-   "source": {
-    "type": "ticketmaster",
-    "nom": "Ticketmaster"
-   },
-   "raisons": [
-    "Jazz et blues"
-   ],
-   "premier_scan": "2026-11-02T15:45:39Z",
-   "signale": false
-  },
-  {
    "id": "oa-47267211",
    "ids": [
     "oa-47267211"
@@ -2267,6 +2229,45 @@
    "signale": false
   },
   {
+   "id": "ZkyMmBwZ1A7o-A-",
+   "ids": [
+    "ZkyMmBwZ1A7o-A-"
+   ],
+   "titre": "MAKALA",
+   "artistes": [
+    "Makala"
+   ],
+   "date": "2027-03-04",
+   "heure": "20:00",
+   "salle": "LE TRANSBORDEUR",
+   "salle_id": "rZ6SnyZ6A6",
+   "ville": "Villeurbanne",
+   "lat": 45.778753,
+   "lon": 4.859536,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/makala-billet/idmanif/679131/idseance/4461161",
+   "styles": [
+    "Hip-Hop/Rap",
+    "French Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-18T11:47:45Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-18T17:16:19Z",
+   "signale": true
+  },
+  {
    "id": "ZkyMmBwZ1A7uM-o",
    "ids": [
     "ZkyMmBwZ1A7uM-o"
@@ -3455,6 +3456,42 @@
    "signale": false
   },
   {
+   "id": "ZkyMmBwZ1A7awfU",
+   "ids": [
+    "ZkyMmBwZ1A7awfU"
+   ],
+   "titre": "HIBA TAWAJI INVITE IBRAHIM MAALOUF",
+   "artistes": [],
+   "date": "2027-05-04",
+   "heure": "20:30",
+   "salle": "MAISON DE LA CULTURE",
+   "salle_id": "rZ6SnyZFAe",
+   "ville": "Clermont Ferrand",
+   "lat": 45.770745,
+   "lon": 3.086107,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/hiba-tawaji-invite-ibrahim-maalouf-billet/idmanif/649366/idseance/4272536",
+   "styles": [
+    "Jazz"
+   ],
+   "statut": "rescheduled",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-02-06T15:25:02Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Jazz et blues"
+   ],
+   "premier_scan": "2026-11-02T15:45:39Z",
+   "signale": false
+  },
+  {
    "id": "oa-42159614",
    "ids": [
     "oa-42159614"
@@ -3954,6 +3991,45 @@
    "signale": false
   },
   {
+   "id": "ZkyMmBwZ1A7o7rF",
+   "ids": [
+    "ZkyMmBwZ1A7o7rF"
+   ],
+   "titre": "LETO",
+   "artistes": [
+    "Leto"
+   ],
+   "date": "2027-11-25",
+   "heure": "20:00",
+   "salle": "HALLE TONY GARNIER",
+   "salle_id": "rZFSnyZeA1F",
+   "ville": "Lyon",
+   "lat": 45.73224,
+   "lon": 4.824296,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/leto-billet/idmanif/676628/idseance/4444788",
+   "styles": [
+    "Hip-Hop/Rap",
+    "French Rap"
+   ],
+   "statut": "offsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-20T11:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-18T17:16:19Z",
+   "signale": true
+  },
+  {
    "id": "ZkyMmBwZ1A7u8-8",
    "ids": [
     "ZkyMmBwZ1A7u8-8"
@@ -3990,6 +4066,45 @@
    ],
    "premier_scan": "2026-11-02T15:28:18Z",
    "signale": false
+  },
+  {
+   "id": "ZkyMmBwZ1A7oOx8",
+   "ids": [
+    "ZkyMmBwZ1A7oOx8"
+   ],
+   "titre": "BOUSS",
+   "artistes": [
+    "Bouss"
+   ],
+   "date": "2027-11-28",
+   "heure": "18:00",
+   "salle": "HALLE TONY GARNIER",
+   "salle_id": "rZFSnyZeA1F",
+   "ville": "Lyon",
+   "lat": 45.73224,
+   "lon": 4.824296,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/bouss-billet/idmanif/679068/idseance/4460890",
+   "styles": [
+    "Hip-Hop/Rap",
+    "French Rap"
+   ],
+   "statut": "offsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-19T11:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-18T17:16:19Z",
+   "signale": true
   },
   {
    "id": "oa-77535615",

@@ -1,43 +1,43 @@
 {
- "dernier_scan": "2026-11-18T07:15:37Z",
+ "dernier_scan": "2026-11-18T17:16:19Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 630,
-  "dans_la_zone": 541,
-  "retenus": 111,
+  "recus": 639,
+  "dans_la_zone": 550,
+  "retenus": 114,
   "sans_style": 40
  },
  "styles_vus": [
   [
    "Chanson Francaise",
-   158
+   161
   ],
   [
    "Pop",
-   156
+   157
   ],
   [
    "Rock",
-   130
+   131
   ],
   [
    "Arts et culture",
-   55
+   56
   ],
   [
    "Concert",
-   55
+   56
   ],
   [
    "Hip-Hop/Rap",
-   43
+   46
   ],
   [
    "Dance/Electronic",
-   25
+   26
   ],
   [
    "ENM",
@@ -48,16 +48,16 @@
    19
   ],
   [
+   "French Rap",
+   15
+  ],
+  [
    "World",
    14
   ],
   [
    "Alternative Rock",
    13
-  ],
-  [
-   "French Rap",
-   12
   ],
   [
    "French Pop",
@@ -104,6 +104,10 @@
    5
   ],
   [
+   "Comedy",
+   5
+  ],
+  [
    "Religious",
    4
   ],
@@ -117,10 +121,6 @@
   ],
   [
    "Classical/Vocal",
-   4
-  ],
-  [
-   "Comedy",
    4
   ],
   [
