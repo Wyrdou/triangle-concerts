@@ -1292,6 +1292,38 @@
    "signale": false
   },
   {
+   "id": "oa-64038",
+   "ids": [
+    "oa-64038"
+   ],
+   "titre": "Concert de Noël",
+   "artistes": [],
+   "date": "2026-12-13",
+   "heure": "17:00",
+   "salle": "église",
+   "salle_id": "oa-60341478",
+   "ville": "ST VERAND",
+   "lat": 45.91862,
+   "lon": 4.528372,
+   "url": "https://openagenda.com/cmf/events/64038_concert-de-noel-483568",
+   "styles": [],
+   "statut": "rescheduled",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Confédération Musicale de France",
+    "url": "https://www.cmf-musique.org",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-11-18"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-18T07:15:37Z",
+   "signale": true
+  },
+  {
    "id": "oa-41993764",
    "ids": [
     "oa-41993764"

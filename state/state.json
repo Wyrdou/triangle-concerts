@@ -1144,6 +1144,17 @@
    "ventes": {},
    "rappels": [],
    "signale": true
+  },
+  "oa-64038": {
+   "premier_scan": "2026-11-18T07:15:37Z",
+   "ids": [
+    "oa-64038"
+   ],
+   "date": "2026-12-13",
+   "statut": "rescheduled",
+   "ventes": {},
+   "rappels": [],
+   "signale": true
   }
  },
  "sources_vues": [

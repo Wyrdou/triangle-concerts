@@ -1,14 +1,14 @@
 {
- "dernier_scan": "2026-11-18T02:26:37Z",
+ "dernier_scan": "2026-11-18T07:15:37Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 629,
-  "dans_la_zone": 540,
-  "retenus": 110,
-  "sans_style": 39
+  "recus": 630,
+  "dans_la_zone": 541,
+  "retenus": 111,
+  "sans_style": 40
  },
  "styles_vus": [
   [
@@ -215,13 +215,13 @@
    "nom": "OpenAgenda",
    "type": "openagenda",
    "ok": true,
-   "message": "108 concert(s) avec la lecture transverse",
+   "message": "109 concert(s) avec la lecture transverse",
    "transverse": true,
    "recherches": [
     {
      "terme": "concert",
-     "lus": 94,
-     "concerts": 88
+     "lus": 95,
+     "concerts": 89
     },
     {
      "terme": "récital",
