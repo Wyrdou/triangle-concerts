@@ -1,13 +1,13 @@
 {
- "dernier_scan": "2026-11-19T17:23:35Z",
+ "dernier_scan": "2026-11-19T19:15:39Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 638,
-  "dans_la_zone": 548,
-  "retenus": 112,
+  "recus": 635,
+  "dans_la_zone": 545,
+  "retenus": 110,
   "sans_style": 39
  },
  "styles_vus": [
@@ -21,7 +21,7 @@
   ],
   [
    "Rock",
-   132
+   131
   ],
   [
    "Arts et culture",
@@ -33,7 +33,7 @@
   ],
   [
    "Hip-Hop/Rap",
-   46
+   45
   ],
   [
    "Dance/Electronic",
@@ -45,7 +45,7 @@
   ],
   [
    "Metal",
-   19
+   18
   ],
   [
    "French Rap",
@@ -57,7 +57,7 @@
   ],
   [
    "Alternative Rock",
-   13
+   12
   ],
   [
    "French Pop",
@@ -68,15 +68,7 @@
    10
   ],
   [
-   "R&B",
-   8
-  ],
-  [
    "Reggae",
-   8
-  ],
-  [
-   "Jazz",
    8
   ],
   [
@@ -88,11 +80,19 @@
    8
   ],
   [
+   "R&B",
+   7
+  ],
+  [
    "Heavy Metal",
    7
   ],
   [
    "Urban",
+   7
+  ],
+  [
+   "Jazz",
    7
   ],
   [
