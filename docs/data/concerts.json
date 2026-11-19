@@ -1,41 +1,6 @@
 {
  "concerts": [
   {
-   "id": "cf-7710475",
-   "ids": [
-    "cf-7710475"
-   ],
-   "titre": "[Annulé] So La Lune | La Coopérative de Mai",
-   "artistes": [],
-   "date": "2026-11-18",
-   "heure": "",
-   "salle": "La Coopérative de Mai - Grande Salle",
-   "salle_id": "",
-   "ville": "Clermont-Ferrand",
-   "lat": 45.778175,
-   "lon": 3.107988,
-   "url": "",
-   "styles": [
-    "Arts et culture",
-    "Concert"
-   ],
-   "statut": "",
-   "ventes": [],
-   "source": {
-    "type": "clermont",
-    "nom": "Clermont Auvergne Métropole, Clermont Auvergne Volcans, Département du Puy-de-Dôme",
-    "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
-    "licence": "Licence Ouverte 2.0",
-    "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
-    "maj": "2026-11-18"
-   },
-   "raisons": [
-    "Rap et hip-hop"
-   ],
-   "premier_scan": "2026-11-02T15:28:18Z",
-   "signale": false
-  },
-  {
    "id": "ZkyMmBwZ1A7GP8O",
    "ids": [
     "ZkyMmBwZ1A7GP8O"
@@ -314,7 +279,7 @@
     "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
     "licence": "Licence Ouverte 2.0",
     "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
-    "maj": "2026-11-18"
+    "maj": "2026-11-19"
    },
    "raisons": [
     "Jazz et blues"
@@ -1623,7 +1588,7 @@
     "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
     "licence": "Licence Ouverte 2.0",
     "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
-    "maj": "2026-11-18"
+    "maj": "2026-11-19"
    },
    "raisons": [
     "Rap et hip-hop",
