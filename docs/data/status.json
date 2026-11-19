@@ -1,13 +1,13 @@
 {
- "dernier_scan": "2026-11-19T07:15:35Z",
+ "dernier_scan": "2026-11-19T17:23:35Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 632,
-  "dans_la_zone": 544,
-  "retenus": 111,
+  "recus": 638,
+  "dans_la_zone": 548,
+  "retenus": 112,
   "sans_style": 39
  },
  "styles_vus": [
@@ -17,11 +17,11 @@
   ],
   [
    "Pop",
-   157
+   160
   ],
   [
    "Rock",
-   131
+   132
   ],
   [
    "Arts et culture",
@@ -33,11 +33,11 @@
   ],
   [
    "Hip-Hop/Rap",
-   45
+   46
   ],
   [
    "Dance/Electronic",
-   26
+   29
   ],
   [
    "ENM",
@@ -49,7 +49,7 @@
   ],
   [
    "French Rap",
-   14
+   15
   ],
   [
    "World",
@@ -64,6 +64,10 @@
    11
   ],
   [
+   "Club Dance",
+   10
+  ],
+  [
    "R&B",
    8
   ],
@@ -73,10 +77,6 @@
   ],
   [
    "Jazz",
-   8
-  ],
-  [
-   "Club Dance",
    8
   ],
   [
@@ -207,7 +207,7 @@
    "nom": "LDLC Arena",
    "url": "https://www.ldlcarena.com/",
    "ok": true,
-   "message": "2 artiste(s) repéré(s)"
+   "message": "1 artiste(s) repéré(s)"
   }
  ],
  "sources": [
@@ -220,7 +220,7 @@
    "recherches": [
     {
      "terme": "concert",
-     "lus": 94,
+     "lus": 95,
      "concerts": 88
     },
     {
@@ -240,7 +240,7 @@
     },
     {
      "terme": "festival de musique",
-     "lus": 162,
+     "lus": 163,
      "concerts": 8
     },
     {

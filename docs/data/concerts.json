@@ -2187,7 +2187,7 @@
     {
      "type": "publique",
      "nom": "Vente générale",
-     "debut": "2026-11-18T11:47:45Z"
+     "debut": "2026-11-19T11:59:20Z"
     }
    ],
    "source": {
@@ -3924,6 +3924,45 @@
    "signale": false
   },
   {
+   "id": "ZkyMmBwZ1A7o7rF",
+   "ids": [
+    "ZkyMmBwZ1A7o7rF"
+   ],
+   "titre": "LETO",
+   "artistes": [
+    "Leto"
+   ],
+   "date": "2027-11-25",
+   "heure": "20:00",
+   "salle": "HALLE TONY GARNIER",
+   "salle_id": "rZFSnyZeA1F",
+   "ville": "Lyon",
+   "lat": 45.73224,
+   "lon": 4.824296,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/leto-billet/idmanif/676628/idseance/4444788",
+   "styles": [
+    "Hip-Hop/Rap",
+    "French Rap"
+   ],
+   "statut": "offsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-20T11:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-18T17:16:19Z",
+   "signale": true
+  },
+  {
    "id": "ZkyMmBwZ1A7u8-8",
    "ids": [
     "ZkyMmBwZ1A7u8-8"
@@ -3982,7 +4021,7 @@
     "Hip-Hop/Rap",
     "French Rap"
    ],
-   "statut": "offsale",
+   "statut": "onsale",
    "ventes": [
     {
      "type": "publique",
@@ -4039,12 +4078,6 @@
    "artiste": "Orelsan",
    "salle": "Bercy",
    "url": "https://www.accorarena.com/fr/",
-   "nouveau": false
-  },
-  {
-   "artiste": "Orelsan",
-   "salle": "LDLC Arena",
-   "url": "https://www.ldlcarena.com/",
    "nouveau": false
   },
   {

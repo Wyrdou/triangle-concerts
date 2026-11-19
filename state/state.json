@@ -1178,7 +1178,8 @@
     "publique:Vente générale": "2026-11-20T11:00:00Z"
    },
    "rappels": [
-    "publique:Vente générale|7"
+    "publique:Vente générale|7",
+    "publique:Vente générale|1"
    ],
    "signale": true
   },
@@ -1188,7 +1189,7 @@
     "ZkyMmBwZ1A7oOx8"
    ],
    "date": "2027-11-28",
-   "statut": "offsale",
+   "statut": "onsale",
    "ventes": {
     "publique:Vente générale": "2026-11-19T11:00:00Z"
    },
@@ -1215,7 +1216,6 @@
    "Orelsan"
   ],
   "https://www.ldlcarena.com/": [
-   "Orelsan",
    "PLK"
   ]
  },
