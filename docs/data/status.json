@@ -1,19 +1,19 @@
 {
- "dernier_scan": "2026-11-20T07:15:36Z",
+ "dernier_scan": "2026-11-20T16:58:47Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 634,
-  "dans_la_zone": 544,
-  "retenus": 110,
-  "sans_style": 39
+  "recus": 637,
+  "dans_la_zone": 547,
+  "retenus": 111,
+  "sans_style": 38
  },
  "styles_vus": [
   [
    "Pop",
-   160
+   163
   ],
   [
    "Chanson Francaise",
@@ -21,7 +21,7 @@
   ],
   [
    "Rock",
-   131
+   133
   ],
   [
    "Arts et culture",
@@ -45,7 +45,7 @@
   ],
   [
    "Metal",
-   18
+   19
   ],
   [
    "French Rap",
@@ -72,6 +72,10 @@
    8
   ],
   [
+   "Jazz",
+   8
+  ],
+  [
    "Adult Contemporary",
    8
   ],
@@ -89,10 +93,6 @@
   ],
   [
    "Urban",
-   7
-  ],
-  [
-   "Jazz",
    7
   ],
   [
@@ -128,6 +128,14 @@
    4
   ],
   [
+   "Blues",
+   3
+  ],
+  [
+   "Country Blues",
+   3
+  ],
+  [
    "Rhône",
    3
   ],
@@ -161,14 +169,6 @@
   ],
   [
    "Musical",
-   2
-  ],
-  [
-   "International Pop",
-   2
-  ],
-  [
-   "Miscellaneous",
    2
   ]
  ],
@@ -215,13 +215,13 @@
    "nom": "OpenAgenda",
    "type": "openagenda",
    "ok": true,
-   "message": "106 concert(s) avec la lecture transverse",
+   "message": "105 concert(s) avec la lecture transverse",
    "transverse": true,
    "recherches": [
     {
      "terme": "concert",
      "lus": 95,
-     "concerts": 88
+     "concerts": 87
     },
     {
      "terme": "récital",
@@ -240,7 +240,7 @@
     },
     {
      "terme": "festival de musique",
-     "lus": 162,
+     "lus": 161,
      "concerts": 8
     },
     {

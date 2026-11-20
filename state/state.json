@@ -1163,7 +1163,7 @@
     "ZkyMmBwZ1A7o7rF"
    ],
    "date": "2027-11-25",
-   "statut": "offsale",
+   "statut": "onsale",
    "ventes": {
     "publique:Vente générale": "2026-11-20T11:00:00Z"
    },
@@ -1185,6 +1185,36 @@
    },
    "rappels": [
     "publique:Vente générale|1"
+   ],
+   "signale": true
+  },
+  "ZkyMmBwZ1A7oxCF": {
+   "premier_scan": "2026-11-20T16:58:47Z",
+   "ids": [
+    "ZkyMmBwZ1A7oxCF"
+   ],
+   "date": "2027-05-26",
+   "statut": "offsale",
+   "ventes": {
+    "publique:Vente générale": "2026-11-24T09:00:00Z"
+   },
+   "rappels": [
+    "publique:Vente générale|7"
+   ],
+   "signale": true
+  },
+  "ZkyMmBwZ1A7o-7b": {
+   "premier_scan": "2026-11-20T16:58:47Z",
+   "ids": [
+    "ZkyMmBwZ1A7o-7b"
+   ],
+   "date": "2027-10-13",
+   "statut": "offsale",
+   "ventes": {
+    "publique:Vente générale": "2026-11-23T09:00:00Z"
+   },
+   "rappels": [
+    "publique:Vente générale|7"
    ],
    "signale": true
   }

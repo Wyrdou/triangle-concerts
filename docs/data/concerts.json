@@ -1,38 +1,6 @@
 {
  "concerts": [
   {
-   "id": "oa-66694908",
-   "ids": [
-    "oa-66694908"
-   ],
-   "titre": "ASSEMBLAGE - CONCERT RIOT GRRRL & Marché DIY",
-   "artistes": [],
-   "date": "2026-11-20",
-   "heure": "17:00",
-   "salle": "Toï Toï Le Zinc",
-   "salle_id": "oa-97116157",
-   "ville": "Villeurbanne",
-   "lat": 45.779709,
-   "lon": 4.877152,
-   "url": "https://openagenda.com/villeurbanne2022/events/66694908_assemblage-concert-riot-grrrl-and-marche-diy",
-   "styles": [],
-   "statut": "",
-   "ventes": [],
-   "source": {
-    "type": "openagenda",
-    "nom": "Villeurbanne - Agenda culturel",
-    "url": "https://viva.villeurbanne.fr/Agenda/list",
-    "licence": "Licence Ouverte 2.0",
-    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
-    "maj": "2026-10-19"
-   },
-   "raisons": [
-    "Style non renseigné"
-   ],
-   "premier_scan": "2026-11-03T15:04:08Z",
-   "signale": false
-  },
-  {
    "id": "ZkyMmBwZ1A7uebY",
    "ids": [
     "ZkyMmBwZ1A7uebY"
@@ -3379,6 +3347,46 @@
    "signale": false
   },
   {
+   "id": "ZkyMmBwZ1A7oxCF",
+   "ids": [
+    "ZkyMmBwZ1A7oxCF"
+   ],
+   "titre": "PAUL PERSONNE",
+   "artistes": [
+    "Paul Personne"
+   ],
+   "date": "2027-05-26",
+   "heure": "20:00",
+   "salle": "LE TRANSBORDEUR",
+   "salle_id": "rZ6SnyZ6A6",
+   "ville": "Villeurbanne",
+   "lat": 45.778753,
+   "lon": 4.859536,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/paul-personne-billet/idmanif/679250/idseance/4462388",
+   "styles": [
+    "Blues",
+    "Country Blues",
+    "Pop"
+   ],
+   "statut": "offsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-24T09:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Jazz et blues"
+   ],
+   "premier_scan": "2026-11-20T16:58:47Z",
+   "signale": true
+  },
+  {
    "id": "oa-18487102",
    "ids": [
     "oa-18487102"
@@ -3660,6 +3668,46 @@
    "signale": false
   },
   {
+   "id": "ZkyMmBwZ1A7o-7b",
+   "ids": [
+    "ZkyMmBwZ1A7o-7b"
+   ],
+   "titre": "PINK MARTINI",
+   "artistes": [
+    "Pink Martini"
+   ],
+   "date": "2027-10-13",
+   "heure": "20:00",
+   "salle": "L'AMPHITHEATRE",
+   "salle_id": "rZFSnyZadF1",
+   "ville": "Lyon",
+   "lat": 45.785811,
+   "lon": 4.854658,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/pink-martini-billet/idmanif/679109/idseance/4461118",
+   "styles": [
+    "Jazz",
+    "Rock",
+    "Pop"
+   ],
+   "statut": "offsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-23T09:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Jazz et blues"
+   ],
+   "premier_scan": "2026-11-20T16:58:47Z",
+   "signale": true
+  },
+  {
    "id": "ZkyMmBwZ1A78wfy",
    "ids": [
     "ZkyMmBwZ1A78wfy"
@@ -3866,7 +3914,7 @@
     "Hip-Hop/Rap",
     "French Rap"
    ],
-   "statut": "offsale",
+   "statut": "onsale",
    "ventes": [
     {
      "type": "publique",
