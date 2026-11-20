@@ -1,23 +1,23 @@
 {
- "dernier_scan": "2026-11-19T19:15:39Z",
+ "dernier_scan": "2026-11-20T01:46:44Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 635,
-  "dans_la_zone": 545,
+  "recus": 634,
+  "dans_la_zone": 544,
   "retenus": 110,
   "sans_style": 39
  },
  "styles_vus": [
   [
-   "Chanson Francaise",
+   "Pop",
    160
   ],
   [
-   "Pop",
-   160
+   "Chanson Francaise",
+   159
   ],
   [
    "Rock",
@@ -240,7 +240,7 @@
     },
     {
      "terme": "festival de musique",
-     "lus": 163,
+     "lus": 162,
      "concerts": 8
     },
     {
