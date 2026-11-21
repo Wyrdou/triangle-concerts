@@ -1,12 +1,12 @@
 {
- "dernier_scan": "2026-11-21T07:15:34Z",
+ "dernier_scan": "2026-11-21T16:10:12Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 626,
-  "dans_la_zone": 539,
+  "recus": 624,
+  "dans_la_zone": 537,
   "retenus": 108,
   "sans_style": 37
  },
@@ -136,18 +136,6 @@
    3
   ],
   [
-   "Rhône",
-   3
-  ],
-  [
-   "baltrad",
-   3
-  ],
-  [
-   "balfolk",
-   3
-  ],
-  [
    "rock",
    3
   ],
@@ -169,6 +157,18 @@
   ],
   [
    "Musical",
+   2
+  ],
+  [
+   "International Pop",
+   2
+  ],
+  [
+   "Miscellaneous",
+   2
+  ],
+  [
+   "Singer-Songwriter",
    2
   ]
  ],
@@ -215,13 +215,13 @@
    "nom": "OpenAgenda",
    "type": "openagenda",
    "ok": true,
-   "message": "103 concert(s) avec la lecture transverse",
+   "message": "101 concert(s) avec la lecture transverse",
    "transverse": true,
    "recherches": [
     {
      "terme": "concert",
-     "lus": 93,
-     "concerts": 86
+     "lus": 92,
+     "concerts": 84
     },
     {
      "terme": "récital",
@@ -240,7 +240,7 @@
     },
     {
      "terme": "festival de musique",
-     "lus": 160,
+     "lus": 163,
      "concerts": 8
     },
     {
