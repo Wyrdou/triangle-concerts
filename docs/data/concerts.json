@@ -1,38 +1,6 @@
 {
  "concerts": [
   {
-   "id": "oa-59006423",
-   "ids": [
-    "oa-59006423"
-   ],
-   "titre": "Unsupported File Format : Aya (live), Blood of Aza & more",
-   "artistes": [],
-   "date": "2026-11-20",
-   "heure": "23:00",
-   "salle": "Le Sucre",
-   "salle_id": "oa-50314000",
-   "ville": "Lyon",
-   "lat": 45.736564,
-   "lon": 4.815116,
-   "url": "https://openagenda.com/shotgun/events/59006423_unsupported-file-format-aya-live-blood-of-aza-and-more",
-   "styles": [],
-   "statut": "",
-   "ventes": [],
-   "source": {
-    "type": "openagenda",
-    "nom": "Shotgun",
-    "url": "https://shotgun.live/fr",
-    "licence": "Licence Ouverte 2.0",
-    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
-    "maj": "2026-10-05"
-   },
-   "raisons": [
-    "Style non renseigné"
-   ],
-   "premier_scan": "2026-11-02T20:46:07Z",
-   "signale": false
-  },
-  {
    "id": "ZkyMmBwZ1A7u-39",
    "ids": [
     "ZkyMmBwZ1A7u-39"
@@ -95,7 +63,7 @@
     "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
     "licence": "Licence Ouverte 2.0",
     "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
-    "maj": "2026-11-20"
+    "maj": "2026-11-21"
    },
    "raisons": [
     "Jazz et blues"
@@ -1404,7 +1372,7 @@
     "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
     "licence": "Licence Ouverte 2.0",
     "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
-    "maj": "2026-11-20"
+    "maj": "2026-11-21"
    },
    "raisons": [
     "Rap et hip-hop",
