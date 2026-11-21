@@ -1,42 +1,6 @@
 {
  "concerts": [
   {
-   "id": "ZkyMmBwZ1A7u-39",
-   "ids": [
-    "ZkyMmBwZ1A7u-39"
-   ],
-   "titre": "BAMBY",
-   "artistes": [],
-   "date": "2026-11-21",
-   "heure": "20:00",
-   "salle": "LE SUCRE",
-   "salle_id": "rZ7SnyZa7qh",
-   "ville": "Lyon",
-   "lat": 45.735987,
-   "lon": 4.815583,
-   "url": "https://www.ticketmaster.fr/fr/manifestation/bamby-billet/idmanif/663763/idtier/18864121",
-   "styles": [
-    "Hip-Hop/Rap"
-   ],
-   "statut": "onsale",
-   "ventes": [
-    {
-     "type": "publique",
-     "nom": "Vente générale",
-     "debut": "2026-06-12T13:54:12Z"
-    }
-   ],
-   "source": {
-    "type": "ticketmaster",
-    "nom": "Ticketmaster"
-   },
-   "raisons": [
-    "Rap et hip-hop"
-   ],
-   "premier_scan": "2026-11-02T15:28:18Z",
-   "signale": false
-  },
-  {
    "id": "cf-7977244",
    "ids": [
     "cf-7977244"

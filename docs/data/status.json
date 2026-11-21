@@ -1,13 +1,13 @@
 {
- "dernier_scan": "2026-11-21T16:10:12Z",
+ "dernier_scan": "2026-11-21T19:15:34Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 624,
-  "dans_la_zone": 537,
-  "retenus": 108,
+  "recus": 619,
+  "dans_la_zone": 532,
+  "retenus": 107,
   "sans_style": 37
  },
  "styles_vus": [
@@ -17,7 +17,7 @@
   ],
   [
    "Chanson Francaise",
-   159
+   158
   ],
   [
    "Rock",
@@ -33,7 +33,7 @@
   ],
   [
    "Hip-Hop/Rap",
-   44
+   43
   ],
   [
    "Dance/Electronic",
@@ -104,10 +104,6 @@
    5
   ],
   [
-   "chanson",
-   5
-  ],
-  [
    "Religious",
    4
   ],
@@ -128,19 +124,15 @@
    4
   ],
   [
+   "chanson",
+   4
+  ],
+  [
    "Blues",
    3
   ],
   [
    "Country Blues",
-   3
-  ],
-  [
-   "rock",
-   3
-  ],
-  [
-   "folk",
    3
   ],
   [
@@ -169,6 +161,14 @@
   ],
   [
    "Singer-Songwriter",
+   2
+  ],
+  [
+   "Folk",
+   2
+  ],
+  [
+   "Dream Pop",
    2
   ]
  ],
@@ -215,13 +215,13 @@
    "nom": "OpenAgenda",
    "type": "openagenda",
    "ok": true,
-   "message": "101 concert(s) avec la lecture transverse",
+   "message": "98 concert(s) avec la lecture transverse",
    "transverse": true,
    "recherches": [
     {
      "terme": "concert",
      "lus": 92,
-     "concerts": 84
+     "concerts": 81
     },
     {
      "terme": "récital",
