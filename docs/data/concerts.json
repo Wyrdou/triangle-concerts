@@ -1,39 +1,6 @@
 {
  "concerts": [
   {
-   "id": "oa-9111713",
-   "ids": [
-    "oa-54978718",
-    "oa-9111713"
-   ],
-   "titre": "Concert de Sainte Cécile",
-   "artistes": [],
-   "date": "2026-11-22",
-   "heure": "15:30",
-   "salle": "Place du château",
-   "salle_id": "oa-74686186",
-   "ville": "LYON",
-   "lat": 45.74967,
-   "lon": 4.88794,
-   "url": "https://openagenda.com/cmf/events/9111713_concert-de-sainte-cecile-4838218",
-   "styles": [],
-   "statut": "rescheduled",
-   "ventes": [],
-   "source": {
-    "type": "openagenda",
-    "nom": "Confédération Musicale de France",
-    "url": "https://www.cmf-musique.org",
-    "licence": "Licence Ouverte 2.0",
-    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
-    "maj": "2026-11-05"
-   },
-   "raisons": [
-    "Style non renseigné"
-   ],
-   "premier_scan": "2026-11-04T07:15:36Z",
-   "signale": false
-  },
-  {
    "id": "oa-49997806",
    "ids": [
     "oa-49997806"
@@ -177,8 +144,7 @@
   {
    "id": "ZkyMmBwZ1A7GMot",
    "ids": [
-    "ZkyMmBwZ1A7GMot",
-    "cf-8047558"
+    "ZkyMmBwZ1A7GMot"
    ],
    "titre": "THOMAS KAHN",
    "artistes": [
@@ -567,8 +533,7 @@
   {
    "id": "ZkyMmBwZ1A7G0G-",
    "ids": [
-    "ZkyMmBwZ1A7G0G-",
-    "cf-8054413"
+    "ZkyMmBwZ1A7G0G-"
    ],
    "titre": "YANNS",
    "artistes": [
@@ -712,8 +677,7 @@
   {
    "id": "ZkyMmBwZ1A7G3bI",
    "ids": [
-    "ZkyMmBwZ1A7G3bI",
-    "cf-8054438"
+    "ZkyMmBwZ1A7G3bI"
    ],
    "titre": "PICHE",
    "artistes": [
@@ -791,8 +755,7 @@
   {
    "id": "ZkyMmBwZ1A71Fx8",
    "ids": [
-    "ZkyMmBwZ1A71Fx8",
-    "cf-8054462"
+    "ZkyMmBwZ1A71Fx8"
    ],
    "titre": "THE AMY WINEHOUSE BAND",
    "artistes": [
@@ -2624,8 +2587,7 @@
   {
    "id": "ZkyMmBwZ1A7CaAE",
    "ids": [
-    "ZkyMmBwZ1A7CaAE",
-    "cf-8018131"
+    "ZkyMmBwZ1A7CaAE"
    ],
    "titre": "DANYL",
    "artistes": [
@@ -3871,12 +3833,6 @@
    "artiste": "Orelsan",
    "salle": "Bercy",
    "url": "https://www.accorarena.com/fr/",
-   "nouveau": false
-  },
-  {
-   "artiste": "PLK",
-   "salle": "LDLC Arena",
-   "url": "https://www.ldlcarena.com/",
    "nouveau": false
   }
  ]

@@ -1174,7 +1174,8 @@
     "publique:Vente générale": "2026-11-23T09:00:00Z"
    },
    "rappels": [
-    "publique:Vente générale|7"
+    "publique:Vente générale|7",
+    "publique:Vente générale|1"
    ],
    "signale": true
   }
@@ -1195,9 +1196,7 @@
   "https://www.accorarena.com/fr/": [
    "Orelsan"
   ],
-  "https://www.ldlcarena.com/": [
-   "PLK"
-  ]
+  "https://www.ldlcarena.com/": []
  },
  "openagenda": {
   "date": "2026-11-02T20:46:07Z",
