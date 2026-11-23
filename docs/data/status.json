@@ -1,13 +1,13 @@
 {
- "dernier_scan": "2026-11-23T00:54:52Z",
+ "dernier_scan": "2026-11-23T07:15:36Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 609,
-  "dans_la_zone": 524,
-  "retenus": 105,
+  "recus": 541,
+  "dans_la_zone": 476,
+  "retenus": 104,
   "sans_style": 36
  },
  "styles_vus": [
@@ -22,14 +22,6 @@
   [
    "Rock",
    131
-  ],
-  [
-   "Arts et culture",
-   48
-  ],
-  [
-   "Concert",
-   48
   ],
   [
    "Hip-Hop/Rap",
@@ -169,6 +161,14 @@
   ],
   [
    "Dream Pop",
+   2
+  ],
+  [
+   "Indie Rock",
+   2
+  ],
+  [
+   "Electronica Mainstream",
    2
   ]
  ],
@@ -320,8 +320,8 @@
   {
    "nom": "Agenda de Clermont-Ferrand",
    "type": "clermont",
-   "ok": true,
-   "message": "68 concert(s) sur 487 événement(s)"
+   "ok": false,
+   "message": "L'agenda de Clermont-Ferrand a répondu 429."
   }
  ]
 }
