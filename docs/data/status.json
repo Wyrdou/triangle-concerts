@@ -1,19 +1,19 @@
 {
- "dernier_scan": "2026-11-23T07:15:36Z",
+ "dernier_scan": "2026-11-23T19:15:35Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 541,
-  "dans_la_zone": 476,
-  "retenus": 104,
-  "sans_style": 36
+  "recus": 547,
+  "dans_la_zone": 482,
+  "retenus": 106,
+  "sans_style": 37
  },
  "styles_vus": [
   [
    "Pop",
-   160
+   163
   ],
   [
    "Chanson Francaise",
@@ -21,11 +21,11 @@
   ],
   [
    "Rock",
-   131
+   133
   ],
   [
    "Hip-Hop/Rap",
-   43
+   44
   ],
   [
    "Dance/Electronic",
@@ -60,6 +60,10 @@
    9
   ],
   [
+   "Reggae",
+   8
+  ],
+  [
    "Jazz",
    8
   ],
@@ -80,19 +84,11 @@
    7
   ],
   [
-   "Reggae",
-   7
-  ],
-  [
    "R&B",
    6
   ],
   [
    "Alternative",
-   5
-  ],
-  [
-   "Comedy",
    5
   ],
   [
@@ -109,6 +105,10 @@
   ],
   [
    "Classical/Vocal",
+   4
+  ],
+  [
+   "Comedy",
    4
   ],
   [
@@ -207,7 +207,7 @@
    "nom": "LDLC Arena",
    "url": "https://www.ldlcarena.com/",
    "ok": true,
-   "message": "0 artiste(s) repéré(s)"
+   "message": "1 artiste(s) repéré(s)"
   }
  ],
  "sources": [
@@ -215,13 +215,13 @@
    "nom": "OpenAgenda",
    "type": "openagenda",
    "ok": true,
-   "message": "95 concert(s) avec la lecture transverse",
+   "message": "97 concert(s) avec la lecture transverse",
    "transverse": true,
    "recherches": [
     {
      "terme": "concert",
-     "lus": 85,
-     "concerts": 78
+     "lus": 87,
+     "concerts": 80
     },
     {
      "terme": "récital",

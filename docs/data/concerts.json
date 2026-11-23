@@ -7,7 +7,7 @@
    ],
    "titre": "SOIRÉE JAZZ",
    "artistes": [],
-   "date": "2026-11-23",
+   "date": "2026-11-24",
    "heure": "20:00",
    "salle": "ENM de Villeurbanne",
    "salle_id": "oa-22128828",
@@ -892,6 +892,38 @@
     "Style non renseigné"
    ],
    "premier_scan": "2026-11-18T07:15:37Z",
+   "signale": true
+  },
+  {
+   "id": "oa-38221149",
+   "ids": [
+    "oa-38221149"
+   ],
+   "titre": "Concert solidaire",
+   "artistes": [],
+   "date": "2026-12-14",
+   "heure": "20:00",
+   "salle": "Amphithéâtre Capelle",
+   "salle_id": "oa-45909893",
+   "ville": "Villeurbanne",
+   "lat": 45.783716,
+   "lon": 4.880548,
+   "url": "https://openagenda.com/villeurbanne2022/events/38221149_concert-solidaire-3357076",
+   "styles": [],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Villeurbanne - Agenda culturel",
+    "url": "https://viva.villeurbanne.fr/Agenda/list",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-11-22"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-23T19:15:35Z",
    "signale": true
   },
   {
@@ -2886,6 +2918,44 @@
    "signale": false
   },
   {
+   "id": "ZkyMmBwZ1A7ox0d",
+   "ids": [
+    "ZkyMmBwZ1A7ox0d"
+   ],
+   "titre": "SVINKELS FAMILY AND FRIENDS",
+   "artistes": [
+    "SVINKELS"
+   ],
+   "date": "2027-04-10",
+   "heure": "20:30",
+   "salle": "L'ARLEQUIN",
+   "salle_id": "rZ7SnyZa7Sx",
+   "ville": "Mozac",
+   "lat": 45.891255,
+   "lon": 3.089417,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/svinkels-family-and-friends-billet/idmanif/679329/idseance/4462903",
+   "styles": [
+    "Hip-Hop/Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-19T12:38:59Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-23T19:15:35Z",
+   "signale": true
+  },
+  {
    "id": "oa-14459941",
    "ids": [
     "oa-14459941"
@@ -3474,7 +3544,7 @@
     "Rock",
     "Pop"
    ],
-   "statut": "offsale",
+   "statut": "onsale",
    "ventes": [
     {
      "type": "publique",
@@ -3834,6 +3904,12 @@
    "salle": "Bercy",
    "url": "https://www.accorarena.com/fr/",
    "nouveau": false
+  },
+  {
+   "artiste": "Orelsan",
+   "salle": "LDLC Arena",
+   "url": "https://www.ldlcarena.com/",
+   "nouveau": true
   }
  ]
 }
