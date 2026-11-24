@@ -1,12 +1,12 @@
 {
- "dernier_scan": "2026-11-24T19:15:35Z",
+ "dernier_scan": "2026-11-24T19:30:46Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 558,
-  "dans_la_zone": 494,
+  "recus": 557,
+  "dans_la_zone": 493,
   "retenus": 117,
   "sans_style": 48
  },
@@ -17,7 +17,7 @@
   ],
   [
    "Chanson Francaise",
-   157
+   156
   ],
   [
    "Rock",
@@ -240,7 +240,7 @@
     },
     {
      "terme": "festival de musique",
-     "lus": 156,
+     "lus": 155,
      "concerts": 8
     },
     {
