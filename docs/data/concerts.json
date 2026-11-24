@@ -1,41 +1,6 @@
 {
  "concerts": [
   {
-   "id": "oa-49997806",
-   "ids": [
-    "oa-49997806"
-   ],
-   "titre": "SOIRÉE JAZZ",
-   "artistes": [],
-   "date": "2026-11-24",
-   "heure": "20:00",
-   "salle": "ENM de Villeurbanne",
-   "salle_id": "oa-22128828",
-   "ville": "Villeurbanne",
-   "lat": 45.766993,
-   "lon": 4.873806,
-   "url": "https://openagenda.com/villeurbanne/events/49997806_soiree-jazz-5303319",
-   "styles": [
-    "ENM",
-    "jazz"
-   ],
-   "statut": "",
-   "ventes": [],
-   "source": {
-    "type": "openagenda",
-    "nom": "Villeurbanne",
-    "url": "https://www.villeurbanne.fr/",
-    "licence": "Licence Ouverte 2.0",
-    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
-    "maj": "2026-10-07"
-   },
-   "raisons": [
-    "Jazz et blues"
-   ],
-   "premier_scan": "2026-11-03T15:04:08Z",
-   "signale": false
-  },
-  {
    "id": "ZkyMmBwZ1A7C74O",
    "ids": [
     "ZkyMmBwZ1A7C74O"
@@ -2942,7 +2907,7 @@
     {
      "type": "publique",
      "nom": "Vente générale",
-     "debut": "2026-11-19T12:38:59Z"
+     "debut": "2026-11-24T10:47:27Z"
     }
    ],
    "source": {
@@ -3223,7 +3188,7 @@
     "Country Blues",
     "Pop"
    ],
-   "statut": "offsale",
+   "statut": "onsale",
    "ventes": [
     {
      "type": "publique",
@@ -3374,6 +3339,418 @@
    ],
    "premier_scan": "2026-11-02T20:19:49Z",
    "signale": false
+  },
+  {
+   "id": "ZkyMmBwZ1A7o08S",
+   "ids": [
+    "ZkyMmBwZ1A7o08S"
+   ],
+   "titre": "JAZZ A VIENNE - PASS 7 SOIREES - PASS 7 SOIREES - CHOIX LIBRE",
+   "artistes": [],
+   "date": "2027-06-25",
+   "heure": "00:00",
+   "salle": "THEATRE ANTIQUE",
+   "salle_id": "rZ6SnyZ61e",
+   "ville": "Vienne",
+   "lat": 45.524705,
+   "lon": 4.878229,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/jazz-a-vienne-pass-7-soirees-billet/idmanif/679744/idseance/4464433",
+   "styles": [],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-24T19:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-24T19:15:35Z",
+   "signale": true
+  },
+  {
+   "id": "ZkyMmBwZ1A7o0o6",
+   "ids": [
+    "ZkyMmBwZ1A7o0o6"
+   ],
+   "titre": "JAZZ A VIENNE - PASS INTEGRAL",
+   "artistes": [],
+   "date": "2027-06-25",
+   "heure": "00:00",
+   "salle": "THEATRE ANTIQUE",
+   "salle_id": "rZ6SnyZ61e",
+   "ville": "Vienne",
+   "lat": 45.524705,
+   "lon": 4.878229,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/jazz-a-vienne-pass-integral-billet/idmanif/679753/idseance/4464447",
+   "styles": [],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-24T19:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-24T19:15:35Z",
+   "signale": true
+  },
+  {
+   "id": "ZkyMmBwZ1A7o0aS",
+   "ids": [
+    "ZkyMmBwZ1A7o0aS"
+   ],
+   "titre": "SOIREE D'OUVERTURE",
+   "artistes": [
+    "Ibrahim Maalouf"
+   ],
+   "date": "2027-06-25",
+   "heure": "20:30",
+   "salle": "THEATRE ANTIQUE",
+   "salle_id": "rZ6SnyZ61e",
+   "ville": "Vienne",
+   "lat": 45.524705,
+   "lon": 4.878229,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/soiree-d-ouverture-billet/idmanif/679650/idseance/4464273",
+   "styles": [
+    "Jazz"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-24T19:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Jazz et blues"
+   ],
+   "premier_scan": "2026-11-24T19:15:35Z",
+   "signale": true
+  },
+  {
+   "id": "ZkyMmBwZ1A7o0aV",
+   "ids": [
+    "ZkyMmBwZ1A7o0aV"
+   ],
+   "titre": "SOIRÉE BLUES",
+   "artistes": [],
+   "date": "2027-06-26",
+   "heure": "20:30",
+   "salle": "THEATRE ANTIQUE",
+   "salle_id": "rZ6SnyZ61e",
+   "ville": "Vienne",
+   "lat": 45.524705,
+   "lon": 4.878229,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/soiree-blues-billet/idmanif/679652/idseance/4464274",
+   "styles": [],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-24T19:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-24T19:15:35Z",
+   "signale": true
+  },
+  {
+   "id": "ZkyMmBwZ1A7o0ag",
+   "ids": [
+    "ZkyMmBwZ1A7o0ag"
+   ],
+   "titre": "YOUSSOU NDOUR - YOUSSOU N'DOUR",
+   "artistes": [],
+   "date": "2027-06-28",
+   "heure": "20:30",
+   "salle": "THEATRE ANTIQUE",
+   "salle_id": "rZ6SnyZ61e",
+   "ville": "Vienne",
+   "lat": 45.524705,
+   "lon": 4.878229,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/youssou-ndour-billet/idmanif/679653/idseance/4464275",
+   "styles": [],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-24T19:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-24T19:15:35Z",
+   "signale": true
+  },
+  {
+   "id": "ZkyMmBwZ1A7o0az",
+   "ids": [
+    "ZkyMmBwZ1A7o0az"
+   ],
+   "titre": "MORCHEEBA",
+   "artistes": [],
+   "date": "2027-06-29",
+   "heure": "20:30",
+   "salle": "THEATRE ANTIQUE",
+   "salle_id": "rZ6SnyZ61e",
+   "ville": "Vienne",
+   "lat": 45.524705,
+   "lon": 4.878229,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/morcheeba-billet/idmanif/679655/idseance/4464278",
+   "styles": [],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-24T19:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-24T19:15:35Z",
+   "signale": true
+  },
+  {
+   "id": "ZkyMmBwZ1A7o0ay",
+   "ids": [
+    "ZkyMmBwZ1A7o0ay"
+   ],
+   "titre": "ANOUAR BRAHEM",
+   "artistes": [],
+   "date": "2027-07-02",
+   "heure": "20:30",
+   "salle": "THEATRE ANTIQUE",
+   "salle_id": "rZ6SnyZ61e",
+   "ville": "Vienne",
+   "lat": 45.524705,
+   "lon": 4.878229,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/anouar-brahem-billet/idmanif/679657/idseance/4464279",
+   "styles": [],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-24T19:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-24T19:15:35Z",
+   "signale": true
+  },
+  {
+   "id": "ZkyMmBwZ1A7o01Z",
+   "ids": [
+    "ZkyMmBwZ1A7o01Z"
+   ],
+   "titre": "YOUSSOUPHA - YOUSSOUPHA GOSPEL SYMPHONIQUE EXPERIENCE",
+   "artistes": [],
+   "date": "2027-07-05",
+   "heure": "20:30",
+   "salle": "THEATRE ANTIQUE",
+   "salle_id": "rZ6SnyZ61e",
+   "ville": "Vienne",
+   "lat": 45.524705,
+   "lon": 4.878229,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/youssoupha-billet/idmanif/679659/idseance/4464280",
+   "styles": [],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-24T19:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-24T19:15:35Z",
+   "signale": true
+  },
+  {
+   "id": "ZkyMmBwZ1A7o01d",
+   "ids": [
+    "ZkyMmBwZ1A7o01d"
+   ],
+   "titre": "THOMAS DUTRONC 'The Jazz Nights'",
+   "artistes": [],
+   "date": "2027-07-06",
+   "heure": "20:30",
+   "salle": "THEATRE ANTIQUE",
+   "salle_id": "rZ6SnyZ61e",
+   "ville": "Vienne",
+   "lat": 45.524705,
+   "lon": 4.878229,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/thomas-dutronc-the-jazz-nights-billet/idmanif/679660/idseance/4464283",
+   "styles": [],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-24T19:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-24T19:15:35Z",
+   "signale": true
+  },
+  {
+   "id": "ZkyMmBwZ1A7o017",
+   "ids": [
+    "ZkyMmBwZ1A7o017"
+   ],
+   "titre": "GREGORY PORTER",
+   "artistes": [],
+   "date": "2027-07-07",
+   "heure": "20:30",
+   "salle": "THEATRE ANTIQUE",
+   "salle_id": "rZ6SnyZ61e",
+   "ville": "Vienne",
+   "lat": 45.524705,
+   "lon": 4.878229,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/gregory-porter-billet/idmanif/679661/idseance/4464284",
+   "styles": [],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-24T19:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-24T19:15:35Z",
+   "signale": true
+  },
+  {
+   "id": "ZkyMmBwZ1A7o01A",
+   "ids": [
+    "ZkyMmBwZ1A7o01A"
+   ],
+   "titre": "SOIREE BRESIL - SEU JORGE",
+   "artistes": [],
+   "date": "2027-07-08",
+   "heure": "20:30",
+   "salle": "THEATRE ANTIQUE",
+   "salle_id": "rZ6SnyZ61e",
+   "ville": "Vienne",
+   "lat": 45.524705,
+   "lon": 4.878229,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/soiree-bresil-billet/idmanif/679662/idseance/4464285",
+   "styles": [],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-24T19:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-24T19:15:35Z",
+   "signale": true
+  },
+  {
+   "id": "ZkyMmBwZ1A7o01k",
+   "ids": [
+    "ZkyMmBwZ1A7o01k"
+   ],
+   "titre": "CHILLY GONZALES",
+   "artistes": [],
+   "date": "2027-07-09",
+   "heure": "20:30",
+   "salle": "THEATRE ANTIQUE",
+   "salle_id": "rZ6SnyZ61e",
+   "ville": "Vienne",
+   "lat": 45.524705,
+   "lon": 4.878229,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/chilly-gonzales-billet/idmanif/679663/idseance/4464286",
+   "styles": [],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-24T19:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-24T19:15:35Z",
+   "signale": true
   },
   {
    "id": "ZkyMmBwZ1A787-6",
