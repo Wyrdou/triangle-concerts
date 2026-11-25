@@ -1262,6 +1262,28 @@
    "ventes": {},
    "rappels": [],
    "signale": true
+  },
+  "oa-20835627": {
+   "premier_scan": "2026-11-25T18:39:30Z",
+   "ids": [
+    "oa-20835627"
+   ],
+   "date": "2026-12-12",
+   "statut": "",
+   "ventes": {},
+   "rappels": [],
+   "signale": true
+  },
+  "ZkyMmBwZ1A7oPFd": {
+   "premier_scan": "2026-11-25T18:39:30Z",
+   "ids": [
+    "ZkyMmBwZ1A7oPFd"
+   ],
+   "date": "2027-04-09",
+   "statut": "onsale",
+   "ventes": {},
+   "rappels": [],
+   "signale": true
   }
  },
  "sources_vues": [
@@ -1281,7 +1303,8 @@
    "Orelsan"
   ],
   "https://www.ldlcarena.com/": [
-   "Orelsan"
+   "Orelsan",
+   "PLK"
   ]
  },
  "openagenda": {

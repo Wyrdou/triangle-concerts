@@ -1,14 +1,14 @@
 {
- "dernier_scan": "2026-11-25T07:15:40Z",
+ "dernier_scan": "2026-11-25T18:39:30Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 557,
+  "recus": 559,
   "dans_la_zone": 493,
-  "retenus": 117,
-  "sans_style": 48
+  "retenus": 119,
+  "sans_style": 49
  },
  "styles_vus": [
   [
@@ -25,7 +25,7 @@
   ],
   [
    "Hip-Hop/Rap",
-   44
+   45
   ],
   [
    "Dance/Electronic",
@@ -37,7 +37,7 @@
   ],
   [
    "Metal",
-   19
+   18
   ],
   [
    "French Rap",
@@ -76,15 +76,15 @@
    8
   ],
   [
-   "Heavy Metal",
-   7
-  ],
-  [
    "Urban",
    7
   ],
   [
    "R&B",
+   6
+  ],
+  [
+   "Heavy Metal",
    6
   ],
   [
@@ -207,7 +207,7 @@
    "nom": "LDLC Arena",
    "url": "https://www.ldlcarena.com/",
    "ok": true,
-   "message": "1 artiste(s) repéré(s)"
+   "message": "2 artiste(s) repéré(s)"
   }
  ],
  "sources": [
@@ -220,8 +220,8 @@
    "recherches": [
     {
      "terme": "concert",
-     "lus": 85,
-     "concerts": 78
+     "lus": 86,
+     "concerts": 79
     },
     {
      "terme": "récital",
@@ -236,11 +236,11 @@
     {
      "terme": "dj set",
      "lus": 1,
-     "concerts": 1
+     "concerts": 0
     },
     {
      "terme": "festival de musique",
-     "lus": 155,
+     "lus": 157,
      "concerts": 8
     },
     {

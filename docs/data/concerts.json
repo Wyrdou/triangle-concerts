@@ -796,6 +796,38 @@
    "signale": false
   },
   {
+   "id": "oa-20835627",
+   "ids": [
+    "oa-20835627"
+   ],
+   "titre": "Concert de Noël de l’École de musique",
+   "artistes": [],
+   "date": "2026-12-12",
+   "heure": "16:00",
+   "salle": "Salle Georges Brassens,",
+   "salle_id": "oa-16601281",
+   "ville": "Saint-Germain-au-Mont-d'Or",
+   "lat": 45.885543,
+   "lon": 4.80188,
+   "url": "https://openagenda.com/saint-germain-au-mont-dor/events/20835627_concert-de-noel-de-lecole-de-musique-958787",
+   "styles": [],
+   "statut": "",
+   "ventes": [],
+   "source": {
+    "type": "openagenda",
+    "nom": "Saint-Germain-au-Mont-d'Or",
+    "url": "https://www.saintgermainaumontdor.org/",
+    "licence": "Licence Ouverte 2.0",
+    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
+    "maj": "2026-11-25"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-25T18:39:30Z",
+   "signale": true
+  },
+  {
    "id": "oa-74061821",
    "ids": [
     "oa-74061821"
@@ -2883,6 +2915,42 @@
    "signale": false
   },
   {
+   "id": "ZkyMmBwZ1A7oPFd",
+   "ids": [
+    "ZkyMmBwZ1A7oPFd"
+   ],
+   "titre": "VACRA",
+   "artistes": [],
+   "date": "2027-04-09",
+   "heure": "20:00",
+   "salle": "LE TRANSBORDEUR",
+   "salle_id": "rZ6SnyZ6A6",
+   "ville": "Villeurbanne",
+   "lat": 45.778753,
+   "lon": 4.859536,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/vacra-billet/idmanif/680020/idseance/4465203",
+   "styles": [
+    "Hip-Hop/Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-25T13:00:57Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-25T18:39:30Z",
+   "signale": true
+  },
+  {
    "id": "ZkyMmBwZ1A7ox0d",
    "ids": [
     "ZkyMmBwZ1A7ox0d"
@@ -4287,6 +4355,12 @@
    "salle": "LDLC Arena",
    "url": "https://www.ldlcarena.com/",
    "nouveau": false
+  },
+  {
+   "artiste": "PLK",
+   "salle": "LDLC Arena",
+   "url": "https://www.ldlcarena.com/",
+   "nouveau": true
   }
  ]
 }
