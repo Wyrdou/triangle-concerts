@@ -1,14 +1,14 @@
 {
- "dernier_scan": "2026-11-25T18:39:30Z",
+ "dernier_scan": "2026-11-25T19:15:39Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 559,
-  "dans_la_zone": 493,
-  "retenus": 119,
-  "sans_style": 49
+  "recus": 558,
+  "dans_la_zone": 492,
+  "retenus": 118,
+  "sans_style": 48
  },
  "styles_vus": [
   [
@@ -176,8 +176,8 @@
   {
    "nom": "La Coopérative de Mai",
    "url": "https://www.lacoope.org/",
-   "ok": true,
-   "message": "0 artiste(s) repéré(s)"
+   "ok": false,
+   "message": "HTTPError"
   },
   {
    "nom": "Le Fil",

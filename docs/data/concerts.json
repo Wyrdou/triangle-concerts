@@ -1,40 +1,6 @@
 {
  "concerts": [
   {
-   "id": "ZkyMmBwZ1A7C74O",
-   "ids": [
-    "ZkyMmBwZ1A7C74O"
-   ],
-   "titre": "ILLUSTRE - AMALIA - VAULX EN FRANCOPHONIE : ILLUSTRE - AMALIA",
-   "artistes": [],
-   "date": "2026-11-25",
-   "heure": "20:00",
-   "salle": "CENTRE CHARLIE CHAPLIN",
-   "salle_id": "rZFSnyZe6va",
-   "ville": "Vaulx En Velin",
-   "lat": 45.781021,
-   "lon": 4.9188,
-   "url": "https://www.ticketmaster.fr/fr/manifestation/illustre-amalia-billet/idmanif/667711/idtier/18864121",
-   "styles": [],
-   "statut": "onsale",
-   "ventes": [
-    {
-     "type": "publique",
-     "nom": "Vente générale",
-     "debut": "2026-07-13T12:35:06Z"
-    }
-   ],
-   "source": {
-    "type": "ticketmaster",
-    "nom": "Ticketmaster"
-   },
-   "raisons": [
-    "Style non renseigné"
-   ],
-   "premier_scan": "2026-11-02T15:28:18Z",
-   "signale": false
-  },
-  {
    "id": "ZkyMmBwZ1A7uoaN",
    "ids": [
     "ZkyMmBwZ1A7uoaN",
@@ -4360,7 +4326,7 @@
    "artiste": "PLK",
    "salle": "LDLC Arena",
    "url": "https://www.ldlcarena.com/",
-   "nouveau": true
+   "nouveau": false
   }
  ]
 }
