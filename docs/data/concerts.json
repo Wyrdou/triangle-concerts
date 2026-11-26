@@ -41,42 +41,9 @@
    "signale": false
   },
   {
-   "id": "oa-35279360",
-   "ids": [
-    "oa-35279360"
-   ],
-   "titre": "SUPERPOZE Live",
-   "artistes": [],
-   "date": "2026-11-26",
-   "heure": "18:30",
-   "salle": "Le Sucre",
-   "salle_id": "oa-50314000",
-   "ville": "Lyon",
-   "lat": 45.736564,
-   "lon": 4.815116,
-   "url": "https://openagenda.com/shotgun/events/35279360_superpoze-live",
-   "styles": [],
-   "statut": "",
-   "ventes": [],
-   "source": {
-    "type": "openagenda",
-    "nom": "Shotgun",
-    "url": "https://shotgun.live/fr",
-    "licence": "Licence Ouverte 2.0",
-    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
-    "maj": "2026-10-05"
-   },
-   "raisons": [
-    "Style non renseigné"
-   ],
-   "premier_scan": "2026-11-02T20:46:07Z",
-   "signale": false
-  },
-  {
    "id": "ZkyMmBwZ1A7GMot",
    "ids": [
-    "ZkyMmBwZ1A7GMot",
-    "cf-8047558"
+    "ZkyMmBwZ1A7GMot"
    ],
    "titre": "THOMAS KAHN",
    "artistes": [
@@ -465,8 +432,7 @@
   {
    "id": "ZkyMmBwZ1A7G0G-",
    "ids": [
-    "ZkyMmBwZ1A7G0G-",
-    "cf-8054413"
+    "ZkyMmBwZ1A7G0G-"
    ],
    "titre": "YANNS",
    "artistes": [
@@ -610,8 +576,7 @@
   {
    "id": "ZkyMmBwZ1A7G3bI",
    "ids": [
-    "ZkyMmBwZ1A7G3bI",
-    "cf-8054438"
+    "ZkyMmBwZ1A7G3bI"
    ],
    "titre": "PICHE",
    "artistes": [
@@ -689,8 +654,7 @@
   {
    "id": "ZkyMmBwZ1A71Fx8",
    "ids": [
-    "ZkyMmBwZ1A71Fx8",
-    "cf-8054462"
+    "ZkyMmBwZ1A71Fx8"
    ],
    "titre": "THE AMY WINEHOUSE BAND",
    "artistes": [
@@ -2586,8 +2550,7 @@
   {
    "id": "ZkyMmBwZ1A7CaAE",
    "ids": [
-    "ZkyMmBwZ1A7CaAE",
-    "cf-8018131"
+    "ZkyMmBwZ1A7CaAE"
    ],
    "titre": "DANYL",
    "artistes": [
@@ -2957,6 +2920,42 @@
     "Rap et hip-hop"
    ],
    "premier_scan": "2026-11-23T19:15:35Z",
+   "signale": true
+  },
+  {
+   "id": "ZkyMmBwZ1A7oPqd",
+   "ids": [
+    "ZkyMmBwZ1A7oPqd"
+   ],
+   "titre": "NIRO",
+   "artistes": [],
+   "date": "2027-04-14",
+   "heure": "20:00",
+   "salle": "LE TRANSBORDEUR",
+   "salle_id": "rZ6SnyZ6A6",
+   "ville": "Villeurbanne",
+   "lat": 45.778753,
+   "lon": 4.859536,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/niro-billet/idmanif/680139/idseance/4465743",
+   "styles": [
+    "Hip-Hop/Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-26T12:38:15Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-26T18:26:29Z",
    "signale": true
   },
   {
@@ -3400,7 +3399,7 @@
     {
      "type": "publique",
      "nom": "Vente générale",
-     "debut": "2026-12-27T11:00:00Z"
+     "debut": "2026-11-27T11:00:00Z"
     }
    ],
    "source": {
@@ -3577,7 +3576,7 @@
     {
      "type": "publique",
      "nom": "Vente générale",
-     "debut": "2026-12-27T11:00:00Z"
+     "debut": "2026-11-27T11:00:00Z"
     }
    ],
    "source": {
@@ -3645,7 +3644,7 @@
     {
      "type": "publique",
      "nom": "Vente générale",
-     "debut": "2026-12-27T11:00:00Z"
+     "debut": "2026-11-27T11:00:00Z"
     }
    ],
    "source": {

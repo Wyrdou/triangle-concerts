@@ -1,19 +1,19 @@
 {
- "dernier_scan": "2026-11-26T07:15:38Z",
+ "dernier_scan": "2026-11-26T18:26:29Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 633,
-  "dans_la_zone": 544,
-  "retenus": 123,
-  "sans_style": 52
+  "recus": 566,
+  "dans_la_zone": 497,
+  "retenus": 122,
+  "sans_style": 51
  },
  "styles_vus": [
   [
    "Pop",
-   165
+   167
   ],
   [
    "Chanson Francaise",
@@ -21,19 +21,11 @@
   ],
   [
    "Rock",
-   135
-  ],
-  [
-   "Arts et culture",
-   48
-  ],
-  [
-   "Concert",
-   48
+   136
   ],
   [
    "Hip-Hop/Rap",
-   45
+   46
   ],
   [
    "Dance/Electronic",
@@ -45,7 +37,7 @@
   ],
   [
    "Metal",
-   18
+   17
   ],
   [
    "French Rap",
@@ -160,6 +152,10 @@
    2
   ],
   [
+   "Pop Rock",
+   2
+  ],
+  [
    "Singer-Songwriter",
    2
   ],
@@ -169,6 +165,10 @@
   ],
   [
    "Dream Pop",
+   2
+  ],
+  [
+   "Indie Rock",
    2
   ]
  ],
@@ -215,13 +215,13 @@
    "nom": "OpenAgenda",
    "type": "openagenda",
    "ok": true,
-   "message": "95 concert(s) avec la lecture transverse",
+   "message": "94 concert(s) avec la lecture transverse",
    "transverse": true,
    "recherches": [
     {
      "terme": "concert",
      "lus": 86,
-     "concerts": 79
+     "concerts": 78
     },
     {
      "terme": "récital",
@@ -240,7 +240,7 @@
     },
     {
      "terme": "festival de musique",
-     "lus": 156,
+     "lus": 154,
      "concerts": 8
     },
     {
@@ -320,8 +320,8 @@
   {
    "nom": "Agenda de Clermont-Ferrand",
    "type": "clermont",
-   "ok": true,
-   "message": "68 concert(s) sur 475 événement(s)"
+   "ok": false,
+   "message": "L'agenda de Clermont-Ferrand a répondu 429."
   }
  ]
 }
