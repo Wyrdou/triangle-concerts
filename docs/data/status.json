@@ -1,13 +1,13 @@
 {
- "dernier_scan": "2026-11-26T18:26:29Z",
+ "dernier_scan": "2026-11-26T19:15:36Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 566,
-  "dans_la_zone": 497,
-  "retenus": 122,
+  "recus": 559,
+  "dans_la_zone": 491,
+  "retenus": 120,
   "sans_style": 51
  },
  "styles_vus": [
@@ -17,15 +17,15 @@
   ],
   [
    "Chanson Francaise",
-   156
+   153
   ],
   [
    "Rock",
-   136
+   135
   ],
   [
    "Hip-Hop/Rap",
-   46
+   45
   ],
   [
    "Dance/Electronic",
@@ -41,7 +41,7 @@
   ],
   [
    "French Rap",
-   15
+   14
   ],
   [
    "World",
@@ -68,10 +68,6 @@
    8
   ],
   [
-   "Adult Contemporary",
-   8
-  ],
-  [
    "Children's Music",
    8
   ],
@@ -80,12 +76,16 @@
    7
   ],
   [
-   "R&B",
-   6
+   "Adult Contemporary",
+   7
   ],
   [
    "Heavy Metal",
    6
+  ],
+  [
+   "R&B",
+   5
   ],
   [
    "Alternative",
@@ -117,14 +117,6 @@
   ],
   [
    "Classical/Vocal",
-   3
-  ],
-  [
-   "Blues",
-   3
-  ],
-  [
-   "Country Blues",
    3
   ],
   [
@@ -169,6 +161,14 @@
   ],
   [
    "Indie Rock",
+   2
+  ],
+  [
+   "Blues",
+   2
+  ],
+  [
+   "Country Blues",
    2
   ]
  ],
@@ -215,13 +215,13 @@
    "nom": "OpenAgenda",
    "type": "openagenda",
    "ok": true,
-   "message": "94 concert(s) avec la lecture transverse",
+   "message": "93 concert(s) avec la lecture transverse",
    "transverse": true,
    "recherches": [
     {
      "terme": "concert",
-     "lus": 86,
-     "concerts": 78
+     "lus": 85,
+     "concerts": 77
     },
     {
      "terme": "récital",
