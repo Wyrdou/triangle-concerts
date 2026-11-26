@@ -75,7 +75,8 @@
   {
    "id": "ZkyMmBwZ1A7GMot",
    "ids": [
-    "ZkyMmBwZ1A7GMot"
+    "ZkyMmBwZ1A7GMot",
+    "cf-8047558"
    ],
    "titre": "THOMAS KAHN",
    "artistes": [
@@ -464,7 +465,8 @@
   {
    "id": "ZkyMmBwZ1A7G0G-",
    "ids": [
-    "ZkyMmBwZ1A7G0G-"
+    "ZkyMmBwZ1A7G0G-",
+    "cf-8054413"
    ],
    "titre": "YANNS",
    "artistes": [
@@ -608,7 +610,8 @@
   {
    "id": "ZkyMmBwZ1A7G3bI",
    "ids": [
-    "ZkyMmBwZ1A7G3bI"
+    "ZkyMmBwZ1A7G3bI",
+    "cf-8054438"
    ],
    "titre": "PICHE",
    "artistes": [
@@ -686,7 +689,8 @@
   {
    "id": "ZkyMmBwZ1A71Fx8",
    "ids": [
-    "ZkyMmBwZ1A71Fx8"
+    "ZkyMmBwZ1A71Fx8",
+    "cf-8054462"
    ],
    "titre": "THE AMY WINEHOUSE BAND",
    "artistes": [
@@ -1259,7 +1263,7 @@
     "url": "https://www.data.gouv.fr/datasets/agenda-ville-de-clermont-ferrand",
     "licence": "Licence Ouverte 2.0",
     "licence_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
-    "maj": "2026-11-25"
+    "maj": "2026-11-26"
    },
    "raisons": [
     "Rap et hip-hop",
@@ -2582,7 +2586,8 @@
   {
    "id": "ZkyMmBwZ1A7CaAE",
    "ids": [
-    "ZkyMmBwZ1A7CaAE"
+    "ZkyMmBwZ1A7CaAE",
+    "cf-8018131"
    ],
    "titre": "DANYL",
    "artistes": [
@@ -3375,6 +3380,77 @@
    "signale": false
   },
   {
+   "id": "ZkyMmBwZ1A7o0G-",
+   "ids": [
+    "ZkyMmBwZ1A7o0G-"
+   ],
+   "titre": "EUROPAVOX 2027 - PASS 1 JOUR - PASS VENDREDI",
+   "artistes": [],
+   "date": "2027-06-25",
+   "heure": "16:00",
+   "salle": "PLACE DU 1ER MAI",
+   "salle_id": "rZ7SnyZaA4v",
+   "ville": "Clermont Ferrand",
+   "lat": 45.785358,
+   "lon": 3.099167,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/europavox-2027-pass-1-jour-billet/idmanif/679673/idseance/4464321",
+   "styles": [],
+   "statut": "offsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-12-27T11:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-26T02:51:46Z",
+   "signale": true
+  },
+  {
+   "id": "ZkyMmBwZ1A7o0as",
+   "ids": [
+    "ZkyMmBwZ1A7o0as",
+    "ZkyMmBwZ1A7oNJ3",
+    "ZkyMmBwZ1A7oNJ4",
+    "ZkyMmBwZ1A7oNJo"
+   ],
+   "titre": "EUROPAVOX 2027 - PASS 3 JOURS - PASS 3 JOURS",
+   "artistes": [],
+   "date": "2027-06-25",
+   "heure": "00:00",
+   "salle": "PLACE DU 1ER MAI",
+   "salle_id": "rZ7SnyZaA4v",
+   "ville": "Clermont Ferrand",
+   "lat": 45.785358,
+   "lon": 3.099167,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/europavox-2027-pass-3-jours-billet/idmanif/679649/idseance/4464271",
+   "styles": [],
+   "statut": "offsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-27T11:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-26T02:51:46Z",
+   "signale": true
+  },
+  {
    "id": "ZkyMmBwZ1A7o08S",
    "ids": [
     "ZkyMmBwZ1A7o08S"
@@ -3481,6 +3557,40 @@
    "signale": true
   },
   {
+   "id": "ZkyMmBwZ1A7o0Gx",
+   "ids": [
+    "ZkyMmBwZ1A7o0Gx"
+   ],
+   "titre": "EUROPAVOX 2027 - PASS 1 JOUR - PASS SAMEDI",
+   "artistes": [],
+   "date": "2027-06-26",
+   "heure": "16:00",
+   "salle": "PLACE DU 1ER MAI",
+   "salle_id": "rZ7SnyZaA4v",
+   "ville": "Clermont Ferrand",
+   "lat": 45.785358,
+   "lon": 3.099167,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/europavox-2027-pass-1-jour-billet/idmanif/679673/idseance/4464322",
+   "styles": [],
+   "statut": "offsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-12-27T11:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-26T02:51:46Z",
+   "signale": true
+  },
+  {
    "id": "ZkyMmBwZ1A7o0aV",
    "ids": [
     "ZkyMmBwZ1A7o0aV"
@@ -3512,6 +3622,40 @@
     "Style non renseigné"
    ],
    "premier_scan": "2026-11-24T19:15:35Z",
+   "signale": true
+  },
+  {
+   "id": "ZkyMmBwZ1A7o0G0",
+   "ids": [
+    "ZkyMmBwZ1A7o0G0"
+   ],
+   "titre": "EUROPAVOX 2027 - PASS 1 JOUR - PASS DIMANCHE",
+   "artistes": [],
+   "date": "2027-06-27",
+   "heure": "16:00",
+   "salle": "PLACE DU 1ER MAI",
+   "salle_id": "rZ7SnyZaA4v",
+   "ville": "Clermont Ferrand",
+   "lat": 45.785358,
+   "lon": 3.099167,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/europavox-2027-pass-1-jour-billet/idmanif/679673/idseance/4464324",
+   "styles": [],
+   "statut": "offsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-12-27T11:00:00Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Style non renseigné"
+   ],
+   "premier_scan": "2026-11-26T02:51:46Z",
    "signale": true
   },
   {

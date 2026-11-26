@@ -1,14 +1,14 @@
 {
- "dernier_scan": "2026-11-25T19:15:39Z",
+ "dernier_scan": "2026-11-26T02:51:46Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 558,
-  "dans_la_zone": 492,
-  "retenus": 118,
-  "sans_style": 48
+  "recus": 633,
+  "dans_la_zone": 544,
+  "retenus": 123,
+  "sans_style": 52
  },
  "styles_vus": [
   [
@@ -22,6 +22,14 @@
   [
    "Rock",
    135
+  ],
+  [
+   "Arts et culture",
+   48
+  ],
+  [
+   "Concert",
+   48
   ],
   [
    "Hip-Hop/Rap",
@@ -162,22 +170,14 @@
   [
    "Dream Pop",
    2
-  ],
-  [
-   "Indie Rock",
-   2
-  ],
-  [
-   "Electronica Mainstream",
-   2
   ]
  ],
  "pages": [
   {
    "nom": "La Coopérative de Mai",
    "url": "https://www.lacoope.org/",
-   "ok": false,
-   "message": "HTTPError"
+   "ok": true,
+   "message": "0 artiste(s) repéré(s)"
   },
   {
    "nom": "Le Fil",
@@ -235,12 +235,12 @@
     },
     {
      "terme": "dj set",
-     "lus": 1,
-     "concerts": 0
+     "lus": 4,
+     "concerts": 2
     },
     {
      "terme": "festival de musique",
-     "lus": 157,
+     "lus": 156,
      "concerts": 8
     },
     {
@@ -313,15 +313,15 @@
     {
      "uid": 9969608,
      "titre": "9969608",
-     "concerts": 5
+     "concerts": 3
     }
    ]
   },
   {
    "nom": "Agenda de Clermont-Ferrand",
    "type": "clermont",
-   "ok": false,
-   "message": "L'agenda de Clermont-Ferrand a répondu 429."
+   "ok": true,
+   "message": "68 concert(s) sur 478 événement(s)"
   }
  ]
 }
