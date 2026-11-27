@@ -1,38 +1,6 @@
 {
  "concerts": [
   {
-   "id": "oa-92690185",
-   "ids": [
-    "oa-92690185"
-   ],
-   "titre": "Grande Soirée de Solidarité Internationale avec Cuba le Vendredi 27 Novembre 2026 au CCVA",
-   "artistes": [],
-   "date": "2026-11-27",
-   "heure": "19:00",
-   "salle": "CCVA - Centre Culturel et de la Vie Associative",
-   "salle_id": "oa-54691858",
-   "ville": "Villeurbanne",
-   "lat": 45.767893,
-   "lon": 4.887866,
-   "url": "https://openagenda.com/wikilleurbanne/events/92690185_grande-soiree-de-solidarite-internationale-avec-cuba-le-vendredi-27-novembre-2026-au-ccva",
-   "styles": [],
-   "statut": "",
-   "ventes": [],
-   "source": {
-    "type": "openagenda",
-    "nom": "Wikilleurbanne",
-    "url": "https://www.wikilleurbanne.fr/?PagePrincipale",
-    "licence": "Licence Ouverte 2.0",
-    "licence_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0/",
-    "maj": "2026-10-29"
-   },
-   "raisons": [
-    "Style non renseigné"
-   ],
-   "premier_scan": "2026-11-03T15:04:08Z",
-   "signale": false
-  },
-  {
    "id": "oa-929263",
    "ids": [
     "oa-929263"
@@ -1247,7 +1215,7 @@
    "ville": "Cournon D Auvergne",
    "lat": 45.742359,
    "lon": 3.196579,
-   "url": "https://www.ticketmaster.fr/fr/manifestation/bigflo-oli-billet/idmanif/667104/idtier/18864121",
+   "url": "https://www.ticketmaster.fr/fr/manifestation/bigflo-oli-billet/idmanif/667104/idseance/4380603",
    "styles": [
     "Hip-Hop/Rap"
    ],
@@ -3312,7 +3280,7 @@
    "lon": 3.099167,
    "url": "https://www.ticketmaster.fr/fr/manifestation/europavox-2027-pass-1-jour-billet/idmanif/679673/idseance/4464321",
    "styles": [],
-   "statut": "offsale",
+   "statut": "onsale",
    "ventes": [
     {
      "type": "publique",
@@ -3349,7 +3317,7 @@
    "lon": 3.099167,
    "url": "https://www.ticketmaster.fr/fr/manifestation/europavox-2027-pass-3-jours-billet/idmanif/679649/idseance/4464271",
    "styles": [],
-   "statut": "offsale",
+   "statut": "onsale",
    "ventes": [
     {
      "type": "publique",
@@ -3489,7 +3457,7 @@
    "lon": 3.099167,
    "url": "https://www.ticketmaster.fr/fr/manifestation/europavox-2027-pass-1-jour-billet/idmanif/679673/idseance/4464322",
    "styles": [],
-   "statut": "offsale",
+   "statut": "onsale",
    "ventes": [
     {
      "type": "publique",
@@ -3557,7 +3525,7 @@
    "lon": 3.099167,
    "url": "https://www.ticketmaster.fr/fr/manifestation/europavox-2027-pass-1-jour-billet/idmanif/679673/idseance/4464324",
    "styles": [],
-   "statut": "offsale",
+   "statut": "onsale",
    "ventes": [
     {
      "type": "publique",
