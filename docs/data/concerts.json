@@ -1917,6 +1917,42 @@
    "signale": false
   },
   {
+   "id": "ZkyMmBwZ1A7oI7k",
+   "ids": [
+    "ZkyMmBwZ1A7oI7k"
+   ],
+   "titre": "PLANÈTE BOUM BOUM   EESAH YASUKE",
+   "artistes": [],
+   "date": "2027-03-12",
+   "heure": "19:45",
+   "salle": "LE SUCRE",
+   "salle_id": "rZ7SnyZa7qh",
+   "ville": "Lyon",
+   "lat": 45.735987,
+   "lon": 4.815583,
+   "url": "https://www.ticketmaster.fr/fr/manifestation/planete-boum-boum-eesah-yasuke-billet/idmanif/680459/idseance/4468106",
+   "styles": [
+    "Hip-Hop/Rap"
+   ],
+   "statut": "onsale",
+   "ventes": [
+    {
+     "type": "publique",
+     "nom": "Vente générale",
+     "debut": "2026-11-27T18:39:42Z"
+    }
+   ],
+   "source": {
+    "type": "ticketmaster",
+    "nom": "Ticketmaster"
+   },
+   "raisons": [
+    "Rap et hip-hop"
+   ],
+   "premier_scan": "2026-11-27T19:15:37Z",
+   "signale": true
+  },
+  {
    "id": "ZkyMmBwZ1A7ugoZ",
    "ids": [
     "ZkyMmBwZ1A7ugoZ"
