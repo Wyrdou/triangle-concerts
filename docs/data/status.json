@@ -1,13 +1,13 @@
 {
- "dernier_scan": "2026-11-27T19:15:37Z",
+ "dernier_scan": "2026-11-28T02:42:27Z",
  "ok": true,
  "erreur": "",
  "avertissement": "",
  "telegram": "actif",
  "compteurs": {
-  "recus": 550,
-  "dans_la_zone": 484,
-  "retenus": 120,
+  "recus": 616,
+  "dans_la_zone": 533,
+  "retenus": 121,
   "sans_style": 50
  },
  "styles_vus": [
@@ -22,6 +22,14 @@
   [
    "Rock",
    131
+  ],
+  [
+   "Arts et culture",
+   49
+  ],
+  [
+   "Concert",
+   49
   ],
   [
    "Hip-Hop/Rap",
@@ -162,14 +170,6 @@
   [
    "Blues",
    2
-  ],
-  [
-   "Country Blues",
-   2
-  ],
-  [
-   "Electronica Mainstream",
-   2
   ]
  ],
  "pages": [
@@ -220,7 +220,7 @@
    "recherches": [
     {
      "terme": "concert",
-     "lus": 83,
+     "lus": 79,
      "concerts": 73
     },
     {
@@ -240,7 +240,7 @@
     },
     {
      "terme": "festival de musique",
-     "lus": 153,
+     "lus": 150,
      "concerts": 8
     },
     {
@@ -320,8 +320,8 @@
   {
    "nom": "Agenda de Clermont-Ferrand",
    "type": "clermont",
-   "ok": false,
-   "message": "L'agenda de Clermont-Ferrand a répondu 429."
+   "ok": true,
+   "message": "66 concert(s) sur 479 événement(s)"
   }
  ]
 }
